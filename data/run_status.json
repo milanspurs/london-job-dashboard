@@ -1,46 +1,46 @@
 {
  "last_run": {
-  "started": "2026-10-11T11:12:31+00:00",
-  "finished": "2026-10-11T11:13:56+00:00",
-  "duration_s": 85.3,
+  "started": "2026-10-11T12:27:13+00:00",
+  "finished": "2026-10-11T12:28:36+00:00",
+  "duration_s": 82.4,
   "bootstrap": false,
-  "raw_jobs": 2109,
-  "new_roles": 22,
-  "new_companies_queued": 35,
-  "new_employer_boards": 1,
+  "raw_jobs": 1972,
+  "new_roles": 18,
+  "new_companies_queued": 26,
+  "new_employer_boards": 0,
   "rejected": {
-   "location not London": 1207,
-   "title matches excluded pattern": 407,
-   "not clearly entry-level": 188,
+   "location not London": 1230,
+   "title matches excluded pattern": 366,
+   "not clearly entry-level": 104,
    "manager-level title": 74,
-   "text matches excluded pattern": 30,
-   "requires 5+ years": 5,
+   "training provider": 17,
+   "text matches excluded pattern": 14,
+   "requires 5+ years": 6,
+   "requires 3+ years": 5,
    "requires 4+ years": 5,
-   "training provider": 4,
-   "requires 3+ years": 4,
-   "requires 7+ years": 3
+   "requires 7+ years": 3,
+   "requires 12+ years": 1
   },
   "events": {
-   "fit_changed": 3,
-   "new": 22
+   "new": 18
   },
   "alerts": {
    "configured": false,
-   "candidates": 13,
+   "candidates": 7,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-11T11:13:56+00:00"
+   "at": "2026-10-11T12:28:36+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
   "http_calls": {
    "api.adzuna.com": 6,
    "www.reed.co.uk": 56,
-   "boards-api.greenhouse.io": 35,
-   "api.lever.co": 18,
-   "api.ashbyhq.com": 21
+   "boards-api.greenhouse.io": 28,
+   "api.lever.co": 15,
+   "api.ashbyhq.com": 18
   },
   "sources": [
    {
@@ -49,10 +49,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 158,
+    "jobs_found": 141,
     "errors": [],
-    "note": "60 calls this month; per query (returned/total): transformation analyst graduate: 7/7; pmo analyst junior: 0/0; supply chain analyst graduate: 1/1; technology consultant graduate: 50/156; digital consultant graduate: 50/61; product analyst junior: 50/56",
-    "checked_at": "2026-10-11T11:12:31+00:00"
+    "note": "66 calls this month; per query (returned/total): graduate technology analyst: 13/13; graduate transport planner: 29/29; transport consultant graduate: 25/25; infrastructure graduate: 50/1098; graduate infrastructure analyst: 9/9; graduate economist: 15/15",
+    "checked_at": "2026-10-11T12:27:13+00:00"
    },
    {
     "name": "Reed",
@@ -60,10 +60,10 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 542,
+    "jobs_found": 422,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-11T11:12:45+00:00"
+    "checked_at": "2026-10-11T12:27:27+00:00"
    },
    {
     "name": "Employer board discovery",
@@ -71,10 +71,10 @@
     "ok": true,
     "calls": 12,
     "failures": 0,
-    "jobs_found": 1,
+    "jobs_found": 0,
     "errors": [],
-    "note": "1 new employer boards found; 698 employers queued",
-    "checked_at": "2026-10-11T11:13:00+00:00"
+    "note": "0 new employer boards found; 712 employers queued",
+    "checked_at": "2026-10-11T12:27:42+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -85,7 +85,7 @@
     "jobs_found": 1409,
     "errors": [],
     "note": "21 boards checked; 21 active boards in registry",
-    "checked_at": "2026-10-11T11:13:08+00:00"
+    "checked_at": "2026-10-11T12:27:48+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -96,7 +96,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-11T11:13:16+00:00"
+    "checked_at": "2026-10-11T12:27:56+00:00"
    }
   ],
   "manual_sources": [
@@ -151,11 +151,11 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 449,
-  "companies": 234,
+  "total_roles": 467,
+  "companies": 243,
   "boards_active": 21
  },
- "last_successful_search": "2026-10-11T11:13:56+00:00",
+ "last_successful_search": "2026-10-11T12:28:36+00:00",
  "history": [
   {
    "at": "2026-10-11T00:37:21+00:00",
@@ -215,6 +215,12 @@
    "at": "2026-10-11T11:13:56+00:00",
    "new": 22,
    "raw": 2109,
+   "ok": true
+  },
+  {
+   "at": "2026-10-11T12:28:36+00:00",
+   "new": 18,
+   "raw": 1972,
    "ok": true
   }
  ]
