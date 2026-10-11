@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>London Graduate Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0d14; --bg2:#0e131d; --surface:#131a27; --surface2:#182133; --line:#232d42; --line2:#2d3a54;
+  --text:#e6ebf5; --muted:#8c98b0; --faint:#5f6b84;
+  --accent:#5eead4; --accent2:#38bdf8; --amber:#fbbf24; --rose:#fb7185; --violet:#a78bfa; --green:#4ade80;
+  --radius:14px; --shadow:0 1px 0 rgba(255,255,255,.03) inset, 0 8px 24px rgba(0,0,0,.25);
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(1200px 500px at 85% -10%,rgba(56,189,248,.08),transparent 60%),radial-gradient(900px 400px at -10% 0%,rgba(94,234,212,.06),transparent 60%),var(--bg);min-height:100vh}
+a{color:var(--accent2);text-decoration:none} a:hover{text-decoration:underline}
+button,select,input,textarea{font:inherit;color:inherit}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px 60px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 0 18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:36px;height:36px;border-radius:10px;background:conic-gradient(from 200deg,var(--accent),var(--accent2),var(--violet),var(--accent));display:grid;place-items:center;box-shadow:0 0 24px rgba(94,234,212,.25)}
+.logo span{width:14px;height:14px;border-radius:50%;background:var(--bg);box-shadow:0 0 0 3px rgba(10,13,20,.4)}
+.brand h1{font-size:18px;margin:0;letter-spacing:-.01em}
+.brand p{margin:0;color:var(--muted);font-size:12.5px}
+.health{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:6px 11px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:12.5px;color:var(--muted);white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--faint)} .dot.ok{background:var(--green);box-shadow:0 0 8px var(--green)} .dot.warn{background:var(--amber)} .dot.bad{background:var(--rose)}
+.btn{background:var(--surface2);border:1px solid var(--line2);border-radius:10px;padding:7px 12px;cursor:pointer;font-size:13px}
+.btn:hover{border-color:var(--accent2)} .btn.primary{background:linear-gradient(135deg,#14b8a6,#0ea5e9);border:0;color:#04121a;font-weight:600}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-bottom:18px}
+.kpi{background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--line);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:border-color .15s,transform .15s;box-shadow:var(--shadow)}
+.kpi:hover{border-color:var(--line2);transform:translateY(-1px)}
+.kpi .n{font:600 24px/1.1 'JetBrains Mono',ui-monospace,monospace;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--muted);font-size:12px;margin-top:4px}
+.kpi.hl .n{color:var(--accent)} .kpi.warn .n{color:var(--amber)} .kpi.info .n{color:var(--accent2)} .kpi.vio .n{color:var(--violet)}
+.kpi.small .n{font-size:14px;font-family:Inter;font-weight:600;padding-top:6px}
+nav.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin-bottom:14px;overflow-x:auto;scrollbar-width:none}
+nav.tabs button{background:none;border:0;padding:10px 14px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;font-weight:500}
+nav.tabs button.on{color:var(--text);border-color:var(--accent)}
+nav.tabs .count{font-size:11px;color:var(--faint);margin-left:5px}
+.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:8px;margin-bottom:8px}
+.filters2{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px}
+.filters input,.filters select,.filters2 select{width:100%;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 11px;outline:none}
+.filters input:focus,select:focus{border-color:var(--accent2)}
+.toggles{display:flex;gap:16px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:13px;margin-bottom:12px}
+.toggles label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.resultbar{display:flex;justify-content:space-between;color:var(--faint);font-size:12.5px;margin:4px 2px 8px}
+.list{display:flex;flex-direction:column;gap:8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);transition:border-color .15s}
+.card:hover{border-color:var(--line2)}
+.card.closed{opacity:.55}
+.row{display:grid;grid-template-columns:52px 1fr auto;gap:14px;padding:14px 16px;align-items:center;cursor:pointer}
+.fit{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;font:600 17px 'JetBrains Mono',monospace;border:1px solid}
+.fit small{display:block;font-size:9px;color:var(--muted);font-family:Inter;margin-top:-6px}
+.f5{color:#5eead4;border-color:rgba(94,234,212,.5);background:rgba(94,234,212,.08)}
+.f4{color:#7dd3fc;border-color:rgba(125,211,252,.45);background:rgba(125,211,252,.07)}
+.f3{color:#c4b5fd;border-color:rgba(196,181,253,.4);background:rgba(196,181,253,.06)}
+.f2{color:#fcd34d;border-color:rgba(252,211,77,.35);background:rgba(252,211,77,.05)}
+.f1{color:#94a3b8;border-color:rgba(148,163,184,.3);background:rgba(148,163,184,.04)}
+.title{font-weight:600;font-size:15px;letter-spacing:-.005em}
+.company{color:var(--muted);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.chip{font-size:11.5px;padding:2px 8px;border-radius:6px;background:var(--surface2);border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.t-grad{color:#a5f3fc;border-color:rgba(165,243,252,.25)} .chip.t-int{color:#c4b5fd;border-color:rgba(196,181,253,.3)} .chip.t-entry{color:#bbf7d0;border-color:rgba(187,247,208,.25)}
+.chip.s-Open{color:var(--green)} .chip.s-Closed{color:var(--rose)} .chip.s-Verify,.chip.s-Watch{color:var(--amber)} .chip.s-Opens{color:var(--accent2)}
+.chip.new{background:rgba(94,234,212,.12);color:var(--accent);border-color:rgba(94,234,212,.35)}
+.chip.urgent{background:rgba(251,113,133,.1);color:var(--rose);border-color:rgba(251,113,133,.35)}
+.chip.dl{color:var(--amber)} .chip.inel{color:var(--rose)} .chip.chk{color:var(--amber)}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.side select{background:var(--surface2);border:1px solid var(--line2);border-radius:8px;padding:5px 8px;font-size:12.5px;max-width:160px}
+.st-Applied,.st-Online,.st-Interview{border-color:var(--accent2)!important;color:var(--accent2)} .st-Offer{border-color:var(--green)!important;color:var(--green)} .st-Rejected{color:var(--faint)} .st-Planning{border-color:var(--violet)!important;color:var(--violet)}
+.details{display:none;border-top:1px solid var(--line);padding:14px 16px 16px;gap:16px;grid-template-columns:1.3fr 1fr}
+.card.open .details{display:grid}
+.details h4{margin:0 0 6px;font-size:11.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.details ul{margin:0 0 12px;padding-left:18px;color:var(--text)} .details li{margin:2px 0}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:4px 10px;font-size:13px;margin-bottom:12px}
+.kv div:nth-child(odd){color:var(--muted)}
+.excerpt{color:var(--muted);font-size:13px;white-space:pre-line;max-height:120px;overflow:auto;border-left:2px solid var(--line2);padding-left:10px;margin-bottom:12px}
+textarea.notes{width:100%;min-height:80px;background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:9px;resize:vertical}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.empty{padding:50px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line2);border-radius:var(--radius)}
+section.panel{margin-top:28px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+section.panel h3{margin:0 0 10px;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+td,th{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top} th{color:var(--faint);font-weight:500}
+.spark{display:flex;align-items:flex-end;gap:2px;height:34px;margin-top:6px}
+.spark i{flex:1;background:linear-gradient(180deg,var(--accent),rgba(94,234,212,.2));border-radius:2px 2px 0 0;min-height:2px}
+.spark i.fail{background:var(--rose)}
+.modal{position:fixed;inset:0;background:rgba(3,6,12,.7);display:none;align-items:center;justify-content:center;padding:16px;z-index:10}
+.modal.on{display:flex}
+.modal .box{background:var(--surface);border:1px solid var(--line2);border-radius:16px;max-width:560px;width:100%;padding:20px;max-height:90vh;overflow:auto}
+.modal input{width:100%;background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:9px;margin:4px 0 10px}
+.modal p{color:var(--muted);font-size:13px}
+.muted{color:var(--muted)} .faint{color:var(--faint)}
+footer{color:var(--faint);font-size:12px;margin-top:24px;text-align:center}
+@media (max-width:900px){.filters{grid-template-columns:1fr 1fr}.filters input{grid-column:1/-1}.filters2{grid-template-columns:1fr 1fr}.details{grid-template-columns:1fr}}
+@media (max-width:560px){.wrap{padding:0 12px 40px}.row{grid-template-columns:44px 1fr;gap:10px}.side{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center}.fit{width:40px;height:40px}.kv{grid-template-columns:120px 1fr}.kpis{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><div class="logo"><span></span></div>
+      <div><h1>London Graduate Radar</h1><p>Graduate schemes · Summer 2027 internships · entry-level roles</p></div></div>
+    <div class="health">
+      <span class="pill" id="runPill"><span class="dot" id="runDot"></span><span id="runText">—</span></span>
+      <span class="pill" id="syncPill" title="Where your application statuses are stored"><span class="dot" id="syncDot"></span><span id="syncText">Tracker: this device</span></span>
+      <button class="btn" id="syncBtn">Tracker sync</button>
+    </div>
+  </header>
+
+  <div class="kpis" id="kpis"></div>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <div class="filters">
+    <input id="q" type="search" placeholder="Search company, title, location…" autocomplete="off">
+    <select id="fCat"><option value="">All categories</option></select>
+    <select id="fType"><option value="">All types</option><option>Graduate</option><option>Summer Internship</option><option>Off-cycle Internship</option><option>Entry-Level</option></select>
+    <select id="fFit"><option value="0">Any fit</option><option value="5">Fit 5</option><option value="4">Fit 4+</option><option value="3">Fit 3+</option><option value="2">Fit 2+</option></select>
+    <select id="fStatus"><option value="active">Active (not closed)</option><option value="">Any status</option><option>Open</option><option>Opens Soon</option><option>Verify</option><option>Watch</option><option>Closed</option></select>
+  </div>
+  <div class="filters2">
+    <select id="fApp"><option value="">Any application status</option></select>
+    <select id="fDeadline"><option value="">Any deadline</option><option value="7">Closing ≤ 7 days</option><option value="14">Closing ≤ 14 days</option><option value="30">Closing ≤ 30 days</option><option value="confirmed">Has confirmed deadline</option><option value="rolling">Rolling / no deadline</option></select>
+    <select id="fWork"><option value="">Any arrangement</option><option>Hybrid</option><option>Office</option><option>Remote</option><option>Not stated</option></select>
+    <select id="fNew"><option value="">Any time</option><option value="1">New in 24h</option><option value="7">New in 7 days</option></select>
+    <select id="sort"><option value="smart">Sort: best first</option><option value="deadline">Sort: deadline</option><option value="fit">Sort: fit score</option><option value="new">Sort: newest found</option><option value="company">Sort: company A–Z</option></select>
+  </div>
+  <div class="toggles">
+    <label><input type="checkbox" id="hideInel" checked> Hide likely ineligible</label>
+    <label><input type="checkbox" id="londonOnly"> London only (hide commuter belt)</label>
+    <label><input type="checkbox" id="hideRejected" checked> Hide roles I've marked Rejected</label>
+    <button class="btn" id="reset" style="margin-left:auto">Reset filters</button>
+  </div>
+  <div class="resultbar"><span id="count"></span><span id="genTime"></span></div>
+  <div class="list" id="list"></div>
+
+  <section class="panel" id="healthPanel">
+    <h3>Search health</h3>
+    <div class="muted" id="healthSummary"></div>
+    <div class="spark" id="spark" title="Runs over time — height = vacancies found; red = no source reachable"></div>
+    <div style="overflow-x:auto;margin-top:12px"><table id="srcTable"></table></div>
+    <h3 style="margin-top:18px">Check by hand (no permitted automated access)</h3>
+    <div style="overflow-x:auto"><table id="manualTable"></table></div>
+  </section>
+  <footer>Vacancy data is public and refreshed by a scheduled job. Your application statuses and notes are never published — they stay on this device or in your private tracker repository.</footer>
+</div>
+
+<div class="modal" id="syncModal"><div class="box">
+  <h3 style="margin-top:0">Private tracker sync</h3>
+  <p>Statuses and notes are saved on this device automatically. To sync them across your laptop and phone, store them in a <b>private</b> GitHub repository. Create a repo (e.g. <code>job-tracker-private</code>, Private), then a <b>fine-grained token</b> limited to that one repo with <i>Contents: Read and write</i>. The token is kept only in this browser and only ever sent to api.github.com.</p>
+  <label>Private repo (owner/name)</label><input id="sRepo" placeholder="yourname/job-tracker-private">
+  <label>Fine-grained token</label><input id="sToken" type="password" placeholder="github_pat_…" autocomplete="off">
+  <div class="actions"><button class="btn primary" id="sSave">Save &amp; sync</button><button class="btn" id="sOff">Turn sync off</button><button class="btn" id="sExport">Export JSON</button><label class="btn">Import JSON<input type="file" id="sImport" accept="application/json" hidden></label><button class="btn" id="sClose" style="margin-left:auto">Close</button></div>
+  <p id="sMsg"></p>
+</div></div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const APP_STATES = ["Not Applied","Planning to Apply","Applied","Online Assessment","Interview","Offer","Rejected"];
+const TABS = [["all","All Opportunities"],["grad","Graduate Jobs"],["intern","Summer Internships"],["entry","Entry-Level Jobs"],["mine","My Applications"]];
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
+const DAY = 864e5;
+const today = new Date(); today.setHours(0,0,0,0);
+const daysUntil = iso => iso ? Math.round((new Date(iso + "T00:00:00") - today) / DAY) : null;
+const ago = iso => { if(!iso) return "never"; const m = (Date.now() - new Date(iso)) / 6e4; if (m < 60) return Math.max(1,Math.round(m)) + " min ago"; if (m < 1440) return Math.round(m/60) + " h ago"; return Math.round(m/1440) + " days ago"; };
+const fmtDate = iso => iso ? new Date(iso + (iso.length === 10 ? "T00:00:00" : "")).toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}) : "";
+const ls = { get(k,d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch(e){ return d; } }, set(k,v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} } };
+
+const roles = (DATA && DATA.roles) || [];
+const isIntern = r => r.type === "Summer Internship" || r.type === "Off-cycle Internship";
+const isNew = (r, d) => r.first_discovered && (Date.now() - new Date(r.first_discovered)) < d * DAY;
+
+/* ---------------- tracker storage (device + optional private GitHub repo) ---------------- */
+let tracker = ls.get("jt.tracker", {roles:{}});
+let sync = ls.get("jt.sync", null);
+let syncTimer = null, syncState = "local";
+const appOf = id => (tracker.roles[id] || {}).status || "Not Applied";
+function setSyncUI(state, msg){ syncState = state; const dot = $("#syncDot"); dot.className = "dot " + ({ok:"ok",busy:"warn",err:"bad"}[state] || ""); $("#syncText").textContent = msg; }
+function mergeTrackers(a, b){ const out = {roles:{...a.roles}}; for (const [id,v] of Object.entries(b.roles||{})) { if (!out.roles[id] || (v.updated||"") > (out.roles[id].updated||"")) out.roles[id] = v; } return out; }
+const b64e = s => btoa(unescape(encodeURIComponent(s)));
+const b64d = s => decodeURIComponent(escape(atob(s.replace(/\n/g,""))));
+async function gh(method, body){
+  const r = await fetch(`https://api.github.com/repos/${sync.repo}/contents/tracker.json`, {method, cache:"no-store",
+    headers:{Authorization:`Bearer ${sync.token}`, Accept:"application/vnd.github+json", "X-GitHub-Api-Version":"2022-11-28"}, body: body ? JSON.stringify(body) : undefined});
+  return r;
+}
+async function pullRemote(){
+  const r = await gh("GET");
+  if (r.status === 404) return {data:{roles:{}}, sha:null};
+  if (!r.ok) throw new Error(`GitHub ${r.status}`);
+  const j = await r.json();
+  return {data: JSON.parse(b64d(j.content)), sha: j.sha};
+}
+async function syncNow(){
+  if (!sync) { setSyncUI("local","Tracker: this device"); return; }
+  setSyncUI("busy","Tracker: syncing…");
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const {data, sha} = await pullRemote();
+      tracker = mergeTrackers(tracker, data);
+      ls.set("jt.tracker", tracker);
+      const content = JSON.stringify({version:1, updated:new Date().toISOString(), roles:tracker.roles}, null, 1);
+      if (JSON.stringify(data.roles||{}) !== JSON.stringify(tracker.roles)) {
+        const r = await gh("PUT", {message:"Update tracker", content:b64e(content), sha: sha || undefined});
+        if (r.status === 409 || r.status === 422) continue; // someone else wrote first: re-pull and merge
+        if (!r.ok) throw new Error(`GitHub ${r.status}`);
+      }
+      setSyncUI("ok","Tracker: synced " + new Date().toLocaleTimeString("en-GB",{hour:"2-digit",minute:"2-digit"}));
+      render(); return;
+    } catch(e) { setSyncUI("err","Tracker: sync failed (" + e.message + ") — saved on device"); return; }
+  }
+  setSyncUI("err","Tracker: sync conflict — retry");
+}
+function updateTracker(id, patch){
+  tracker.roles[id] = {...(tracker.roles[id]||{status:"Not Applied", notes:""}), ...patch, updated:new Date().toISOString()};
+  ls.set("jt.tracker", tracker);
+  if (sync) { clearTimeout(syncTimer); setSyncUI("busy","Tracker: saving…"); syncTimer = setTimeout(syncNow, 1200); }
+}
+
+/* ---------------- filters / state ---------------- */
+let tab = ls.get("jt.tab", "all");
+const openCards = new Set();
+const F = ids => ids.forEach(id => $("#"+id).addEventListener("input", () => { ls.set("jt.f."+id, $("#"+id).type === "checkbox" ? $("#"+id).checked : $("#"+id).value); render(); }));
+function restore(){
+  ["q","fCat","fType","fFit","fStatus","fApp","fDeadline","fWork","fNew","sort","hideInel","londonOnly","hideRejected"].forEach(id => {
+    const v = ls.get("jt.f."+id, undefined); if (v === undefined) return; const el = $("#"+id); if (el.type === "checkbox") el.checked = v; else el.value = v; });
+}
+function filtered(){
+  const q = $("#q").value.trim().toLowerCase(), cat = $("#fCat").value, type = $("#fType").value, fit = +$("#fFit").value,
+    st = $("#fStatus").value, app = $("#fApp").value, dl = $("#fDeadline").value, work = $("#fWork").value, nw = +$("#fNew").value;
+  return roles.filter(r => {
+    if (tab === "grad" && r.type !== "Graduate") return false;
+    if (tab === "intern" && !isIntern(r)) return false;
+    if (tab === "entry" && r.type !== "Entry-Level") return false;
+    if (tab === "mine" && appOf(r.id) === "Not Applied") return false;
+    if (q && !(`${r.company} ${r.title} ${r.location} ${r.category_label}`.toLowerCase().includes(q))) return false;
+    if (cat && r.category !== cat) return false;
+    if (type && r.type !== type) return false;
+    if (fit && r.fit < fit) return false;
+    if (st === "active" && r.status === "Closed" && tab !== "mine") return false;
+    if (st && st !== "active" && r.status !== st) return false;
+    if (app && appOf(r.id) !== app) return false;
+    if (work && r.work_arrangement !== work) return false;
+    if (nw && !isNew(r, nw)) return false;
+    if ($("#hideInel").checked && r.eligibility.verdict === "Likely ineligible" && tab !== "mine") return false;
+    if ($("#londonOnly").checked && r.location_class !== "London") return false;
+    if ($("#hideRejected").checked && appOf(r.id) === "Rejected" && tab !== "mine") return false;
+    const d = daysUntil(r.deadline);
+    if (dl === "confirmed" && r.deadline_confidence !== "Confirmed") return false;
+    if (dl === "rolling" && r.deadline) return false;
+    if (/^\d+$/.test(dl) && !(d !== null && d >= 0 && d <= +dl)) return false;
+    return true;
+  });
+}
+function sorted(list){
+  const s = $("#sort").value, dk = r => { const d = daysUntil(r.deadline); return d === null || d < 0 ? 9999 : d; };
+  const cmp = {
+    deadline:(a,b) => dk(a) - dk(b) || b.fit - a.fit,
+    fit:(a,b) => b.fit - a.fit || dk(a) - dk(b),
+    new:(a,b) => (b.first_discovered||"").localeCompare(a.first_discovered||""),
+    company:(a,b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title),
+    smart:(a,b) => { const u = r => (r.deadline_confidence === "Confirmed" && dk(r) <= 14 ? 1.5 : 0) + r.fit + (r.status === "Open" ? .5 : 0) + (isNew(r,2) ? .4 : 0) - (r.tier - 1) * .2; return u(b) - u(a); },
+  }[s];
+  return list.sort(cmp);
+}
+
+/* ---------------- rendering ---------------- */
+function kpis(){
+  const active = roles.filter(r => r.status !== "Closed");
+  const open = t => active.filter(r => r.status === "Open" && t(r)).length;
+  const soon = active.filter(r => { const d = daysUntil(r.deadline); return r.status === "Open" && d !== null && d >= 0 && d <= 14; });
+  const items = [
+    ["Relevant opportunities", active.length, "", () => setTab("all", {})],
+    ["Open graduate jobs", open(r => r.type === "Graduate"), "hl", () => setTab("grad", {fStatus:"Open"})],
+    ["Open Summer 2027 internships", open(r => r.type === "Summer Internship"), "hl", () => setTab("intern", {fStatus:"Open"})],
+    ["Open entry-level jobs", open(r => r.type === "Entry-Level"), "hl", () => setTab("entry", {fStatus:"Open"})],
+    ["New in last 24 hours", active.filter(r => isNew(r,1)).length, "info", () => setTab("all", {fNew:"1", sort:"new"})],
+    ["New in last 7 days", active.filter(r => isNew(r,7)).length, "info", () => setTab("all", {fNew:"7", sort:"new"})],
+    ["Closing within 14 days", soon.length, "warn", () => setTab("all", {fDeadline:"14", sort:"deadline"})],
+    ["High-fit (4–5)", active.filter(r => r.fit >= 4).length, "vio", () => setTab("all", {fFit:"4"})],
+    ["Opening soon", active.filter(r => r.status === "Opens Soon").length, "", () => setTab("all", {fStatus:"Opens Soon"})],
+    ["Eligibility to verify", active.filter(r => r.eligibility.verdict === "Check eligibility" || r.status === "Verify").length, "warn", () => setTab("all", {fStatus:"active"})],
+    ["Last successful update", DATA && DATA.last_successful_search ? ago(DATA.last_successful_search) : "never", "small", null],
+  ];
+  $("#kpis").innerHTML = items.map(([l,n,c],i) => `<div class="kpi ${c}" data-k="${i}"><div class="n">${esc(n)}</div><div class="l">${esc(l)}</div></div>`).join("");
+  $("#kpis").querySelectorAll(".kpi").forEach(el => { const fn = items[+el.dataset.k][3]; if (fn) el.onclick = fn; else el.style.cursor = "default"; });
+}
+function setTab(t, filters){
+  tab = t; ls.set("jt.tab", t);
+  ["q","fCat","fType","fFit","fStatus","fApp","fDeadline","fWork","fNew"].forEach(id => { const el = $("#"+id); el.value = id === "fStatus" ? "active" : id === "fFit" ? "0" : ""; ls.set("jt.f."+id, el.value); });
+  $("#sort").value = "smart";
+  for (const [k,v] of Object.entries(filters||{})) { $("#"+k).value = v; ls.set("jt.f."+k, v); }
+  render(); window.scrollTo({top: $("#tabs").offsetTop - 10, behavior:"smooth"});
+}
+function tabsUI(){
+  const n = t => roles.filter(r => r.status !== "Closed" && (t === "all" || (t === "grad" && r.type === "Graduate") || (t === "intern" && isIntern(r)) || (t === "entry" && r.type === "Entry-Level"))).length;
+  const mine = roles.filter(r => appOf(r.id) !== "Not Applied").length;
+  $("#tabs").innerHTML = TABS.map(([k,l]) => `<button data-t="${k}" class="${tab===k?"on":""}">${l}<span class="count">${k==="mine"?mine:n(k)}</span></button>`).join("");
+  $("#tabs").querySelectorAll("button").forEach(b => b.onclick = () => { tab = b.dataset.t; ls.set("jt.tab", tab); render(); });
+  $("#fType").disabled = tab !== "all" && tab !== "mine";
+}
+function deadlineChip(r){
+  const d = daysUntil(r.deadline);
+  if (!r.deadline) return r.rolling ? `<span class="chip">Rolling</span>` : `<span class="chip faint">No deadline found</span>`;
+  const conf = r.deadline_confidence === "Confirmed" ? "" : ` · ${r.deadline_confidence.toLowerCase()}`;
+  const cls = d !== null && d >= 0 && d <= 7 && r.deadline_confidence === "Confirmed" ? "urgent" : "dl";
+  const when = d < 0 ? "passed" : d === 0 ? "today" : `${d}d`;
+  return `<span class="chip ${cls}" title="${esc(r.deadline_evidence)}">Closes ${esc(fmtDate(r.deadline))} (${when}${conf})</span>`;
+}
+function card(r){
+  const typeCls = r.type === "Graduate" ? "t-grad" : isIntern(r) ? "t-int" : "t-entry";
+  const app = appOf(r.id), appCls = "st-" + app.split(" ")[0];
+  const v = r.eligibility.verdict;
+  const opts = APP_STATES.map(s => `<option ${s===app?"selected":""}>${s}</option>`).join("");
+  const e = r.eligibility;
+  const kv = (k, val) => val ? `<div>${k}</div><div>${val}</div>` : "";
+  const lst = a => (a && a.length) ? `<ul>${a.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : `<p class="faint">None noted</p>`;
+  const notes = (tracker.roles[r.id] || {}).notes || "";
+  return `<article class="card ${r.status==="Closed"?"closed":""} ${openCards.has(r.id)?"open":""}" data-id="${esc(r.id)}">
+  <div class="row">
+    <div class="fit f${r.fit}" title="Fit score">${r.fit}<small>/5</small></div>
+    <div>
+      <div class="title">${esc(r.title)}</div>
+      <div class="company">${esc(r.company)} · ${esc(r.location_class === "London" ? r.location : r.location_class + " — " + r.location)}</div>
+      <div class="chips">
+        ${isNew(r,1) ? `<span class="chip new">New</span>` : ""}
+        <span class="chip ${typeCls}">${esc(r.type)}</span>
+        <span class="chip">${esc(r.category_label)}</span>
+        <span class="chip s-${esc(r.status.split(" ")[0])}" title="${esc(r.status_reason)}">${esc(r.status)}</span>
+        ${deadlineChip(r)}
+        ${v === "Likely ineligible" ? `<span class="chip inel">Likely ineligible</span>` : v === "Check eligibility" ? `<span class="chip chk">Check eligibility</span>` : ""}
+        ${r.work_arrangement !== "Not stated" ? `<span class="chip">${esc(r.work_arrangement)}</span>` : ""}
+        ${r.salary ? `<span class="chip">${esc(r.salary)}</span>` : ""}
+      </div>
+    </div>
+    <div class="side">
+      <select class="appsel ${appCls}" aria-label="Application status">${opts}</select>
+      <a class="btn primary" href="${esc(safeUrl(r.apply_url))}" target="_blank" rel="noopener noreferrer">Apply ↗</a>
+    </div>
+  </div>
+  <div class="details">
+    <div>
+      <h4>Why it matches</h4>${lst(r.why)}
+      <h4>Gaps &amp; eligibility risks</h4>${lst(r.missing)}
+      ${r.excerpt ? `<h4>From the advert</h4><div class="excerpt">${esc(r.excerpt)}…</div>` : ""}
+      <h4>My notes <span class="faint" style="text-transform:none;letter-spacing:0">(private)</span></h4>
+      <textarea class="notes" placeholder="Contacts, referral, OA dates…">${esc(notes)}</textarea>
+    </div>
+    <div>
+      <h4>Eligibility — ${esc(v)}</h4>
+      <div class="kv">
+        ${kv("Graduation years", e.graduation_years && e.graduation_years.length ? esc(e.graduation_years.join(", ")) : "Not stated")}
+        ${kv("Master's students", esc(e.masters_eligible))}
+        ${isIntern(r) ? kv("Final-year students", esc(e.final_year_eligible)) + kv("Must return to study", esc(e.return_to_study_required)) : ""}
+        ${kv("Degree", esc(e.degree_class) + (e.degree_subjects && e.degree_subjects !== "Not stated" ? " · " + esc(e.degree_subjects) : ""))}
+        ${kv("Technical", e.technical_requirements && e.technical_requirements.length ? esc(e.technical_requirements.join(", ")) : "None stated")}
+        ${kv("Experience asked", r.experience_years ? esc(r.experience_years + " year(s)") : "")}
+        ${kv("Right to work", e.right_to_work && e.right_to_work.length ? esc(e.right_to_work.join("; ")) : "")}
+      </div>
+      <h4>Details</h4>
+      <div class="kv">
+        ${kv("Recommended CV", `<b>${esc(r.recommended_cv)}</b>`)}
+        ${kv("Deadline", r.deadline ? esc(fmtDate(r.deadline) + " · " + r.deadline_confidence) : (r.rolling ? "Rolling" : "Unconfirmed"))}
+        ${kv("Opens", r.opening_date ? esc(fmtDate(r.opening_date) + " · " + r.opening_confidence) : "")}
+        ${kv("Start date", esc(r.start_date || ""))}
+        ${kv("Cycle", esc(r.cycle))}
+        ${kv("Pay", esc(r.salary || "Not published"))}
+        ${kv("Work pattern", esc(r.work_arrangement))}
+        ${kv("Location check", esc(r.location_class + " · " + r.location_confidence + " confidence"))}
+        ${kv("Status", esc(r.status + " — " + r.status_reason))}
+        ${kv("Sources", r.sources.map(s => `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.source)}</a>`).join(", ") + (r.official ? " · <span style='color:var(--green)'>official employer posting</span>" : ""))}
+        ${kv("First found", esc(fmtDate((r.first_discovered||"").slice(0,10))))}
+        ${kv("Last verified", esc(ago(r.last_verified)))}
+      </div>
+    </div>
+  </div>
+</article>`;
+}
+let renderLimit = 60;
+function render(){
+  tabsUI(); kpis();
+  const list = sorted(filtered());
+  $("#count").textContent = `${list.length} ${list.length === 1 ? "role" : "roles"}`;
+  if (!list.length) {
+    $("#list").innerHTML = `<div class="empty">${roles.length ? "No roles match these filters." : "No vacancies yet — the first scheduled search hasn't completed. This page refreshes its data on every run."}</div>`;
+    return;
+  }
+  $("#list").innerHTML = list.slice(0, renderLimit).map(card).join("") +
+    (list.length > renderLimit ? `<button class="btn" id="more" style="margin:8px auto;display:block">Show ${Math.min(60, list.length - renderLimit)} more of ${list.length - renderLimit}</button>` : "");
+  const more = $("#more"); if (more) more.onclick = () => { renderLimit += 60; render(); };
+}
+$("#list").addEventListener("click", ev => {
+  const c = ev.target.closest(".card"); if (!c) return;
+  if (ev.target.closest("select,a,textarea,button,input")) return;
+  if (!ev.target.closest(".row")) return;
+  const id = c.dataset.id; c.classList.toggle("open"); c.classList.contains("open") ? openCards.add(id) : openCards.delete(id);
+});
+$("#list").addEventListener("change", ev => {
+  const c = ev.target.closest(".card"); if (!c) return;
+  if (ev.target.matches(".appsel")) { updateTracker(c.dataset.id, {status: ev.target.value}); render(); }
+});
+$("#list").addEventListener("input", ev => {
+  const c = ev.target.closest(".card");
+  if (c && ev.target.matches("textarea.notes")) updateTracker(c.dataset.id, {notes: ev.target.value.slice(0, 4000)});
+});
+
+/* ---------------- health panel ---------------- */
+function health(){
+  const lr = (DATA && DATA.last_run) || {};
+  const last = DATA && DATA.last_successful_search;
+  const hrs = last ? (Date.now() - new Date(last)) / 36e5 : Infinity;
+  $("#runDot").className = "dot " + (hrs < 5 ? "ok" : hrs < 24 ? "warn" : "bad");
+  $("#runText").textContent = last ? `Searched ${ago(last)}` : "Not run yet";
+  $("#genTime").textContent = DATA && DATA.generated ? `Data saved ${ago(DATA.generated)}` : "";
+  const al = DATA.alerts || {};
+  $("#healthSummary").innerHTML = lr.finished ? `Last run ${esc(ago(lr.finished))} (${esc(lr.duration_s)}s): ${esc(lr.raw_jobs)} adverts scanned, <b>${esc(lr.new_roles)}</b> new relevant roles, ${esc(lr.new_employer_boards||0)} new employer boards discovered. Monitoring ${esc(lr.companies)} employers' roles and ${esc(lr.boards_active)} employer job boards directly. Gmail drafts: ${al.configured ? esc(al.drafted||0) + " created last run" : "not configured"}${DATA.alert_errors ? " (with errors)" : ""}. Scheduled runs are attempted every 2 hours; GitHub may delay them, so the times shown are actual completions.` : "No completed run yet.";
+  const hist = DATA.run_history || [];
+  const max = Math.max(1, ...hist.map(h => h.raw || 0));
+  $("#spark").innerHTML = hist.map(h => `<i class="${h.ok ? "" : "fail"}" style="height:${Math.max(6, (h.raw||0) / max * 100)}%" title="${esc(new Date(h.at).toLocaleString("en-GB"))}: ${esc(h.raw)} scanned, ${esc(h.new)} new"></i>`).join("");
+  const src = lr.sources || [];
+  $("#srcTable").innerHTML = `<tr><th>Source</th><th>Result</th><th>Requests</th><th>Adverts</th><th>Notes</th></tr>` + src.map(s =>
+    `<tr><td>${esc(s.name)}</td><td><span class="dot ${s.calls ? (s.ok ? "ok" : "bad") : "warn"}" style="display:inline-block"></span> ${s.calls ? (s.ok ? "Checked" : "Failed") : "Skipped"}</td><td>${esc(s.calls)}${s.failures ? ` <span class="faint">(${esc(s.failures)} failed)</span>` : ""}</td><td>${esc(s.jobs_found)}</td><td class="muted">${esc(s.note || "")}${s.errors && s.errors.length ? `<br><span class="faint">${esc(s.errors.slice(0,2).join(" · "))}</span>` : ""}</td></tr>`).join("");
+  $("#manualTable").innerHTML = (lr.manual_sources || []).map(m => `<tr><td><a href="${esc(safeUrl(m.url))}" target="_blank" rel="noopener noreferrer">${esc(m.name)}</a></td><td class="muted">${esc(m.why)}</td></tr>`).join("");
+}
+
+/* ---------------- sync modal ---------------- */
+$("#syncBtn").onclick = () => { $("#sRepo").value = sync ? sync.repo : ""; $("#sToken").value = ""; $("#sMsg").textContent = sync ? `Syncing with ${sync.repo}. Leave the token blank to keep the saved one.` : ""; $("#syncModal").classList.add("on"); };
+$("#sClose").onclick = () => $("#syncModal").classList.remove("on");
+$("#sSave").onclick = async () => {
+  const repo = $("#sRepo").value.trim(), token = $("#sToken").value.trim() || (sync && sync.token);
+  if (!/^[\w.-]+\/[\w.-]+$/.test(repo) || !token) { $("#sMsg").textContent = "Enter owner/repo and a token."; return; }
+  sync = {repo, token}; ls.set("jt.sync", sync); $("#sMsg").textContent = "Syncing…";
+  await syncNow(); $("#sMsg").textContent = $("#syncText").textContent;
+};
+$("#sOff").onclick = () => { sync = null; try { localStorage.removeItem("jt.sync"); } catch(e){} setSyncUI("local","Tracker: this device"); $("#sMsg").textContent = "Sync off. Statuses stay on this device."; };
+$("#sExport").onclick = () => { const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(tracker,null,1)],{type:"application/json"})); a.download = "job-tracker.json"; a.click(); };
+$("#sImport").onchange = async ev => { const f = ev.target.files[0]; if (!f) return; try { tracker = mergeTrackers(tracker, JSON.parse(await f.text())); ls.set("jt.tracker", tracker); render(); if (sync) syncNow(); $("#sMsg").textContent = "Imported."; } catch(e){ $("#sMsg").textContent = "Couldn't read that file."; } };
+
+/* ---------------- init ---------------- */
+(function init(){
+  const cats = [...new Map(roles.map(r => [r.category, r.category_label])).entries()].sort((a,b) => a[1].localeCompare(b[1]));
+  $("#fCat").innerHTML += cats.map(([k,l]) => `<option value="${esc(k)}">${esc(l)}</option>`).join("");
+  $("#fApp").innerHTML += APP_STATES.map(s => `<option>${s}</option>`).join("");
+  restore();
+  F(["q","fCat","fType","fFit","fStatus","fApp","fDeadline","fWork","fNew","sort","hideInel","londonOnly","hideRejected"]);
+  $("#reset").onclick = () => setTab(tab, {});
+  health(); render();
+  if (sync) syncNow(); else setSyncUI("local","Tracker: this device");
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && sync) syncNow(); });
+})();
+</script>
+</body>
+</html>

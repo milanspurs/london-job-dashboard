@@ -1,0 +1,118 @@
+name: Job search update
+
+on:
+  schedule:
+    # Every 2 hours (12 attempts/day). Minute 7 avoids the top-of-hour queue;
+    # GitHub can still delay or occasionally skip scheduled runs.
+    - cron: "7 */2 * * *"
+  push:
+    branches: [main]
+    paths-ignore: ["data/**", "README.md", "tests/**"]   # code changes redeploy straight away
+  workflow_dispatch:
+    inputs:
+      test_gmail:
+        description: "Also create one Gmail TEST draft (to check the Gmail setup)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: job-search
+  cancel-in-progress: false   # never kill a run mid-write; queue the next one
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    outputs:
+      pipeline: ${{ steps.pipeline.outcome }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt
+
+      - name: Gmail test draft
+        if: ${{ inputs.test_gmail }}
+        continue-on-error: true
+        run: python -m jobsearch.alerts
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+
+      - name: Discover, verify, score, alert
+        id: pipeline
+        continue-on-error: true      # still publish the dashboard (with the failure shown) if this breaks
+        timeout-minutes: 40
+        run: python -m jobsearch.run
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          REED_API_KEY: ${{ secrets.REED_API_KEY }}
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          GMAIL_TO: ${{ secrets.GMAIL_TO }}
+          TRACKER_TOKEN: ${{ secrets.TRACKER_TOKEN }}
+          TRACKER_REPO: ${{ secrets.TRACKER_REPO }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AI_MAX_CALLS_PER_RUN: ${{ vars.AI_MAX_CALLS_PER_RUN || '0' }}
+          ADZUNA_CALLS_PER_RUN: ${{ vars.ADZUNA_CALLS_PER_RUN || '6' }}
+          REED_CALLS_PER_RUN: ${{ vars.REED_CALLS_PER_RUN || '16' }}
+
+      - name: Commit data (safe, conflict-resistant)
+        if: ${{ always() }}
+        run: |
+          git config user.name "job-dashboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python -c "import json,sys; json.load(open('data/roles.json'))" || { echo "roles.json invalid - not committing"; exit 1; }
+          git add data/
+          if git diff --cached --quiet; then echo "No data changes"; exit 0; fi
+          git commit -q -m "data: update $(date -u +%Y-%m-%dT%H:%MZ) [skip ci]"
+          for i in 1 2 3 4; do
+            git pull --rebase -X theirs -q origin "${GITHUB_REF_NAME}" && git push -q origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt $i failed; retrying"; sleep $((i*10))
+          done
+          exit 1
+
+      - name: Build dashboard
+        if: ${{ always() }}
+        run: python build_dashboard.py --out site
+
+      - uses: actions/configure-pages@v5
+        if: ${{ always() }}
+
+      - uses: actions/upload-pages-artifact@v3
+        if: ${{ always() }}
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Flag a failed discovery run
+        if: ${{ needs.update.outputs.pipeline == 'failure' }}
+        run: |
+          echo "::error::The discovery pipeline failed this run; the dashboard was republished from the last good data."
+          exit 1
