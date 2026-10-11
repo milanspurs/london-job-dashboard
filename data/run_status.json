@@ -1,0 +1,149 @@
+{
+ "last_run": {
+  "started": "2026-10-11T00:36:38+00:00",
+  "finished": "2026-10-11T00:37:21+00:00",
+  "duration_s": 43.8,
+  "bootstrap": true,
+  "raw_jobs": 1876,
+  "new_roles": 248,
+  "new_companies_queued": 195,
+  "new_employer_boards": 4,
+  "rejected": {
+   "location not London": 1206,
+   "title matches excluded pattern": 221,
+   "manager-level title": 36,
+   "text matches excluded pattern": 8,
+   "requires 5+ years": 1,
+   "requires 3+ years": 1
+  },
+  "events": {
+   "new": 248
+  },
+  "alerts": {
+   "configured": false,
+   "candidates": 0,
+   "drafted": 0,
+   "errors": [],
+   "at": "2026-10-11T00:37:21+00:00"
+  },
+  "tracker": "not configured",
+  "ai_calls": 0,
+  "http_calls": {
+   "api.adzuna.com": 6,
+   "www.reed.co.uk": 16,
+   "boards-api.greenhouse.io": 28,
+   "api.lever.co": 19,
+   "api.ashbyhq.com": 19
+  },
+  "sources": [
+   {
+    "name": "Adzuna",
+    "kind": "aggregator",
+    "ok": true,
+    "calls": 6,
+    "failures": 0,
+    "jobs_found": 159,
+    "errors": [],
+    "note": "",
+    "checked_at": "2026-10-11T00:36:38+00:00"
+   },
+   {
+    "name": "Reed",
+    "kind": "aggregator",
+    "ok": true,
+    "calls": 16,
+    "failures": 0,
+    "jobs_found": 885,
+    "errors": [],
+    "note": "",
+    "checked_at": "2026-10-11T00:36:51+00:00"
+   },
+   {
+    "name": "Employer board discovery",
+    "kind": "probe",
+    "ok": true,
+    "calls": 12,
+    "failures": 0,
+    "jobs_found": 4,
+    "errors": [],
+    "note": "4 new employer boards found; 394 employers queued",
+    "checked_at": "2026-10-11T00:37:08+00:00"
+   },
+   {
+    "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
+    "kind": "ats",
+    "ok": true,
+    "calls": 4,
+    "failures": 0,
+    "jobs_found": 832,
+    "errors": [],
+    "note": "4 boards checked; 4 active boards in registry",
+    "checked_at": "2026-10-11T00:37:19+00:00"
+   }
+  ],
+  "manual_sources": [
+   {
+    "name": "Indeed",
+    "url": "https://uk.indeed.com/jobs?q=graduate+analyst&l=London",
+    "why": "No public search API; automated scraping prohibited by terms."
+   },
+   {
+    "name": "LinkedIn Jobs",
+    "url": "https://www.linkedin.com/jobs/search/?keywords=graduate%20analyst&location=London",
+    "why": "No permitted API for job search."
+   },
+   {
+    "name": "Bright Network",
+    "url": "https://www.brightnetwork.co.uk/search/?content_types=jobs",
+    "why": "No public API; terms restrict automated access."
+   },
+   {
+    "name": "targetjobs",
+    "url": "https://targetjobs.co.uk/search/graduate-jobs?location=london",
+    "why": "No public API."
+   },
+   {
+    "name": "Prospects",
+    "url": "https://www.prospects.ac.uk/graduate-jobs",
+    "why": "No public API."
+   },
+   {
+    "name": "Gradcracker",
+    "url": "https://www.gradcracker.com/search/all-disciplines/graduate-jobs",
+    "why": "No public API; STEM-focused, worth checking for science-led roles."
+   },
+   {
+    "name": "RateMyPlacement",
+    "url": "https://www.ratemyplacement.co.uk/search?jobType=internship",
+    "why": "No public API."
+   },
+   {
+    "name": "eFinancialCareers",
+    "url": "https://www.efinancialcareers.co.uk/jobs-UK-London-graduate.htm",
+    "why": "No public API."
+   },
+   {
+    "name": "Civil Service Jobs",
+    "url": "https://www.civilservicejobs.service.gov.uk/csr/index.cgi",
+    "why": "No public API; search requires a session."
+   },
+   {
+    "name": "Civil Service Fast Stream",
+    "url": "https://www.faststream.gov.uk/",
+    "why": "Official programme site; annual cycle."
+   }
+  ],
+  "total_roles": 248,
+  "companies": 106,
+  "boards_active": 4
+ },
+ "last_successful_search": "2026-10-11T00:37:21+00:00",
+ "history": [
+  {
+   "at": "2026-10-11T00:37:21+00:00",
+   "new": 248,
+   "raw": 1876,
+   "ok": true
+  }
+ ]
+}
