@@ -7,8 +7,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:17+00:00",
-   "last_ok": "2026-10-11T00:43:17+00:00",
+   "last_checked": "2026-10-11T02:22:45+00:00",
+   "last_ok": "2026-10-11T02:22:45+00:00",
    "discovered": "2026-10-11T00:37:09+00:00",
    "via": "probe"
   },
@@ -19,8 +19,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:18+00:00",
-   "last_ok": "2026-10-11T00:43:18+00:00",
+   "last_checked": "2026-10-11T02:22:46+00:00",
+   "last_ok": "2026-10-11T02:22:46+00:00",
    "discovered": "2026-10-11T00:37:13+00:00",
    "via": "probe"
   },
@@ -31,8 +31,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:18+00:00",
-   "last_ok": "2026-10-11T00:43:18+00:00",
+   "last_checked": "2026-10-11T02:22:46+00:00",
+   "last_ok": "2026-10-11T02:22:46+00:00",
    "discovered": "2026-10-11T00:37:14+00:00",
    "via": "probe"
   },
@@ -43,8 +43,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:16+00:00",
-   "last_ok": "2026-10-11T00:43:16+00:00",
+   "last_checked": "2026-10-11T02:22:43+00:00",
+   "last_ok": "2026-10-11T02:22:43+00:00",
    "discovered": "2026-10-11T00:37:15+00:00",
    "via": "probe"
   },
@@ -55,8 +55,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:17+00:00",
-   "last_ok": "2026-10-11T00:43:17+00:00",
+   "last_checked": "2026-10-11T02:22:44+00:00",
+   "last_ok": "2026-10-11T02:22:44+00:00",
    "discovered": "2026-10-11T00:40:22+00:00",
    "via": "probe"
   },
@@ -67,8 +67,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:14+00:00",
-   "last_ok": "2026-10-11T00:43:14+00:00",
+   "last_checked": "2026-10-11T02:22:42+00:00",
+   "last_ok": "2026-10-11T02:22:42+00:00",
    "discovered": "2026-10-11T00:43:07+00:00",
    "via": "probe"
   },
@@ -79,8 +79,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:15+00:00",
-   "last_ok": "2026-10-11T00:43:15+00:00",
+   "last_checked": "2026-10-11T02:22:43+00:00",
+   "last_ok": "2026-10-11T02:22:43+00:00",
    "discovered": "2026-10-11T00:43:09+00:00",
    "via": "probe"
   },
@@ -91,8 +91,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:15+00:00",
-   "last_ok": "2026-10-11T00:43:15+00:00",
+   "last_checked": "2026-10-11T02:22:42+00:00",
+   "last_ok": "2026-10-11T02:22:42+00:00",
    "discovered": "2026-10-11T00:43:12+00:00",
    "via": "probe"
   },
@@ -103,8 +103,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:15+00:00",
-   "last_ok": "2026-10-11T00:43:15+00:00",
+   "last_checked": "2026-10-11T02:22:42+00:00",
+   "last_ok": "2026-10-11T02:22:42+00:00",
    "discovered": "2026-10-11T00:43:12+00:00",
    "via": "probe"
   },
@@ -115,9 +115,57 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:43:16+00:00",
-   "last_ok": "2026-10-11T00:43:16+00:00",
+   "last_checked": "2026-10-11T02:22:44+00:00",
+   "last_ok": "2026-10-11T02:22:44+00:00",
    "discovered": "2026-10-11T00:43:12+00:00",
+   "via": "probe"
+  },
+  "ashby:lendable": {
+   "platform": "ashby",
+   "slug": "lendable",
+   "company": "Lendable",
+   "status": "active",
+   "fail_count": 0,
+   "missing_count": 0,
+   "last_checked": "2026-10-11T02:22:41+00:00",
+   "last_ok": "2026-10-11T02:22:41+00:00",
+   "discovered": "2026-10-11T02:22:23+00:00",
+   "via": "probe"
+  },
+  "lever:zopa": {
+   "platform": "lever",
+   "slug": "zopa",
+   "company": "Zopa",
+   "status": "active",
+   "fail_count": 0,
+   "missing_count": 0,
+   "last_checked": "2026-10-11T02:22:41+00:00",
+   "last_ok": "2026-10-11T02:22:41+00:00",
+   "discovered": "2026-10-11T02:22:24+00:00",
+   "via": "probe"
+  },
+  "ashby:fundingcircle": {
+   "platform": "ashby",
+   "slug": "fundingcircle",
+   "company": "Funding Circle",
+   "status": "active",
+   "fail_count": 0,
+   "missing_count": 0,
+   "last_checked": "2026-10-11T02:22:41+00:00",
+   "last_ok": "2026-10-11T02:22:41+00:00",
+   "discovered": "2026-10-11T02:22:34+00:00",
+   "via": "probe"
+  },
+  "greenhouse:marshallwace": {
+   "platform": "greenhouse",
+   "slug": "marshallwace",
+   "company": "Marshall Wace",
+   "status": "active",
+   "fail_count": 0,
+   "missing_count": 0,
+   "last_checked": "2026-10-11T02:22:41+00:00",
+   "last_ok": "2026-10-11T02:22:41+00:00",
+   "discovered": "2026-10-11T02:22:35+00:00",
    "via": "probe"
   }
  },
@@ -285,21 +333,65 @@
   "starling bank": {
    "last": "2026-10-11",
    "found": []
+  },
+  "checkout com": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "lendable": {
+   "last": "2026-10-11",
+   "found": [
+    "ashby:lendable"
+   ]
+  },
+  "zopa": {
+   "last": "2026-10-11",
+   "found": [
+    "lever:zopa"
+   ]
+  },
+  "funding circle": {
+   "last": "2026-10-11",
+   "found": [
+    "ashby:fundingcircle"
+   ]
+  },
+  "marshall wace": {
+   "last": "2026-10-11",
+   "found": [
+    "greenhouse:marshallwace"
+   ]
+  },
+  "man": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "schroders": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "ninety one": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "m g": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "legal general": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "aviva investors": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "baillie gifford": {
+   "last": "2026-10-11",
+   "found": []
   }
  },
  "queue": [
-  "checkout com",
-  "lendable",
-  "zopa",
-  "funding circle",
-  "marshall wace",
-  "man",
-  "schroders",
-  "ninety one",
-  "m g",
-  "legal general",
-  "aviva investors",
-  "baillie gifford",
   "jupiter asset management",
   "liontrust",
   "ruffer",
@@ -744,7 +836,49 @@
   "profectus recruitment",
   "ljm recruitment",
   "armstrong vinton furniture",
-  "spectrum it recruitment"
+  "spectrum it recruitment",
+  "td bank",
+  "icaew",
+  "ubt",
+  "newmarket holidays",
+  "southwark council",
+  "birketts",
+  "acosta europe",
+  "apogee corporation",
+  "world 50",
+  "rendall rittner",
+  "cmc markets",
+  "cranstoun",
+  "ppl",
+  "konnect event",
+  "teliporter",
+  "asu london",
+  "matchtech",
+  "c m travel recruitment",
+  "gingerlily",
+  "morgan spencer",
+  "michael page business support",
+  "pharmica",
+  "mh star",
+  "nos global",
+  "evestigio",
+  "zachary daniels",
+  "elliot marsh head hunting partners",
+  "reed talent solutions",
+  "cca recruitment",
+  "mission 4 recruitment",
+  "ashdown",
+  "broadbanduk",
+  "divalentinecalver recruitment",
+  "pareto",
+  "h2o recruitment",
+  "smt recruitment",
+  "larbey evans",
+  "hr careers nationwide recruitment service",
+  "evolve selection",
+  "it career switch",
+  "txp technology x people",
+  "skanska"
  ],
  "names": {
   "oliver wyman": "Oliver Wyman",
@@ -1239,6 +1373,48 @@
   "profectus recruitment": "Profectus Recruitment",
   "ljm recruitment": "LJM Recruitment",
   "armstrong vinton furniture": " Armstrong Vinton Furniture Ltd",
-  "spectrum it recruitment": "Spectrum IT Recruitment"
+  "spectrum it recruitment": "Spectrum IT Recruitment",
+  "td bank": "TD Bank",
+  "icaew": "ICAEW",
+  "ubt": "UBT",
+  "newmarket holidays": "Newmarket Holidays",
+  "southwark council": "Southwark Council",
+  "birketts": "Birketts LLP",
+  "acosta europe": "Acosta Europe",
+  "apogee corporation": "Apogee Corporation ",
+  "world 50": "World 50 group",
+  "rendall rittner": "Rendall & Rittner",
+  "cmc markets": "CMC Markets",
+  "cranstoun": "Cranstoun",
+  "ppl": "PPL",
+  "konnect event": "Konnect Event Services",
+  "teliporter": "Teliporter",
+  "asu london": "ASU London",
+  "matchtech": "Matchtech ",
+  "c m travel recruitment": "C&M Travel Recruitment",
+  "gingerlily": "Gingerlily Ltd",
+  "morgan spencer": "Morgan Spencer",
+  "michael page business support": "Michael Page Business Support",
+  "pharmica": "Pharmica",
+  "mh star": "MH STAR UK LTD",
+  "nos global": "NOS Global",
+  "evestigio": "Evestigio Ltd",
+  "zachary daniels": "Zachary Daniels",
+  "elliot marsh head hunting partners": "Elliot Marsh Head Hunting Partners",
+  "reed talent solutions": "Reed Talent Solutions",
+  "cca recruitment": "CCA Recruitment Group",
+  "mission 4 recruitment": "Mission 4 Recruitment Ltd",
+  "ashdown": "Ashdown Group",
+  "broadbanduk": "BroadbandUK",
+  "divalentinecalver recruitment": "DivalentineCalver Recruitment Ltd",
+  "pareto": "Pareto",
+  "h2o recruitment": "H2O Recruitment Services Ltd",
+  "smt recruitment": "SMT Recruitment ",
+  "larbey evans": "Larbey Evans",
+  "hr careers nationwide recruitment service": "HR CAREERS & NATIONWIDE RECRUITMENT SERVICE",
+  "evolve selection": "Evolve Selection Ltd",
+  "it career switch": "IT Career Switch",
+  "txp technology x people": "TXP Technology x People",
+  "skanska": "Skanska UK PLC"
  }
 }
