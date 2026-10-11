@@ -217,7 +217,8 @@ EXCLUDE_TITLE_PATTERNS = [
     r"restaurant", r"\bchef\b", r"bar (staff|manager|supervisor)", r"waiter|waitress|barista",
     r"hospitality (manager|supervisor)", r"store manager", r"shop manager", r"retail (assistant|manager|supervisor)",
     r"sales assistant", r"call cent(re|er)", r"customer service (advisor|adviser|representative|agent)",
-    r"contact cent(re|er)", r"\bsenior\b", r"\bsnr\b", r"\bsr\.?\b", r"\blead\b", r"\bprincipal\b",
+    r"contact cent(re|er)", r"sales (consultant|executive|representative|rep|advisor|adviser|associate|agent)",
+    r"business development (representative|executive|associate)", r"\b(sdr|bdr)\b", r"account executive", r"\bsenior\b", r"\bsnr\b", r"\bsr\.?\b", r"\blead\b", r"\bprincipal\b",
     r"\bhead of\b", r"\bdirector\b", r"\bvp\b", r"vice president", r"\bchief\b", r"\bpartner\b(?! programme)",
     r"\bmanaging\b", r"\bexperienced\b",
     r"software (engineer|developer)", r"\bdeveloper\b", r"devops", r"site reliability", r"\bsre\b",
@@ -231,7 +232,7 @@ MANAGER_OK = r"(graduate|trainee|assistant|junior|associate) .*manager|manager.*
 
 EXCLUDE_TEXT_PATTERNS = [
     r"commission[- ]only", r"commission based only", r"\bunpaid\b", r"expenses only", r"voluntary role",
-    r"self[- ]employed sales",
+    r"self[- ]employed sales", r"\b(outside|inside) ir35\b", r"\bper day\b|\bday rate\b",
 ]
 
 MAX_EXPERIENCE_YEARS = 2

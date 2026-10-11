@@ -115,6 +115,10 @@ def assess(text: str, opp_type: str, full_text: bool) -> dict:
             issues.append("Undergraduates only")
             verdict = "Likely ineligible"
 
+    if re.search(r"\bphd\b|doctoral (candidate|student|degree)", t[:300], re.I) or \
+            re.search(r"(phd|doctorate) (is )?(required|essential)|(currently )?(completing|pursuing|hold) a (phd|doctorate)", t, re.I):
+        issues.append("Aimed at PhD candidates/holders")
+        verdict = "Likely ineligible"
     if re.search(r"first[- ]class", degree_class, re.I):
         issues.append("Asks for a First; you hold a 2:1")
         verdict = "Check eligibility" if verdict == "Likely eligible" else verdict

@@ -139,11 +139,17 @@ def main(http: Http | None = None) -> int:
 
     # ---- 6. Re-verify Reed vacancies not seen this run --------------------------
     seen_this_run = {r["id"] for r in roles if r.get("last_seen", "") >= datetime.fromtimestamp(started, timezone.utc).isoformat()[:19]}
-    reed_rep = SourceReport("Reed re-verification", "aggregator")
-    reed_targets = sorted(
-        (r for r in roles if r["status"] != "Closed" and r["id"] not in seen_this_run
-         and any(s["source"] == "reed" for s in r["sources"])),
-        key=lambda r: r.get("last_verified", ""))[: SETTINGS["reed_detail_checks_per_run"]]
+    reed_rep = SourceReport("Reed full-advert fetch & re-verification", "aggregator")
+    budget = SETTINGS["reed_detail_checks_per_run"]
+    # a) new Reed finds with only a search snippet: fetch the full advert (better eligibility + dates)
+    enrich = sorted((r for r in roles if r["status"] != "Closed" and not r.get("full_text")
+                     and not r.get("official") and any(s["source"] == "reed" for s in r["sources"])),
+                    key=lambda r: r.get("first_discovered", ""), reverse=True)[: budget // 2]
+    # b) Reed roles not seen in this run's searches: re-verify they still exist
+    recheck = sorted((r for r in roles if r["status"] != "Closed" and r["id"] not in seen_this_run
+                      and any(s["source"] == "reed" for s in r["sources"]) and r not in enrich),
+                     key=lambda r: r.get("last_verified", ""))
+    reed_targets = (enrich + recheck)[:budget]
     for r in reed_targets:
         sid = next(s["source_id"] for s in r["sources"] if s["source"] == "reed")
         state_, job = reed_detail(http, sid)
@@ -153,9 +159,9 @@ def main(http: Http | None = None) -> int:
             if rec:
                 merge_observation(roles, idx, rec)
                 raw_store[r["id"]] = raw_to_dict(job) if not raw_store.get(r["id"], {}).get("official") else raw_store[r["id"]]
-        elif state_ == "gone":
+        elif state_ == "gone" and r["id"] not in seen_this_run:  # a role just seen in search is never "gone"
             r["closed_evidence"] = "Removed from Reed (job listing no longer exists)"
-        else:
+        elif state_ == "unknown":
             r["verify_failures"] = r.get("verify_failures", 0) + 1
             reed_rep.fail(f"job {sid}: unreachable")
     if reed_rep.calls:
@@ -170,6 +176,8 @@ def main(http: Http | None = None) -> int:
                     r["closed_evidence"] = "Removed from the employer's own job board (confirmed on 2 checks)"
 
     # ---- 8. Recalculate fit/eligibility for every stored vacancy ---------------
+    # (if updated rules now exclude a stored role, it is removed and logged)
+    removed: list[tuple[dict, str]] = []
     for r in roles:
         raw = raw_store.get(r["id"])
         if not raw or r["id"] in new_ids:
@@ -178,12 +186,22 @@ def main(http: Http | None = None) -> int:
             rec, _ = evaluate(RawJob(**raw))
         except TypeError:
             continue
+        if rec is None:
+            removed.append((r, _))
+            continue
         if rec:
             for f in ("fit", "why", "missing", "eligibility", "category", "category_label", "tier", "type",
                       "recommended_cv", "work_arrangement", "cycle"):
                 if f == "fit" and r.get("fit") != rec["fit"]:
                     r.setdefault("history", []).append({"at": now_iso(), "field": "fit", "from": r.get("fit"), "to": rec["fit"]})
                 r[f] = rec[f]
+
+    if removed:
+        gone = {r["id"] for r, _ in removed}
+        roles[:] = [r for r in roles if r["id"] not in gone]
+        store.append_events([{"at": now_iso(), "event": "excluded_by_rules", "id": r["id"], "company": r["company"],
+                              "title": r["title"], "reason": why} for r, why in removed])
+        log.info("Removed %d stored roles now excluded by the rules", len(removed))
 
     # ---- 9. Optional AI eligibility refinement (capped; off by default) -------
     ai_calls = ai.refine(http, [(r, raw_store.get(r["id"], {}).get("description", "")) for r in roles if r["id"] in new_ids],

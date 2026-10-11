@@ -13,7 +13,8 @@ _OFFCYCLE = re.compile(r"\b(off[- ]cycle|winter intern|autumn intern|spring inte
 _SUMMER = re.compile(r"\bsummer\b", re.I)
 _GRAD = re.compile(r"\b(graduate|grad scheme|grad programme|graduate programme|graduate scheme|"
                    r"early careers?|trainee|analyst programme|rotational|class of 202[6-8]|"
-                   r"202[78] (start|intake|graduate)|new grad|management trainee|apprentice(ship)? degree)\b", re.I)
+                   r"202[78] (start|intake|graduate)|new grad|management trainee|apprentice(ship)? degree|"
+                   r"(associate|analyst|consulting|leadership|development) programme)\b|\bprogramme\b.*\b202[6-8]\b|\b202[6-8]\b.*\bprogramme\b", re.I)
 _JUNIOR = re.compile(r"\b(junior|entry[- ]level|assistant|associate|analyst|executive|coordinator|officer|"
                      r"administrator|researcher|graduate)\b", re.I)
 _SPRING_WEEK = re.compile(r"\b(spring week|spring insight|insight (week|day|programme)|open day)\b", re.I)
@@ -97,3 +98,29 @@ _START = re.compile(r"(?:start(?:ing)?(?: date)?|commenc\w+|join(?:ing)? us)\s*(
 def start_date(job: RawJob) -> str | None:
     m = _START.search(job.description or "")
     return m.group(1).strip().title() if m else None
+
+
+_ENTRY_TITLE = re.compile(r"\b(junior|jr\.?|graduate|grad|entry[- ]level|trainee|assistant|apprentice|early[- ]careers?|"
+                          r"placement|intern|new grad|associate programme|level 1|i\b)", re.I)
+_ENTRY_TEXT = re.compile(r"\b(entry[- ]level|recent graduates?|graduates? (are )?welcome|new graduates?|no (prior |previous )?"
+                         r"experience (is )?(required|necessary|needed)|(0|1)\s*(-|–|to)\s*2 years|up to 2 years|first role|"
+                         r"early[- ]careers?|junior|graduate scheme|graduate programme|ideal for a graduate|"
+                         r"starting your career|start your career|kick[- ]?start your career)\b", re.I)
+_SENIOR_TEXT = re.compile(r"\b(extensive|significant|substantial|considerable|proven track record|seasoned|"
+                          r"several years|many years|in-depth experience)\b", re.I)
+
+
+def entry_level_evidence(job: RawJob) -> str | None:
+    """For roles not labelled graduate/intern: return the signal that makes it entry-level, or None."""
+    m = _ENTRY_TITLE.search(job.title or "")
+    if m:
+        return f"title: {m.group(0)}"
+    text = job.description or ""
+    m = _ENTRY_TEXT.search(text)
+    if m and not _SENIOR_TEXT.search(text):
+        return f"advert: {m.group(0)}"
+    if job.source in ("adzuna", "reed") and not job.full_text and job.query_hint in ("grad", "entry") \
+            and re.search(r"\b(analyst|researcher|executive|coordinator|associate)\b", job.title or "", re.I) \
+            and not _SENIOR_TEXT.search(text):
+        return "aggregator junior search (snippet only - verify)"
+    return None

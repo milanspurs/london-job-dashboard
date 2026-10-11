@@ -53,6 +53,25 @@ class TestFilters(unittest.TestCase):
         self.assertEqual(classify_location(job(location="London; New York"))[0], "London")
 
 
+class TestEntryLevelGate(unittest.TestCase):
+    def test_experienced_titles_without_signals_rejected(self):
+        r, why = evaluate(job("Management Consultant - Financial Risk", source="greenhouse:x", official=True,
+                              full_text=True, desc="Lead client workstreams with extensive consulting experience."))
+        self.assertIsNone(r)
+        self.assertIn("entry-level", why)
+
+    def test_junior_and_graduate_signals_kept(self):
+        self.assertIsNotNone(evaluate(job("Junior Pricing Analyst", full_text=True))[0])
+        self.assertIsNotNone(evaluate(job("Commercial Analyst", full_text=True,
+                                          desc="A great first role for recent graduates."))[0])
+
+    def test_sales_contract_phd(self):
+        self.assertIsNone(evaluate(job("Junior Sales Consultant"))[0])
+        self.assertIsNone(evaluate(job("Junior Data Consultant", desc="Contract, outside IR35"))[0])
+        r, _ = evaluate(job("Graduate Research Programme (PhD)", full_text=True))
+        self.assertEqual(r["eligibility"]["verdict"], "Likely ineligible")
+
+
 class TestDates(unittest.TestCase):
     def test_confirmed_only_from_official(self):
         txt = f"Applications close on {FUTURE.day} {FUTURE.strftime('%B %Y')}."

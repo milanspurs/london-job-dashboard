@@ -59,7 +59,9 @@ def score(*, cat: str, title: str, text: str, opp_type: str, elig: dict, locatio
     if re.search(r"\b(msc|master'?s|postgraduate)\b", t) and elig["masters_eligible"] == "Yes":
         s += 0.2
         why.append("Explicitly open to master's students")
-    if opp_type in ("Graduate", "Summer Internship", "Off-cycle Internship"):
+    if opp_type == "Graduate":
+        s += 0.4
+    elif opp_type in ("Summer Internship", "Off-cycle Internship"):
         s += 0.2
     if re.search(r"(no (prior )?experience (is )?(required|necessary)|full training (is )?provided|training provided)", t):
         s += 0.2
@@ -70,7 +72,7 @@ def score(*, cat: str, title: str, text: str, opp_type: str, elig: dict, locatio
         s -= 2.2
         gaps.extend(elig["issues"][:2])
     elif elig["verdict"] == "Check eligibility":
-        s -= 0.4
+        s -= 0.4 if opp_type in ("Summer Internship", "Off-cycle Internship") else 0.15
     strong_missing = [x for x in elig["technical_strong"] if x.lower() in PROFILE["beginner_skills"]]
     hard_missing = [x for x in elig["technical_requirements"]
                     if any(m in x.lower() for m in ("vba", "tableau", "c++", "java", "matlab", "gis", "cfa", "aca", "financial modelling"))]

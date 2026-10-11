@@ -1,7 +1,7 @@
 """Turn a RawJob from any source into a scored, classified vacancy record."""
 from __future__ import annotations
 
-from .classify import categorise, opportunity_type, recruitment_cycle, start_date, work_arrangement
+from .classify import categorise, entry_level_evidence, opportunity_type, recruitment_cycle, start_date, work_arrangement
 from .config import CATEGORIES
 from .dates import extract_dates
 from .eligibility import assess
@@ -36,6 +36,11 @@ def evaluate(job: RawJob) -> tuple[dict | None, str | None]:
     opp = opportunity_type(job)
     if opp == "Insight Programme":
         return None, "insight/spring week (aimed at earlier-year students)"
+    entry_signal = None
+    if opp == "Entry-Level":
+        entry_signal = entry_level_evidence(job)
+        if not entry_signal:
+            return None, "not clearly entry-level (no junior/graduate signal)"
 
     text = job.description or ""
     cat, _hits = categorise(job)
@@ -44,6 +49,8 @@ def evaluate(job: RawJob) -> tuple[dict | None, str | None]:
     fit, why, gaps = score(cat=cat, title=job.title, text=text, opp_type=opp, elig=elig, location_class=loc_class,
                            experience_years=exp_years, full_text=job.full_text)
     dates = extract_dates(text, official=job.official, full_text=job.full_text, posted=job.posted, expiry=job.expiry)
+    if entry_signal and entry_signal.startswith("aggregator"):
+        gaps.append("Seniority not stated in the advert snippet — check it's entry-level")
     missing = list(dict.fromkeys(gaps + [i for i in elig["issues"] if i not in gaps]))
 
     ts = now_iso()
