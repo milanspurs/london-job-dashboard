@@ -7,8 +7,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:37:19+00:00",
-   "last_ok": "2026-10-11T00:37:19+00:00",
+   "last_checked": "2026-10-11T00:40:32+00:00",
+   "last_ok": "2026-10-11T00:40:32+00:00",
    "discovered": "2026-10-11T00:37:09+00:00",
    "via": "probe"
   },
@@ -19,8 +19,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:37:20+00:00",
-   "last_ok": "2026-10-11T00:37:20+00:00",
+   "last_checked": "2026-10-11T00:40:33+00:00",
+   "last_ok": "2026-10-11T00:40:33+00:00",
    "discovered": "2026-10-11T00:37:13+00:00",
    "via": "probe"
   },
@@ -31,8 +31,8 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:37:20+00:00",
-   "last_ok": "2026-10-11T00:37:20+00:00",
+   "last_checked": "2026-10-11T00:40:33+00:00",
+   "last_ok": "2026-10-11T00:40:33+00:00",
    "discovered": "2026-10-11T00:37:14+00:00",
    "via": "probe"
   },
@@ -43,9 +43,21 @@
    "status": "active",
    "fail_count": 0,
    "missing_count": 0,
-   "last_checked": "2026-10-11T00:37:20+00:00",
-   "last_ok": "2026-10-11T00:37:20+00:00",
+   "last_checked": "2026-10-11T00:40:32+00:00",
+   "last_ok": "2026-10-11T00:40:32+00:00",
    "discovered": "2026-10-11T00:37:15+00:00",
+   "via": "probe"
+  },
+  "greenhouse:charlesriverassociates": {
+   "platform": "greenhouse",
+   "slug": "charlesriverassociates",
+   "company": "Charles River Associates",
+   "status": "active",
+   "fail_count": 0,
+   "missing_count": 0,
+   "last_checked": "2026-10-11T00:40:32+00:00",
+   "last_ok": "2026-10-11T00:40:32+00:00",
+   "discovered": "2026-10-11T00:40:22+00:00",
    "via": "probe"
   }
  },
@@ -105,21 +117,59 @@
   "oxera": {
    "last": "2026-10-11",
    "found": []
+  },
+  "nera economic consulting": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "cornerstone research": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "analysis": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "charles river associates": {
+   "last": "2026-10-11",
+   "found": [
+    "greenhouse:charlesriverassociates"
+   ]
+  },
+  "compass lexecon": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "fti consulting": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "alvarez marsal": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "berkeley research": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "huron": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "cambridge econometrics": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "economic insight": {
+   "last": "2026-10-11",
+   "found": []
+  },
+  "europe economics": {
+   "last": "2026-10-11",
+   "found": []
   }
  },
  "queue": [
-  "nera economic consulting",
-  "cornerstone research",
-  "analysis",
-  "charles river associates",
-  "compass lexecon",
-  "fti consulting",
-  "alvarez marsal",
-  "berkeley research",
-  "huron",
-  "cambridge econometrics",
-  "economic insight",
-  "europe economics",
   "newton europe",
   "moorhouse consulting",
   "bain",
@@ -501,7 +551,22 @@
   "mw recruitment",
   "sellick partnership",
   "appcastenterprise",
-  "orange cat recruitment"
+  "orange cat recruitment",
+  "gordon yates",
+  "gordon yates recruitment consultancy",
+  "relx",
+  "elsevier",
+  "made tech",
+  "vermelo rpo",
+  "avencia consulting",
+  "massenhove recruitment",
+  "office angels",
+  "harrison holgate",
+  "aimee willow connex",
+  "sizewell c",
+  "global accounting network",
+  "cv elite",
+  "profile 29"
  ],
  "names": {
   "oliver wyman": "Oliver Wyman",
@@ -909,6 +974,21 @@
   "mw recruitment": "MW recruitment",
   "sellick partnership": "Sellick Partnership",
   "appcastenterprise": "Appcastenterprise",
-  "orange cat recruitment": "Orange Cat Recruitment "
+  "orange cat recruitment": "Orange Cat Recruitment ",
+  "gordon yates": "GORDON YATES LTD",
+  "gordon yates recruitment consultancy": "Gordon Yates Recruitment Consultancy",
+  "relx": "RELX INC",
+  "elsevier": "Elsevier",
+  "made tech": "Made Tech",
+  "vermelo rpo": "Vermelo RPO",
+  "avencia consulting": "Avencia Consulting",
+  "massenhove recruitment": "Massenhove Recruitment Limited",
+  "office angels": "Office Angels",
+  "harrison holgate": "Harrison Holgate",
+  "aimee willow connex": "Aimee Willow Connex ",
+  "sizewell c": "Sizewell C",
+  "global accounting network": "Global Accounting Network",
+  "cv elite": "CV Elite Ltd",
+  "profile 29": "Profile 29"
  }
 }
