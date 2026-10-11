@@ -21,6 +21,7 @@ log = logging.getLogger(__name__)
 # Adzuna  (https://developer.adzuna.com/docs/search)
 # ---------------------------------------------------------------------------
 ADZUNA_URL = "https://api.adzuna.com/v1/api/jobs/gb/search/{page}"
+_SENIORITY_WORDS = {"graduate", "junior", "entry", "level", "trainee", "scheme", "programme", "intern", "internship"}
 
 
 def adzuna_search(http: Http, queries: list[tuple[str, str, str]], usage: dict) -> tuple[list[RawJob], SourceReport]:
@@ -39,19 +40,32 @@ def adzuna_search(http: Http, queries: list[tuple[str, str, str]], usage: dict) 
         return [], rep
 
     jobs: list[RawJob] = []
+    per_query: list[str] = []
     for q, hint, _cat in queries[:budget]:
+        # Adzuna's `what` needs every word to match, which made multi-word queries
+        # ("graduate risk analyst") far too narrow. Keep the role words in `what`
+        # and require at least one seniority word via `what_or`.
+        words = q.split()
+        core = [w for w in words if w.lower() not in _SENIORITY_WORDS]
         params = {
-            "app_id": app_id, "app_key": app_key, "what": q, "where": "London",
+            "app_id": app_id, "app_key": app_key, "what": " ".join(core) or q, "where": "London",
             "distance": round(SETTINGS["search_radius_miles"] * 1.609), "results_per_page": 50,
             "max_days_old": SETTINGS["max_days_old"], "sort_by": "date", "content-type": "application/json",
         }
+        if len(core) < len(words):
+            params["what_or"] = "graduate graduates junior trainee entry intern internship placement"
         res = http.get(ADZUNA_URL.format(page=1), params=params)
         rep.calls += 1
         used += 1
         if not res.ok or res.status != 200:
             rep.fail(f"'{q}': {res.error or res.status}")
             continue
-        for r in (res.data or {}).get("results", []):
+        data = res.data or {}
+        results = data.get("results", []) if isinstance(data, dict) else []
+        per_query.append(f"{q}: {len(results)}/{data.get('count', '?') if isinstance(data, dict) else '?'}")
+        if isinstance(data, dict) and not results and set(data) - {"results", "count", "mean", "__CLASS__"}:
+            rep.fail(f"'{q}': unexpected response keys {sorted(data)[:5]}")
+        for r in results:
             company = (r.get("company") or {}).get("display_name") or ""
             loc = r.get("location") or {}
             area = loc.get("area") or []
@@ -65,6 +79,7 @@ def adzuna_search(http: Http, queries: list[tuple[str, str, str]], usage: dict) 
                 query_hint=hint, extra={"area": area, "category": (r.get("category") or {}).get("label")},
             ))
     usage["adzuna"][month] = used
+    rep.note = f"{used} calls this month; per query (returned/total): " + "; ".join(per_query)
     rep.jobs_found = len(jobs)
     rep.ok = rep.calls > rep.failures
     return jobs, rep
