@@ -1,4 +1,5 @@
 name: Job search update
+# Requires Settings > Pages > Source: "GitHub Actions" for the deploy job.
 
 on:
   schedule:
