@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import re
 
-from .config import (COMMUTER_TERMS, EXCLUDE_TEXT_PATTERNS, EXCLUDE_TITLE_PATTERNS, LONDON_TERMS,
+from .config import (COMMUTER_TERMS, EXCLUDE_COMPANIES, EXCLUDE_TEXT_PATTERNS, EXCLUDE_TITLE_PATTERNS, LONDON_TERMS,
                      MANAGER_OK, MAX_EXPERIENCE_YEARS, NON_UK_TERMS)
 from .models import RawJob
 
@@ -61,6 +61,9 @@ def required_experience_years(text: str) -> int | None:
 
 def exclusion_reason(job: RawJob) -> str | None:
     title = job.title or ""
+    comp = (job.company or "").lower()
+    if any(c in comp for c in EXCLUDE_COMPANIES):
+        return "training provider (paid course advertised as a job)"
     for rx in _TITLE_RX:
         if rx.search(title):
             # "Senior" in grad scheme titles is rare; keep "Graduate ... Lead" style out anyway

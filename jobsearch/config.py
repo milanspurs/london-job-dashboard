@@ -224,6 +224,8 @@ EXCLUDE_TITLE_PATTERNS = [
     r"software (engineer|developer)", r"\bdeveloper\b", r"devops", r"site reliability", r"\bsre\b",
     r"back[- ]?end", r"front[- ]?end", r"full[- ]?stack", r"machine learning engineer", r"ml engineer",
     r"platform engineer", r"data engineer", r"cloud engineer", r"security engineer", r"infrastructure engineer",
+    r"digital marketing", r"marketing (manager|executive|assistant|coordinator)", r"social media", r"\bseo\b",
+    r"no experience (needed|required)\b.*\(ref", r"career change", r"fully funded training",
     r"teacher", r"teaching assistant", r"nurse", r"care assistant", r"driver\b", r"warehouse",
     r"cleaner", r"security officer", r"receptionist",
 ]
@@ -234,6 +236,11 @@ EXCLUDE_TEXT_PATTERNS = [
     r"commission[- ]only", r"commission based only", r"\bunpaid\b", r"expenses only", r"voluntary role",
     r"self[- ]employed sales", r"\b(outside|inside) ir35\b", r"\bper day\b|\bday rate\b",
 ]
+
+# Training providers that advertise paid courses as "jobs"
+EXCLUDE_COMPANIES = ["qualify nation", "itonlinelearning", "pitman training", "the learning people", "knowledge academy",
+                     "ctrl alt career", "just it", "itol recruit", "learning people", "skillsfuture", "e-careers"]
+EXCLUDE_TEXT_PATTERNS += [r"course fees?", r"training (course )?fee", r"you will need to (pay|fund)", r"pay for (the|your) training"]
 
 MAX_EXPERIENCE_YEARS = 2
 

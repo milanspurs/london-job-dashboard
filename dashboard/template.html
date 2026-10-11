@@ -167,6 +167,7 @@ const APP_STATES = ["Not Applied","Planning to Apply","Applied","Online Assessme
 const TABS = [["all","All Opportunities"],["grad","Graduate Jobs"],["intern","Summer Internships"],["entry","Entry-Level Jobs"],["mine","My Applications"]];
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const trunc = (s, n) => (s && s.length > n) ? s.slice(0, n - 1) + "…" : s;
 const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "#";
 const DAY = 864e5;
 const today = new Date(); today.setHours(0,0,0,0);
@@ -330,7 +331,7 @@ function card(r){
     <div class="fit f${r.fit}" title="Fit score">${r.fit}<small>/5</small></div>
     <div>
       <div class="title">${esc(r.title)}</div>
-      <div class="company">${esc(r.company)} · ${esc(r.location_class === "London" ? r.location : r.location_class + " — " + r.location)}</div>
+      <div class="company">${esc(r.company)} · ${esc(trunc(r.location_class === "London" ? r.location : r.location_class + " — " + r.location, 70))}</div>
       <div class="chips">
         ${isNew(r,1) ? `<span class="chip new">New</span>` : ""}
         <span class="chip ${typeCls}">${esc(r.type)}</span>
