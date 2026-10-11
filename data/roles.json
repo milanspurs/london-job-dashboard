@@ -1,8 +1,8 @@
 {
  "meta": {
   "schema": 1,
-  "count": 180,
-  "saved_at": "2026-10-11T00:41:13+00:00"
+  "count": 210,
+  "saved_at": "2026-10-11T00:43:58+00:00"
  },
  "roles": [
   {
@@ -64,12 +64,12 @@
      "source_id": "5920324025",
      "url": "https://www.adzuna.co.uk/jobs/details/5920324025?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -79,7 +79,9 @@
      "from": 3,
      "to": 4
     }
-   ]
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "69e82be2157d",
@@ -452,7 +454,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5912190655?se=qkAf0gvF8RGjSfrCsBO0RQ&utm_medium=api&utm_source=09779821&v=C75D2A4AD820BAD027C77EFE79F227AD7764A524",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5912190655?se=iFWYqwzF8RG_59bpLSVmjQ&utm_medium=api&utm_source=09779821&v=C75D2A4AD820BAD027C77EFE79F227AD7764A524",
    "official": false,
    "official_source": "",
    "recommended_cv": "Risk Management CV",
@@ -463,17 +465,19 @@
     {
      "source": "adzuna",
      "source_id": "5912190655",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5912190655?se=qkAf0gvF8RGjSfrCsBO0RQ&utm_medium=api&utm_source=09779821&v=C75D2A4AD820BAD027C77EFE79F227AD7764A524",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5912190655?se=iFWYqwzF8RG_59bpLSVmjQ&utm_medium=api&utm_source=09779821&v=C75D2A4AD820BAD027C77EFE79F227AD7764A524",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "8a81e95cf8f4",
@@ -4113,12 +4117,12 @@
      "source_id": "57113767",
      "url": "https://www.reed.co.uk/jobs/findatatech-corporate-banking-strategy-analyst-associate/57113767",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -4205,153 +4209,6 @@
      "at": "2026-10-11T00:40:59+00:00",
      "field": "fit",
      "from": 2,
-     "to": 4
-    }
-   ],
-   "verify_failures": 0,
-   "absent_count": 0
-  },
-  {
-   "id": "39cca05f36c1",
-   "company": "Qualify Nation Recruitment",
-   "title": "Trainee AI and Automation Practitioner | No experience needed (Ref: 9301)",
-   "category": "ops",
-   "category_label": "Operations, Transformation & Project Mgmt",
-   "tier": 2,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-06",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 4,
-   "why": [
-    "Operations, Transformation & Project Mgmt (tier 2 interest)",
-    "Draws on: data, operations, optimisation"
-   ],
-   "missing": [],
-   "eligibility": {
-    "verdict": "Likely eligible",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": []
-   },
-   "experience_years": null,
-   "salary": "£28,000 – £38,000",
-   "employment_type": "Permanent",
-   "apply_url": "https://www.reed.co.uk/jobs/trainee-ai-and-automation-practitioner--no-experience-needed-ref-9301/57444053",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Operations & Project Management CV",
-   "posted": "2026-10-10",
-   "excerpt": "AI AND AUTOMATION PRACTITIONER TRAINEESHIP \n Become an AI and Automation Practitioner and Build Real-World Experience Are you interested in artificial intelligence, automation, and using technology to improve the way organisations operate? Do you want to gain practical experience while developing skills that are increasingly in demand across every industry?\n We are offering an AI and Automation Practitioner Traineeship designed to help aspiring professionals develop industry-relevant knowledge t",
-   "full_text": true,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57444053",
-     "url": "https://www.reed.co.uk/jobs/trainee-ai-and-automation-practitioner--no-experience-needed-ref-9301/57444053",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:41:00+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:41:00+00:00",
-   "last_seen": "2026-10-11T00:41:00+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:41:00+00:00",
-     "field": "fit",
-     "from": 2,
-     "to": 4
-    }
-   ],
-   "verify_failures": 0,
-   "absent_count": 0
-  },
-  {
-   "id": "abeeaa11ecda",
-   "company": "Newto Training",
-   "title": "Trainee Junior Network Consultant",
-   "category": "strategy",
-   "category_label": "Strategy & Management Consulting",
-   "tier": 1,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-12",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 4,
-   "why": [
-    "Strategy & Management Consulting (tier 1 interest)"
-   ],
-   "missing": [],
-   "eligibility": {
-    "verdict": "Likely eligible",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": []
-   },
-   "experience_years": null,
-   "salary": "£25,000 – £78,000",
-   "employment_type": "Permanent",
-   "apply_url": "https://www.reed.co.uk/jobs/trainee-junior-network-consultant/57412908",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Strategy & Consulting CV",
-   "posted": "2026-10-01",
-   "excerpt": "Launch Your Network Engineer Career – Job Guaranteed! \n With Newto Training’s Network Engineer Career Programme, you’ll gain 4 top certifications (Azure Fundamentals, CompTIA Network+, uCisco CCNA, Forescout FSCA) plus real-world project work that doubles as hands-on experience.\n 100+ hours of live training\n Practical skills in troubleshooting, networking (Cisco), Azure cloud, Splunk SIEM & Tenable vulnerability management\n Job guarantee with our hiring partners\n Get certified, get experience, g",
-   "full_text": true,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57412908",
-     "url": "https://www.reed.co.uk/jobs/trainee-junior-network-consultant/57412908",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:41:00+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:41:00+00:00",
-   "last_seen": "2026-10-11T00:41:00+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:41:00+00:00",
-     "field": "fit",
-     "from": 3,
      "to": 4
     }
    ],
@@ -4866,161 +4723,15 @@
      "source_id": "57350392",
      "url": "https://www.reed.co.uk/jobs/commercial-operations-analyst-mat-leave-cover/57350392",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
-  },
-  {
-   "id": "8ff338d50e14",
-   "company": "Qualify Nation Recruitment",
-   "title": "Trainee Digital Marketing Manager | No experience needed (Ref: 6901)",
-   "category": "finance",
-   "category_label": "Finance, Investment & Asset Management",
-   "tier": 1,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-06",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 5,
-   "why": [
-    "Finance, Investment & Asset Management (tier 1 interest)",
-    "Draws on: analytics, data, market research, optimisation, reporting, research"
-   ],
-   "missing": [],
-   "eligibility": {
-    "verdict": "Likely eligible",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": []
-   },
-   "experience_years": null,
-   "salary": "£28,000 – £38,000",
-   "employment_type": "Permanent",
-   "apply_url": "https://www.reed.co.uk/jobs/trainee-digital-marketing-manager--no-experience-needed-ref-6901/57444089",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Finance & Investment CV",
-   "posted": "2026-10-10",
-   "excerpt": "DIGITAL MARKETING TRAINEESHIP (REMOTE) \n Become a Digital Marketing Professional and Build Real-World Experience Are you interested in digital marketing, online business, and helping organisations grow through effective marketing strategies? Do you want to gain practical experience while developing skills that employers are actively looking for?\n We are offering a Digital Marketing Traineeship designed to help aspiring digital marketers develop industry-relevant knowledge through structured lear",
-   "full_text": true,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57444089",
-     "url": "https://www.reed.co.uk/jobs/trainee-digital-marketing-manager--no-experience-needed-ref-6901/57444089",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:41:10+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:41:10+00:00",
-   "last_seen": "2026-10-11T00:41:10+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:41:10+00:00",
-     "field": "fit",
-     "from": 3,
-     "to": 5
-    }
-   ],
-   "verify_failures": 0,
-   "absent_count": 0
-  },
-  {
-   "id": "68eee1f470d8",
-   "company": "Qualify Nation Recruitment",
-   "title": "Trainee Product Manager | No experience needed (Ref: 9401)",
-   "category": "ops",
-   "category_label": "Operations, Transformation & Project Mgmt",
-   "tier": 2,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-06",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 4,
-   "why": [
-    "Operations, Transformation & Project Mgmt (tier 2 interest)",
-    "Draws on: data, market research, operations, research, stakeholder"
-   ],
-   "missing": [],
-   "eligibility": {
-    "verdict": "Likely eligible",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": []
-   },
-   "experience_years": null,
-   "salary": "£28,000 – £38,000",
-   "employment_type": "Permanent",
-   "apply_url": "https://www.reed.co.uk/jobs/trainee-product-manager--no-experience-needed-ref-9401/57444072",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Operations & Project Management CV",
-   "posted": "2026-10-10",
-   "excerpt": "PRODUCT MANAGER TRAINEESHIP \n Become a Product Manager and Build Real-World Experience Are you interested in developing successful products, working with cross-functional teams, and turning ideas into solutions that customers value? Do you want to gain practical experience while developing skills that are highly sought after by employers in technology and business?\n We are offering a Product Manager Traineeship designed to help aspiring product professionals develop industry-relevant knowledge t",
-   "full_text": true,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57444072",
-     "url": "https://www.reed.co.uk/jobs/trainee-product-manager--no-experience-needed-ref-9401/57444072",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:41:11+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:41:11+00:00",
-   "last_seen": "2026-10-11T00:41:11+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:41:11+00:00",
-     "field": "fit",
-     "from": 2,
-     "to": 4
-    }
-   ],
+   "history": [],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -7380,12 +7091,12 @@
      "source_id": "57402845",
      "url": "https://www.reed.co.uk/jobs/junior-crm-analyst/57402845",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -8252,12 +7963,12 @@
      "source_id": "57390523",
      "url": "https://www.reed.co.uk/jobs/commercial-and-cx-graduate-associate/57390523",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -8331,12 +8042,12 @@
      "source_id": "57390533",
      "url": "https://www.reed.co.uk/jobs/analyst-associate-private-credit-french-speaker-efinancialcareers/57390533",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8402,12 +8113,12 @@
      "source_id": "57264677",
      "url": "https://www.reed.co.uk/jobs/junior-associate/57264677",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8543,19 +8254,19 @@
      "source_id": "57385156",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-barrister/57385156",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385400",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-barrister/57385400",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8622,19 +8333,19 @@
      "source_id": "57385121",
      "url": "https://www.reed.co.uk/jobs/public-international-barrister/57385121",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385453",
      "url": "https://www.reed.co.uk/jobs/public-international-barrister/57385453",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8701,19 +8412,19 @@
      "source_id": "57385115",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-lawyer/57385115",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385185",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-lawyer/57385185",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8780,19 +8491,19 @@
      "source_id": "57385096",
      "url": "https://www.reed.co.uk/jobs/international-trade-solicitor/57385096",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385439",
      "url": "https://www.reed.co.uk/jobs/international-trade-solicitor/57385439",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8859,19 +8570,19 @@
      "source_id": "57385166",
      "url": "https://www.reed.co.uk/jobs/public-international-solicitor/57385166",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385392",
      "url": "https://www.reed.co.uk/jobs/public-international-solicitor/57385392",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8938,19 +8649,19 @@
      "source_id": "57385104",
      "url": "https://www.reed.co.uk/jobs/international-trade-barrister/57385104",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385459",
      "url": "https://www.reed.co.uk/jobs/international-trade-barrister/57385459",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9017,19 +8728,19 @@
      "source_id": "57385184",
      "url": "https://www.reed.co.uk/jobs/public-international-lawyer/57385184",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385380",
      "url": "https://www.reed.co.uk/jobs/public-international-lawyer/57385380",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9096,19 +8807,19 @@
      "source_id": "57385170",
      "url": "https://www.reed.co.uk/jobs/international-trade-lawyer/57385170",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385101",
      "url": "https://www.reed.co.uk/jobs/international-trade-lawyer/57385101",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9175,19 +8886,19 @@
      "source_id": "57385107",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-solicitor/57385107",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57385443",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-solicitor/57385443",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9404,15 +9115,17 @@
      "source_id": "57441095",
      "url": "https://www.reed.co.uk/jobs/ai-product-analyst/57441095",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "6fe6c7d8cc39",
@@ -9544,12 +9257,12 @@
      "source_id": "57420095",
      "url": "https://www.reed.co.uk/jobs/international-credit-officer-credit-analyst-cameron-kennedy/57420095",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9616,12 +9329,12 @@
      "source_id": "57390372",
      "url": "https://www.reed.co.uk/jobs/2027-commodities-and-global-markets-graduate-programme-macquarie-group/57390372",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9693,12 +9406,12 @@
      "source_id": "57389932",
      "url": "https://www.reed.co.uk/jobs/services-summer-analyst-uk-london-2027-citi/57389932",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9764,12 +9477,12 @@
      "source_id": "57389790",
      "url": "https://www.reed.co.uk/jobs/2027-central-executive-group-graduate-programme-internal-audit-macquarie-group/57389790",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9841,12 +9554,12 @@
      "source_id": "57390301",
      "url": "https://www.reed.co.uk/jobs/exclusive-s-p-global-ratings-early-careers-networking-event/57390301",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9920,12 +9633,12 @@
      "source_id": "57438772",
      "url": "https://www.reed.co.uk/jobs/banking-commercial-banking-full-time-analyst-london-united-kingdom-2027-citi/57438772",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9990,12 +9703,12 @@
      "source_id": "57441100",
      "url": "https://www.reed.co.uk/jobs/ratings-forward-s-p-global-early-careers-virtual-event-emea/57441100",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -10153,12 +9866,12 @@
      "source_id": "57390993",
      "url": "https://www.reed.co.uk/jobs/banking-commercial-banking-summer-analyst-london-united-kingdom-2027-citi/57390993",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -10225,92 +9938,15 @@
      "source_id": "57390649",
      "url": "https://www.reed.co.uk/jobs/s-p-global-ratings-analytical-internship-program-london/57390649",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
-   "verify_failures": 0,
-   "absent_count": 0
-  },
-  {
-   "id": "6e379bfd05c1",
-   "company": "Qualify Nation Recruitment",
-   "title": "Trainee Business Analysis Manager | No experience needed (Ref: 8101)",
-   "category": "other",
-   "category_label": "Other Relevant (incl. science-led paths)",
-   "tier": 3,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-06",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 3,
-   "why": [
-    "Other Relevant (incl. science-led paths) (tier 3 interest)"
-   ],
-   "missing": [
-    "Only an advert snippet was available — read the full posting for eligibility"
-   ],
-   "eligibility": {
-    "verdict": "Check eligibility",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": [
-     "Only an advert snippet was available — read the full posting for eligibility"
-    ]
-   },
-   "experience_years": null,
-   "salary": "£28,000 – £38,000",
-   "employment_type": "",
-   "apply_url": "https://www.reed.co.uk/jobs/trainee-business-analysis-manager--no-experience-needed-ref-8101/57444091",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Graduate Programmes CV",
-   "posted": "2026-10-10",
-   "excerpt": "BUSINESS ANALYST TRAINEESHIP Become a Business Analyst and Build Real-World Experience Are you interested in solving business problems, improving processes, and helping organisations make better decisions? Do you want to gain practical experience while developing skills that employers value across a wide range of industries? We are offering a Business Analyst Traineeship designed to help aspiring business analysts develop industry-relevant knowl...",
-   "full_text": false,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57444091",
-     "url": "https://www.reed.co.uk/jobs/trainee-business-analysis-manager--no-experience-needed-ref-8101/57444091",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:41:13+00:00",
-     "field": "fit",
-     "from": 2,
-     "to": 3
-    }
-   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -10385,133 +10021,6 @@
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
-   "verify_failures": 0,
-   "absent_count": 0
-  },
-  {
-   "id": "697479438857",
-   "company": "ITOL Recruit",
-   "title": "Data Analyst Trainee",
-   "category": "data",
-   "category_label": "Data Analytics & BI",
-   "tier": 1,
-   "type": "Graduate",
-   "location": "London",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": "2026-11-09",
-   "deadline_confidence": "Indicative",
-   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
-   "rolling": false,
-   "cycle": "Not stated",
-   "fit": 4,
-   "why": [
-    "Data Analytics & BI (tier 1 interest)",
-    "Draws on: data"
-   ],
-   "missing": [
-    "Only an advert snippet was available — read the full posting for eligibility"
-   ],
-   "eligibility": {
-    "verdict": "Check eligibility",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": [
-     "Only an advert snippet was available — read the full posting for eligibility"
-    ]
-   },
-   "experience_years": null,
-   "salary": "£30,000 – £50,000",
-   "employment_type": "",
-   "apply_url": "https://www.reed.co.uk/jobs/data-analyst-trainee/57396709",
-   "official": false,
-   "official_source": "",
-   "recommended_cv": "Data Analytics CV",
-   "posted": "2026-10-05",
-   "excerpt": "Are you looking to benefit from a new career in Data Analysis? If you are detail orientated, perceptive, organised, competent, analytical and can communicate well with those around you; you could have a truly rewarding future as a Data Analyst We do this using our specialised Data Analyst career programme which looks to assist and place qualified candidates into a career pathway in Data Analysis. Please note this career program is designed for e...",
-   "full_text": false,
-   "sources": [
-    {
-     "source": "reed",
-     "source_id": "57420953",
-     "url": "https://www.reed.co.uk/jobs/data-analyst-trainee/57420953",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
-    },
-    {
-     "source": "reed",
-     "source_id": "57396709",
-     "url": "https://www.reed.co.uk/jobs/data-analyst-trainee/57396709",
-     "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [
-    {
-     "at": "2026-10-11T00:37:21+00:00",
-     "field": "deadline",
-     "from": "2026-11-16",
-     "to": "2026-11-09"
-    },
-    {
-     "at": "2026-10-11T00:37:21+00:00",
-     "field": "deadline",
-     "from": "2026-11-09",
-     "to": "2026-11-16"
-    },
-    {
-     "at": "2026-10-11T00:37:21+00:00",
-     "field": "deadline",
-     "from": "2026-11-16",
-     "to": "2026-11-09"
-    },
-    {
-     "at": "2026-10-11T00:37:21+00:00",
-     "field": "deadline",
-     "from": "2026-11-09",
-     "to": "2026-11-16"
-    },
-    {
-     "at": "2026-10-11T00:37:21+00:00",
-     "field": "deadline",
-     "from": "2026-11-16",
-     "to": "2026-11-09"
-    },
-    {
-     "at": "2026-10-11T00:40:33+00:00",
-     "field": "deadline",
-     "from": "2026-11-09",
-     "to": "2026-11-16"
-    },
-    {
-     "at": "2026-10-11T00:40:33+00:00",
-     "field": "fit",
-     "from": 3,
-     "to": 4
-    },
-    {
-     "at": "2026-10-11T00:40:33+00:00",
-     "field": "deadline",
-     "from": "2026-11-16",
-     "to": "2026-11-09"
-    }
-   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -10878,12 +10387,12 @@
      "source_id": "57390127",
      "url": "https://www.reed.co.uk/jobs/2027-macquarie-asset-management-graduate-programme-client-solutions-group-macquarie-group/57390127",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -10949,12 +10458,12 @@
      "source_id": "57444371",
      "url": "https://www.reed.co.uk/jobs/client-citi-research-summer-analyst-london-united-kingdom-2027-citi/57444371",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -11168,15 +10677,17 @@
      "source_id": "57352460",
      "url": "https://www.reed.co.uk/jobs/automation-analyst/57352460",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "f0d739624fb4",
@@ -11238,12 +10749,12 @@
      "source_id": "57340085",
      "url": "https://www.reed.co.uk/jobs/asbestos-site-analyst/57340085",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:37:21+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:37:21+00:00",
-   "last_seen": "2026-10-11T00:37:21+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -11686,12 +11197,12 @@
      "source_id": "8267259",
      "url": "https://job-boards.greenhouse.io/capco/jobs/8267259",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11773,12 +11284,12 @@
      "source_id": "8213937",
      "url": "https://job-boards.greenhouse.io/capco/jobs/8213937",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11857,12 +11368,12 @@
      "source_id": "7950016",
      "url": "https://www.elixirr.com/careers/careers-listing/job/?gh_jid=7950016",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -12501,15 +12012,17 @@
      "source_id": "57399205",
      "url": "https://www.reed.co.uk/jobs/investment-banking-m-a-fig-analyst-associate-selby-jennings/57399205",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "75bb823f355e",
@@ -12566,19 +12079,19 @@
      "source_id": "57390717",
      "url": "https://www.reed.co.uk/jobs/analyst-to-associate-fig-m-a-associate-global-investment-bank-goodman-masson/57390717",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:39+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57345514",
      "url": "https://www.reed.co.uk/jobs/analyst-to-associate-fig-m-a-associate-global-investment-bank-goodman-masson/57345514",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:39+00:00",
-   "last_seen": "2026-10-11T00:40:39+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12663,19 +12176,19 @@
      "source_id": "57390789",
      "url": "https://www.reed.co.uk/jobs/m-a-analyst-2-to-associate-1-energy-infrastructure-investment-banking-goodman-masson/57390789",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:41+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     },
     {
      "source": "reed",
      "source_id": "57345572",
      "url": "https://www.reed.co.uk/jobs/m-a-analyst-2-to-associate-1-energy-infrastructure-investment-banking-goodman-masson/57345572",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:41+00:00",
-   "last_seen": "2026-10-11T00:40:41+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12762,12 +12275,12 @@
      "source_id": "57390927",
      "url": "https://www.reed.co.uk/jobs/2027-macquarie-asset-management-summer-internship-programme-client-solutions-group-macquarie-group/57390927",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:41+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:41+00:00",
-   "last_seen": "2026-10-11T00:40:41+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12911,12 +12424,12 @@
      "source_id": "57400409",
      "url": "https://www.reed.co.uk/jobs/trading-summer-2027-internship-man-group-plc/57400409",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:44+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:44+00:00",
-   "last_seen": "2026-10-11T00:40:44+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -12989,12 +12502,12 @@
      "source_id": "57390670",
      "url": "https://www.reed.co.uk/jobs/2027-summer-technology-internship-programme-man-group-plc/57390670",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:45+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:45+00:00",
-   "last_seen": "2026-10-11T00:40:45+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -13217,15 +12730,17 @@
      "source_id": "8186465",
      "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8186465",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "e4f48c8fc219",
@@ -13289,15 +12804,17 @@
      "source_id": "8186469",
      "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8186469",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "b8e3f9653468",
@@ -13364,15 +12881,17 @@
      "source_id": "8186451",
      "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8186451",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "cc69f33894bc",
@@ -13432,15 +12951,17 @@
      "source_id": "8249052",
      "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8249052",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
-   "history": []
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
   },
   {
    "id": "fd8c73663049",
@@ -13500,12 +13021,2612 @@
      "source_id": "8199212",
      "url": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/8199212",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-11T00:40:33+00:00"
+     "last_seen": "2026-10-11T00:43:18+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-11T00:40:33+00:00",
-   "last_seen": "2026-10-11T00:40:33+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "32372f023fc5",
+   "company": "Picture More",
+   "title": "Junior Information Security Analyst (GRC)",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: risk"
+   ],
+   "missing": [
+    "Prefers ~1 year of experience",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": 1,
+   "salary": "£38,000 – £48,000",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5916803688?se=TGYLqgzF8RGsDbN7bu0l5g&utm_medium=api&utm_source=09779821&v=3846E6C96F499EF2B8820EAE385405CBD58C283A",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-07T11:53:38Z",
+   "excerpt": "Are you in the early stages of your Information Security career and looking for an opportunity to develop your GRC experience? We're recruiting for a Junior Information Security Analyst to join an established Information Security and Risk team within a highly regarded professional services organisation in Central London. This is a junior-level opportunity aimed at someone with around 1–2 years' experience within Information Security, GRC, IT risk or a related area. You'll work alongside experie…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5916803688",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5916803688?se=TGYLqgzF8RGsDbN7bu0l5g&utm_medium=api&utm_source=09779821&v=3846E6C96F499EF2B8820EAE385405CBD58C283A",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "c4447863f8f5",
+   "company": "ActiveViam",
+   "title": "Junior Quantitative Risk Analyst",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "Fleet Street, Central London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 4,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: analytics, data, quantitative, risk",
+    "Directly uses your MSc Risk Analytics study"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5891553328?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-09-20T10:41:58Z",
+   "excerpt": "About ActiveViam ActiveViam, a global leader in Big Data analytics and Fintech, is a premier software development firm with offices in New York, London, Singapore, Hong Kong, Sydney, and Paris, and is looking to add to its growing staff. Our customers are some of the largest banks, hedge funds and asset managers worldwide. Our exclusive AI powered technology, Atoti, offers a unique answer to the challenges of risk management, real-time data analytics and complex decision-making, while our commi…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5891553328",
+     "url": "https://www.adzuna.co.uk/jobs/details/5891553328?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "553531537df8",
+   "company": "UK Branch",
+   "title": "Assistant Underwriter, Europe Property Division",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5921902856?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-10T09:32:20Z",
+   "excerpt": "Take the next step in your career with us. Allied World is an ideal place for talented professionals who are driven by a belief in the value of collaboration and the power of knowledge. We believe that when our great people work together and support one another, our clients receive the best solutions. We embrace unique perspectives and empower each person to grow through professional development, career training and mentoring programs. Our people are our most important asset, and we are very pr…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5921902856",
+     "url": "https://www.adzuna.co.uk/jobs/details/5921902856?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "d0c9dbd1a496",
+   "company": "Walker & Dunlop",
+   "title": "Associate, Debt, Equity, and Structured Finance",
+   "category": "finance",
+   "category_label": "Finance, Investment & Asset Management",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Finance, Investment & Asset Management (tier 1 interest)",
+    "Draws on: commercial, markets"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5921899032?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Finance & Investment CV",
+   "posted": "2026-10-10T09:29:11Z",
+   "excerpt": "Department: EMEA Debt, Equity and Structured Finance We are Walker & Dunlop. We are one of the largest providers of capital to the commercial real estate industry, enabling real estate owners and operators to bring their visions of communities — where people live, work, shop, and play — to life. We are committed to creating meaningful social, environmental, and economic change in our communities. Department Overview As trusted advisors to our clients, Walker & Dunlop Capital Markets go beyond t…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5921899032",
+     "url": "https://www.adzuna.co.uk/jobs/details/5921899032?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "d3373a8d8d68",
+   "company": "MSIG UK",
+   "title": "Underwriting Assistant",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance, stakeholder"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£12,000",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5920316495?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-09T09:23:08Z",
+   "excerpt": "Underwriting Assistant This position is responsible for supporting the Underwriting team in the effective administration and management of new and renewal business across multiple classes of insurance. The role plays a key part in ensuring underwriting activities are completed accurately, efficiently and in accordance with regulatory, governance and operational requirements. Working closely with Underwriters and other key stakeholders across the business, the Underwriting Assistant will support…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5920316495",
+     "url": "https://www.adzuna.co.uk/jobs/details/5920316495?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "1369276478a2",
+   "company": "AXIS",
+   "title": "Assistant Underwriter - Liability",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance, risk"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5916634276?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-07T09:33:47Z",
+   "excerpt": "This is your opportunity to join AXIS Capital – a trusted global provider of specialty lines insurance and reinsurance. We stand apart for our outstanding client service, intelligent risk taking and superior risk adjusted returns for our shareholders. We also proudly maintain an entrepreneurial, disciplined and ethical corporate culture. As a member of AXIS, you join a team that is among the best in the industry. At AXIS, we believe that we are only as strong as our people. We strive to create …",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5916634276",
+     "url": "https://www.adzuna.co.uk/jobs/details/5916634276?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "309bb09542fa",
+   "company": "Endurance Business Services",
+   "title": "Underwriting Assistant (Fixed-Term Contract)",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance, operations"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time contract",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5916624589?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-07T09:31:48Z",
+   "excerpt": "Job Description Are you looking for your next opportunity? Sompo has a unique opportunity for an Underwriting Assistant (Fixed- Term Contract) in our Insurance Operations team to support our UK Insurance Market until the 30 June 2027 . This role will sit within our London and UK Regions COO function. The Service Delivery team play a vital role in supporting the various business lines within our Underwriting team based in our London, UK office whilst at the same time undertaking transformation a…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5916624589",
+     "url": "https://www.adzuna.co.uk/jobs/details/5916624589?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "5b9fc0d49fd0",
+   "company": "AIG Insurance",
+   "title": "Specialist Underwriting Assistant",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: commercial, operations"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5916622728?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-07T09:31:33Z",
+   "excerpt": "Join us as a Specialist Underwriter Assistant to take your career to the next level with a global market leader. How you will make an impact As a Specialist in our Underwriting Operations Team in Commercial property , you will be responsible for providing efficient and high-quality support to the UK Underwriting and Operations Teams. You will support the end-to-end underwriting/operations process through regular liaison with other functions to ensure the highest quality of service is delivered …",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5916622728",
+     "url": "https://www.adzuna.co.uk/jobs/details/5916622728?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "13e8df00953c",
+   "company": "The Hartford",
+   "title": "Assistant Underwriter - Professional Liability",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance, risk"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5909699508?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-04T02:27:50Z",
+   "excerpt": "INTL Assistant Underwriter - UW09YY We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too. Join our team as we help shape the future. Job Purpose The Assistant Underwriter will support the Professional Liability underwriting team in evaluating and selecting risks, contributing to the profitable growth of the portfoli…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5910738347",
+     "url": "https://www.adzuna.co.uk/jobs/details/5910738347?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    },
+    {
+     "source": "adzuna",
+     "source_id": "5909699508",
+     "url": "https://www.adzuna.co.uk/jobs/details/5909699508?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "6efb550ead5f",
+   "company": "Mitsui Sumitomo Insurance",
+   "title": "Underwriting Analyst",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5909687887?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-03T09:18:28Z",
+   "excerpt": "Underwriting Analyst Full Time Division: Marine Department: Underwriting Management Reports To: Assistant Underwriting Manager Location: London OR Rotterdam MSIG Specialty Marine Background MSIG Specialty Marine is a captive managing general agent (cover holder) that offers tailored marine insurance solutions. We can combine multiple carrier options, giving A-rating capital flexibility. Backed up by one of the largest teams of underwriters and claims handlers in Europe we provide the service, k…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5909687887",
+     "url": "https://www.adzuna.co.uk/jobs/details/5909687887?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "2fa7fc3336e6",
+   "company": "Heitman",
+   "title": "Analyst, Portfolio Management",
+   "category": "finance",
+   "category_label": "Finance, Investment & Asset Management",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Finance, Investment & Asset Management (tier 1 interest)",
+    "Draws on: reporting"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5909681925?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Finance & Investment CV",
+   "posted": "2026-10-03T09:11:46Z",
+   "excerpt": "Description This Opportunity Heitman is seeking a highly analytical and motivated Portfolio Analyst to support the management of European real estate investment portfolios. Working closely with Portfolio Managers, Asset Managers, Finance, Acquisitions teams and Investor Relations professionals, the successful candidate will play a key role in portfolio analysis, fund modelling, performance monitoring, strategic asset allocation and investor reporting. R esponsibilities include, but are not limi…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5909681925",
+     "url": "https://www.adzuna.co.uk/jobs/details/5909681925?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "002c2b89a1b2",
+   "company": "Aviva",
+   "title": "Assistant Property Underwriter",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: commercial"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "part_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5909442315?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-03T06:09:43Z",
+   "excerpt": "This is a great job for someone who Is looking to build or develop a career in commercial property underwriting. You'll enjoy working in a collaborative team, building relationships with brokers, and supporting the delivery of great customer outcomes. This role would suit someone who is organised, detail-oriented and keen to develop their technical underwriting knowledge within a growing business area. A bit about the job You'll join our Corporate Property team within Global Corporate & Special…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5909442315",
+     "url": "https://www.adzuna.co.uk/jobs/details/5909442315?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "296f4237465d",
+   "company": "AXIS",
+   "title": "Underwriting Assistant",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: insurance, risk"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5907659535?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-10-02T09:12:26Z",
+   "excerpt": "This is your opportunity to join AXIS Capital – a trusted global provider of specialty lines insurance and reinsurance. We stand apart for our outstanding client service, intelligent risk taking and superior risk adjusted returns for our shareholders. We also proudly maintain an entrepreneurial, disciplined and ethical corporate culture. As a member of AXIS, you join a team that is among the best in the industry. At AXIS, we believe that we are only as strong as our people. We strive to create …",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5907659535",
+     "url": "https://www.adzuna.co.uk/jobs/details/5907659535?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "8af8ab5e6fab",
+   "company": "G MASS",
+   "title": "Junior Underwriter & Operations Assistant - Professional Liability",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: operations"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£30,000",
+   "employment_type": "contract",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5896822019?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-09-24T13:44:30Z",
+   "excerpt": "This role is a graduate opportunity to join a specialist, fast-growing London Market MGA. You will take on the underwriting of a small-ticket US miscellaneous professional liability book, and you will also support the core operational processes behind the business. You will work closely with the MGA's founder and senior underwriting team. You'll handle a steady, high-volume flow of submissions on a modern, AI-enabled underwriting platform, apply underwriting guidelines and binder authority, and…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5896822019",
+     "url": "https://www.adzuna.co.uk/jobs/details/5896822019?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "c2c99e33f856",
+   "company": "Endurance Business Services",
+   "title": "Assistant Underwriter",
+   "category": "risk",
+   "category_label": "Risk, Insurance & Actuarial",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London, UK",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": null,
+   "deadline_confidence": "Unconfirmed",
+   "deadline_evidence": "",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Risk, Insurance & Actuarial (tier 1 interest)",
+    "Draws on: actuarial, operations"
+   ],
+   "missing": [
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "full_time",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5895235013?utm_medium=api&utm_source=09779821",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Risk Management CV",
+   "posted": "2026-09-23T14:57:16Z",
+   "excerpt": "Job Description Are you looking for your next opportunity? Sompo has a unique opportunity for an Assistant Underwriter in our Cross-Class Portfolio team. Our Cross-Class Portfolio team supports the effective underwriting and management of casualty and specialty programme business across the underwriting lifecycle. Working closely with underwriters, brokers, coverholders, operations, claims and actuarial teams, the team helps deliver strong delegated authority oversight, high-quality underwritin…",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "adzuna",
+     "source_id": "5895235013",
+     "url": "https://www.adzuna.co.uk/jobs/details/5895235013?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "4cd4f76ad0ca",
+   "company": "MLC Partners",
+   "title": "Interim Finance Analyst (regeneration) - Local authority",
+   "category": "finance",
+   "category_label": "Finance, Investment & Asset Management",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-23",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Finance, Investment & Asset Management (tier 1 interest)",
+    "Draws on: climate, financial"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£350",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/interim-finance-analyst-regeneration-local-authority/57334580",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Finance & Investment CV",
+   "posted": "2026-09-11",
+   "excerpt": "We are seeking an experienced Interim Finance Analyst/SFO to support the Regeneration Division within the Housing & Regeneration Department. The role will provide financial management, analysis, and business partnering support across both revenue and capital budgets, covering service areas including: Corporate Estates Facilities Management Climate Change & Natural Reserves Planning & Building Control Catering Service Key Requirements...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57334580",
+     "url": "https://www.reed.co.uk/jobs/interim-finance-analyst-regeneration-local-authority/57334580",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "4ac6a830b017",
+   "company": "Norfolk Capsey",
+   "title": "Marketing & BD Executive",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-28",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: stakeholder"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/marketing-bd-executive/57352181",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-16",
+   "excerpt": "An established and highly regarded professional services firm is looking for a Marketing & Business Development Executive to join its growing team. This is a varied, hands-on role combining business development, marketing and communications, with the opportunity to work closely with senior stakeholders across the organisation. Key responsibilities include: Managing professional directory submissions and rankings processes. Supporting busines...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57352181",
+     "url": "https://www.reed.co.uk/jobs/marketing-bd-executive/57352181",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "e9ad273a61f0",
+   "company": "Norfolk Capsey",
+   "title": "BD Executive - mid sized law firm",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-27",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/bd-executive-mid-sized-law-firm/57350749",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-15",
+   "excerpt": "Business Development Executive | London We’re working with a leading professional services firm on an exciting opportunity for a Business Development Executive to join their collaborative and growing BD team. This is a hands-on role with plenty of scope to take ownership, working closely with lawyers across client development, targeting and new business activity. The role will include: • Owning client development & targeting initiatives • Ma...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57350749",
+     "url": "https://www.reed.co.uk/jobs/bd-executive-mid-sized-law-firm/57350749",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "be2254357087",
+   "company": "Ferreira Young Recruitment",
+   "title": "Executive Researcher / Search Associate",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-26",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: research"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£55,000 – £60,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-researcher-search-associate/57344036",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-14",
+   "excerpt": "Executive Researcher / Search Associate Executive Search & Leadership Advisory | Central London 55,000- 60,000 + Bonus + great bens Full-Time | Initially Office-Based 4-5 days | Hybrid Working (3-4 Days per week in the Office Following Onboarding) An Opportunity to Build Something Different We're partnered with a growing specialist executive search and leadership advisory firm that works with leading organisations, investors and senior execu...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57344036",
+     "url": "https://www.reed.co.uk/jobs/executive-researcher-search-associate/57344036",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "caad8c732707",
+   "company": "Ferreira Young Recruitment",
+   "title": "Researcher / Associate",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-23",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: research"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£55,000 – £60,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/researcher-associate/57336450",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-11",
+   "excerpt": "Researcher / Associate Executive Search & Leadership Advisory | Central London 55,000- 60,000 + Bonus + great bens Full-Time | Initially Office-Based 4-5 days | Hybrid Working (3-4 Days per Week in the Office Following Onboarding) An Opportunity to Build Something Different We're partnered with a growing specialist executive search and leadership advisory firm that works with leading organisations, investors and senior executives to solve co...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57336450",
+     "url": "https://www.reed.co.uk/jobs/researcher-associate/57336450",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "bf3c854d22ea",
+   "company": "Adecco",
+   "title": "Fundraising Executive",
+   "category": "finance",
+   "category_label": "Finance, Investment & Asset Management",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-20",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Finance, Investment & Asset Management (tier 1 interest)"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£26",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/fundraising-executive/57443471",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Finance & Investment CV",
+   "posted": "2026-10-09",
+   "excerpt": "Business School (IB) Philanthropy Executive Hourly Rate: 26.41 Contract Length: 3 months Working Pattern: Full Time Location: White City. Hybrid working 2/3 days in office per week Our client, a prominent institution in the field of business education, is seeking an enthusiastic and driven Fundraising Executive to join their Regular Giving and Legacy Giving Team within the Advancement Division. This temporary position is a fantastic opportunity ...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57443471",
+     "url": "https://www.reed.co.uk/jobs/fundraising-executive/57443471",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "2014d9beab4b",
+   "company": "Hays Specialist Recruitment Limited",
+   "title": "Executive Assistant",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-17",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: excel, research, stakeholder, supervis"
+   ],
+   "missing": [],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": []
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "Temporary",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-assistant/57426681",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-06",
+   "excerpt": "6-month Contract | London | Hybrid Working 35 Hours per Week\nAre you an experienced Senior Administrator or Personal Assistant looking to make a meaningful impact within a national charity and progress into an Executive Assistant role? We are seeking a highly organised, proactive and confident Executive Assistant to provide dedicated support to two Directors in a complex and fast-paced environment. Acting as a trusted gatekeeper, you will manage competing priorities, build strong stakeholder rel",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57426681",
+     "url": "https://www.reed.co.uk/jobs/executive-assistant/57426681",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:24+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:24+00:00",
+   "last_seen": "2026-10-11T00:43:24+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:24+00:00",
+     "field": "fit",
+     "from": 2,
+     "to": 3
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "c5df94185530",
+   "company": "Pursuit Resources Group",
+   "title": "Executive Administrator",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-03",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£30,000 – £35,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-administrator/57427719",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-06",
+   "excerpt": "Location: Remote, with a requirement to be in central London once a week. Please note, you will only be considered if you are within a commutable distance to London. Hours: Full-time, 35 hrs per week, 9am to 5pm Salary: Upto 35,000 Please note: this role is offered on a self-employed basis, so applicants must be registered as self-employed or willing to set up as self-employed before starting Pursuit Group is delighted to be working with a growi...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57427719",
+     "url": "https://www.reed.co.uk/jobs/executive-administrator/57427719",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "1422717a19a0",
+   "company": "Signet Resources",
+   "title": "Showroom Executive",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-29",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£35,000 – £40,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/showroom-executive/57358210",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-17",
+   "excerpt": "Are you someone who genuinely loves luxury fashion and understands that exceptional service is all about the little details? We’re looking for a Luxury Showroom Executive to take ownership of a beautiful London showroom for an exciting and established global luxury fashion business. This isn’t your typical retail role. You’ll be the face of the showroom, creating a warm, polished and completely personalised experience for every client who walks ...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57358210",
+     "url": "https://www.reed.co.uk/jobs/showroom-executive/57358210",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "4df92372a185",
+   "company": "Pursuit Resources Group",
+   "title": "Executive Assistant",
+   "category": "ops",
+   "category_label": "Operations, Transformation & Project Mgmt",
+   "tier": 2,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-29",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Operations, Transformation & Project Mgmt (tier 2 interest)",
+    "Draws on: operations, research, stakeholder"
+   ],
+   "missing": [
+    "States right-to-work/sponsorship terms: Does not offer sponsorship"
+   ],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [
+     "Does not offer sponsorship"
+    ],
+    "issues": [
+     "States right-to-work/sponsorship terms: Does not offer sponsorship"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£30,000 – £35,000",
+   "employment_type": "Permanent",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-assistant/57411838",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Operations & Project Management CV",
+   "posted": "2026-10-01",
+   "excerpt": "Location : Remote, with a requirement to be in central London once a week. Please note, you will only be considered if you are within a commutable distance to London.\n Hours: Full-time, 35hrs per week, 9am to 5pm\n Salary: Upto £35,000\n THE COMPANY \n Our client is a rapidly growing healthcare company who supports people with addiction. They are going from strength to strength and have built a strong reputation within its sector and is now scaling its operations, team, and client base. As growth a",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57411838",
+     "url": "https://www.reed.co.uk/jobs/executive-assistant/57411838",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:27+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:27+00:00",
+   "last_seen": "2026-10-11T00:43:27+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:27+00:00",
+     "field": "fit",
+     "from": 2,
+     "to": 3
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "47229531d09b",
+   "company": "Seven",
+   "title": "Category Executive",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "Slough",
+   "location_class": "Commuter belt",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-21",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: research"
+   ],
+   "missing": [
+    "Outside London (commuter belt)",
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£28,000 – £30,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/category-executive/57326302",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-09",
+   "excerpt": "Our client: Leading food organisation working across all out of home sectors both public and private sector Fantastic culture focused on personal development that offers flexible hybrid working Clear strategy focused on sales and profit growth. Research & insights are at the centre of decision making The role: As category executive you will support the category managers and the development of growth campaigns to increase market share and dri...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57326302",
+     "url": "https://www.reed.co.uk/jobs/category-executive/57326302",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "6de99a87b8bf",
+   "company": "Royal College of Surgeons",
+   "title": "Executive Assistant (Executive Office)",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-16",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "r, please contact \n Closing date: Friday 16 October 2026",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: data, excel, financial, research, stakeholder"
+   ],
+   "missing": [],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [
+     "Excel"
+    ],
+    "technical_strong": [
+     "Excel"
+    ],
+    "right_to_work": [],
+    "issues": []
+   },
+   "experience_years": null,
+   "salary": "£43,033",
+   "employment_type": "Permanent",
+   "apply_url": "https://www.reed.co.uk/jobs/executive-assistant-executive-office/57418009",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-02",
+   "excerpt": "Job Title – Executive Assistant (Executive Office) \n Salary – from £43,033 per annum \n Contract Type – Permanent, full-time (35 hours) \n Location – We fully support flexible working, from our superb offices in Holborn and from home. We do require staff to spend 20% of their time in the office. This is subject to role requirements. For this role it will require 2 to 3 days in the office.\n About us \n Do you want to change healthcare for the better? \n Join the Royal College of Surgeons of England (",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57418009",
+     "url": "https://www.reed.co.uk/jobs/executive-assistant-executive-office/57418009",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:29+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:29+00:00",
+   "last_seen": "2026-10-11T00:43:29+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:29+00:00",
+     "field": "fit",
+     "from": 2,
+     "to": 3
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "991174b912d0",
+   "company": "Tenerity",
+   "title": "Junior Partnerships Executive",
+   "category": "strategy",
+   "category_label": "Strategy & Management Consulting",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-09",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 4,
+   "why": [
+    "Strategy & Management Consulting (tier 1 interest)",
+    "Draws on: data, excel, insurance, market research, optimisation, reporting"
+   ],
+   "missing": [],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": []
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "Permanent",
+   "apply_url": "https://www.reed.co.uk/jobs/junior-partnerships-executive/57399820",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Strategy & Consulting CV",
+   "posted": "2026-09-28",
+   "excerpt": "Job Title : Junior Partnerships Executive\n Location: London / Hybrid (2 days in the office/3 WFH)\n Salary : Competitive \n Job Type: Full Time, Permanent \n About The Role: \n The Junior Partnership Executive will assist in developing and maintaining strategic partnerships to drive business growth. This role involves supporting the Partnership Managers in managing partners, conducting market research, and analysing partnership opportunities.\n You will engage in outreach efforts, help build relation",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57399820",
+     "url": "https://www.reed.co.uk/jobs/junior-partnerships-executive/57399820",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:30+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:30+00:00",
+   "last_seen": "2026-10-11T00:43:30+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:30+00:00",
+     "field": "fit",
+     "from": 3,
+     "to": 4
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "5f8c0993987e",
+   "company": "FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin",
+   "title": "Amazon PPC Executive",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-12",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/amazon-ppc-executive/57413516",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-01",
+   "excerpt": "Amazon PPC Executive Location: London Our client is looking for a Amazon PPC Executive to join their team on a full time permeant basis. As an Amazon PPC Executive, you will be at the forefront of managing and optimising Amazon advertising campaigns to drive traffic and sales. This role requires a blend of technical expertise, analytical skills, and strong communication abilities. You will play a pivotal role in the company's marketing efforts, ...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57413516",
+     "url": "https://www.reed.co.uk/jobs/amazon-ppc-executive/57413516",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "c07a30db010f",
+   "company": "THE CHANNEL RECRUITER LTD",
+   "title": "PPC Executive (Dutch Speaking)",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "Hemel Hempstead",
+   "location_class": "Commuter belt",
+   "location_confidence": "High",
+   "work_arrangement": "Hybrid",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-20",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: insurance"
+   ],
+   "missing": [
+    "Outside London (commuter belt)",
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£32,000 – £35,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/ppc-executive-dutch-speaking/57322994",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-08",
+   "excerpt": "PPC Executive (Dutch Speaking) Salary: Up to 35,000 Location: Hemel Hempstead, Hertfordshire – hybrid working with three days in the office and two days remotely Hours: Monday to Friday, 08:30–17:30 Benefits: 6% pension contribution, life insurance, Employee Assistance Programme, 25 days’ holiday increasing to 30 days with service, staff discount and optional Bupa healthcare. Spreek jij vloeiend Nederlands en wil je je carrière in performance ma...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57322994",
+     "url": "https://www.reed.co.uk/jobs/ppc-executive-dutch-speaking/57322994",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "16e5aa743ce3",
+   "company": "Office Angels",
+   "title": "Sponsorship Sales & Partnerships Executive",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "South West London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Office",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-10-21",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 2,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: commercial"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "£30,000 – £35,000",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/sponsorship-sales-partnerships-executive/57325509",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-09-09",
+   "excerpt": "Sponsorship Sales & Partnerships Executive Location: Wimbledon, South West London Salary: 30- 35k Hours: Monday to Friday Working Pattern: Full-Time, Office-Based The Opportunity An established organisation within the sports, events and leisure sector is seeking a driven Sponsorship Sales & Partnerships Executive to join its commercial team. This is an exciting opportunity for an ambitious sales professional with experience in sponsorshi...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57325509",
+     "url": "https://www.reed.co.uk/jobs/sponsorship-sales-partnerships-executive/57325509",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "485d6fe77cff",
+   "company": "eFinancialCareers",
+   "title": "Machine Learning Researcher- Award-Winning Global Market Maker",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-05",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 3,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: data, research"
+   ],
+   "missing": [
+    "Seniority not stated in the advert snippet — check it's entry-level",
+    "Only an advert snippet was available — read the full posting for eligibility"
+   ],
+   "eligibility": {
+    "verdict": "Check eligibility",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Only an advert snippet was available — read the full posting for eligibility"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/machine-learning-researcher-award-winning-global-market-maker/57390921",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-08",
+   "excerpt": "Salary: 250-300k base Summary Highly skilled ML Researcher wanted for a leading global market maker to join one of their trading teams. This role offers the opportunity to join a firm-wide project, scaling up the alpha deep learning models, and leveraging innovative ideas and petabyte-scale data into models with an immediate impact on trading. In this role, you will own the full research lifecycle end-to-end, iterate quickly and operate with hig...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57438944",
+     "url": "https://www.reed.co.uk/jobs/machine-learning-researcher-award-winning-global-market-maker/57438944",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    },
+    {
+     "source": "reed",
+     "source_id": "57390921",
+     "url": "https://www.reed.co.uk/jobs/machine-learning-researcher-award-winning-global-market-maker/57390921",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:18+00:00",
+     "field": "deadline",
+     "from": "2026-11-19",
+     "to": "2026-11-05"
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "7b6772ad8b05",
+   "company": "eFinancialCareers",
+   "title": "PhD/Post-Doctoral Researcher ML Quantitative Researcher - London/Paris",
+   "category": "other",
+   "category_label": "Other Relevant (incl. science-led paths)",
+   "tier": 3,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-19",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 1,
+   "why": [
+    "Other Relevant (incl. science-led paths) (tier 3 interest)",
+    "Draws on: quantitative, research"
+   ],
+   "missing": [
+    "Aimed at PhD candidates/holders",
+    "Seniority not stated in the advert snippet — check it's entry-level"
+   ],
+   "eligibility": {
+    "verdict": "Likely ineligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": [
+     "Aimed at PhD candidates/holders"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/phd-post-doctoral-researcher-ml-quantitative-researcher-london-paris/57439378",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Graduate Programmes CV",
+   "posted": "2026-10-08",
+   "excerpt": "200000 GBP Discretionary Bonus Onsite WORKING Location: Paris, Central London, Central - United Kingdom Type: Permanent PhD/Postdoc ML Quantitative Researcher Role Overview: My client is a leading global market-maker who are searching for exceptional ML Quantitative Researchers to join high-impact teams focused on systematic trading, predictive modelling, and machine learning research. These roles offer the opportunity to work in fast-paced, col...",
+   "full_text": false,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57439378",
+     "url": "https://www.reed.co.uk/jobs/phd-post-doctoral-researcher-ml-quantitative-researcher-london-paris/57439378",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": []
+  },
+  {
+   "id": "0c664887358e",
+   "company": "eFinancialCareers",
+   "title": "Junior Quantitative Researcher - Systematic Strategies",
+   "category": "finance",
+   "category_label": "Finance, Investment & Asset Management",
+   "tier": 1,
+   "type": "Entry-Level",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2027-09-20",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Ability to start no later than September 20",
+   "rolling": false,
+   "cycle": "Rolling / immediate",
+   "fit": 4,
+   "why": [
+    "Finance, Investment & Asset Management (tier 1 interest)",
+    "Draws on: data, financial, markets, quantitative, research, science"
+   ],
+   "missing": [
+    "Mentions C++ (not on your CV)",
+    "States right-to-work/sponsorship terms: Right to work in the uk"
+   ],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "STEM/any discipline",
+    "technical_requirements": [
+     "Python",
+     "C++"
+    ],
+    "technical_strong": [],
+    "right_to_work": [
+     "Right to work in the uk"
+    ],
+    "issues": [
+     "States right-to-work/sponsorship terms: Right to work in the uk"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "Permanent",
+   "apply_url": "https://www.reed.co.uk/jobs/junior-quantitative-researcher-systematic-strategies/57438941",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Finance & Investment CV",
+   "posted": "2026-10-08",
+   "excerpt": "London | Start by September 2026 \n We are partnering with a leading systematic investment team in London seeking an exceptional early-career Quantitative Researcher to join a high-performing, research-driven environment.\n This is a rare opportunity to work directly alongside experienced portfolio managers and researchers, contributing to live trading strategies from the outset. The team operates at the intersection of data science, financial theory, and advanced engineering, with a strong emphas",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57438941",
+     "url": "https://www.reed.co.uk/jobs/junior-quantitative-researcher-systematic-strategies/57438941",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:36+00:00"
+    },
+    {
+     "source": "reed",
+     "source_id": "57389590",
+     "url": "https://www.reed.co.uk/jobs/junior-quantitative-researcher-systematic-strategies/57389590",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:36+00:00",
+   "last_seen": "2026-10-11T00:43:36+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:18+00:00",
+     "field": "deadline",
+     "from": "2026-11-19",
+     "to": "2026-11-05"
+    },
+    {
+     "at": "2026-10-11T00:43:36+00:00",
+     "field": "deadline",
+     "from": "2026-11-05",
+     "to": "2027-09-20"
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "26572f82ac50",
+   "company": "Armstrong Vinton Furniture Ltd",
+   "title": "Trainee Junior Project Assistant - Bespoke Furniture",
+   "category": "ops",
+   "category_label": "Operations, Transformation & Project Mgmt",
+   "tier": 2,
+   "type": "Graduate",
+   "location": "London",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-03",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
+   "rolling": false,
+   "cycle": "Not stated",
+   "fit": 4,
+   "why": [
+    "Operations, Transformation & Project Mgmt (tier 2 interest)",
+    "Draws on: commercial"
+   ],
+   "missing": [],
+   "eligibility": {
+    "verdict": "Likely eligible",
+    "graduation_years": [],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "Not stated",
+    "technical_requirements": [],
+    "technical_strong": [],
+    "right_to_work": [],
+    "issues": []
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "Permanent",
+   "apply_url": "https://www.reed.co.uk/jobs/trainee-junior-project-assistant-bespoke-furniture/57380061",
+   "official": false,
+   "official_source": "",
+   "recommended_cv": "Operations & Project Management CV",
+   "posted": "2026-09-22",
+   "excerpt": "Graduate Trainee – Bespoke Furniture – Junior Project Assistant \n Armstrong Vinton Furniture Ltd – Parsons Green, London \n Armstrong Vinton Furniture is looking for a Graduate Trainee who wants to build a career in the bespoke furniture and joinery industry.\n This is a two-year training programme offering practical experience across the whole business, from learning how furniture is made on the workshop floor to developing the technical and commercial skills needed to manage projects.\n The aim o",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "reed",
+     "source_id": "57380061",
+     "url": "https://www.reed.co.uk/jobs/trainee-junior-project-assistant-bespoke-furniture/57380061",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:37+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:37+00:00",
+   "last_seen": "2026-10-11T00:43:37+00:00",
+   "status": "Open",
+   "status_reason": "Listed on a live source",
+   "history": [
+    {
+     "at": "2026-10-11T00:43:37+00:00",
+     "field": "fit",
+     "from": 3,
+     "to": 4
+    }
+   ],
+   "verify_failures": 0,
+   "absent_count": 0
+  },
+  {
+   "id": "1962e6c6c9b2",
+   "company": "Monzo",
+   "title": "Associate Data Scientist - Intern",
+   "category": "data",
+   "category_label": "Data Analytics & BI",
+   "tier": 1,
+   "type": "Summer Internship",
+   "location": "London Cardiff, London or Remote (UK)",
+   "location_class": "London",
+   "location_confidence": "High",
+   "work_arrangement": "Not stated",
+   "start_date": null,
+   "opening_date": null,
+   "opening_confidence": "Unconfirmed",
+   "deadline": "2026-11-01",
+   "deadline_confidence": "Confirmed",
+   "deadline_evidence": "s through Monzo ❤️\n Closing Date 1st November 2026",
+   "rolling": true,
+   "cycle": "2028 cycle",
+   "fit": 2,
+   "why": [
+    "Data Analytics & BI (tier 1 interest)",
+    "Draws on: analytics, commercial, data, financial, science",
+    "Values a science/STEM degree like your Chemistry BSc"
+   ],
+   "missing": [
+    "Targets 2028 graduates; you graduate in 2027",
+    "States right-to-work/sponsorship terms: Right to work in the uk; Visa sponsorship"
+   ],
+   "eligibility": {
+    "verdict": "Likely ineligible",
+    "graduation_years": [
+     2028
+    ],
+    "masters_eligible": "Not stated",
+    "final_year_eligible": "Not stated",
+    "return_to_study_required": "Not stated",
+    "degree_class": "Not stated",
+    "degree_subjects": "STEM or Computer Science with exposure to",
+    "technical_requirements": [
+     "Python",
+     "SQL"
+    ],
+    "technical_strong": [],
+    "right_to_work": [
+     "Right to work in the uk",
+     "Visa sponsorship"
+    ],
+    "issues": [
+     "Targets 2028 graduates; you graduate in 2027",
+     "States right-to-work/sponsorship terms: Right to work in the uk; Visa sponsorship"
+    ]
+   },
+   "experience_years": null,
+   "salary": "",
+   "employment_type": "",
+   "apply_url": "https://job-boards.greenhouse.io/monzo/jobs/8232726",
+   "official": true,
+   "official_source": "greenhouse",
+   "recommended_cv": "Data Analytics CV",
+   "posted": "2026-09-28",
+   "excerpt": "🚀 We’re on a mission to make money work for everyone. \n We’re waving goodbye to the complicated and confusing ways of traditional banking.\n After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as  personal and business bank accounts, we offer joint accounts , accounts for 16-17 year olds , a free kids account and credit cards in the UK, with more exciting things to come beyond. Our UK customers can also save , invest and  combine their pe",
+   "full_text": true,
+   "sources": [
+    {
+     "source": "greenhouse:monzo",
+     "source_id": "8232726",
+     "url": "https://job-boards.greenhouse.io/monzo/jobs/8232726",
+     "first_seen": "2026-10-11T00:43:18+00:00",
+     "last_seen": "2026-10-11T00:43:18+00:00"
+    }
+   ],
+   "first_discovered": "2026-10-11T00:43:18+00:00",
+   "last_verified": "2026-10-11T00:43:18+00:00",
+   "last_seen": "2026-10-11T00:43:18+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": []
