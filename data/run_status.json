@@ -1,38 +1,38 @@
 {
  "last_run": {
-  "started": "2026-10-12T06:33:22+00:00",
-  "finished": "2026-10-12T06:35:17+00:00",
-  "duration_s": 115.3,
+  "started": "2026-10-12T08:28:16+00:00",
+  "finished": "2026-10-12T08:30:00+00:00",
+  "duration_s": 104.0,
   "bootstrap": false,
-  "raw_jobs": 3945,
-  "new_roles": 39,
-  "new_companies_queued": 29,
-  "new_employer_boards": 2,
+  "raw_jobs": 3296,
+  "new_roles": 23,
+  "new_companies_queued": 10,
+  "new_employer_boards": 0,
   "rejected": {
-   "location not London": 2382,
-   "title matches excluded pattern": 787,
-   "not clearly entry-level": 265,
-   "manager-level title": 135,
-   "text matches excluded pattern": 25,
-   "training provider": 20,
-   "requires 5+ years": 9,
+   "location not London": 2024,
+   "title matches excluded pattern": 691,
+   "not clearly entry-level": 172,
+   "manager-level title": 139,
+   "text matches excluded pattern": 36,
+   "requires 3+ years": 9,
    "requires 4+ years": 8,
-   "requires 3+ years": 8,
-   "requires 7+ years": 3
+   "requires 5+ years": 7,
+   "requires 7+ years": 3,
+   "training provider": 2,
+   "requires 12+ years": 1
   },
   "events": {
-   "deadline_later": 7,
-   "deadline_earlier": 2,
-   "new": 39
+   "new": 23,
+   "status_changed": 1
   },
   "alerts": {
    "configured": false,
-   "candidates": 10,
+   "candidates": 14,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-12T06:35:17+00:00"
+   "at": "2026-10-12T08:30:00+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
@@ -50,10 +50,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 244,
+    "jobs_found": 222,
     "errors": [],
-    "note": "120 calls this month; per query (returned/total): summer associate: 11/11; placement 2027: 47/47; graduate consultant: 50/3047; junior consultant: 50/3047; strategy analyst: 36/36; graduate management consultant: 50/405",
-    "checked_at": "2026-10-12T06:33:22+00:00"
+    "note": "126 calls this month; per query (returned/total): consulting analyst: 50/91; business advisory graduate: 50/90; graduate data analyst: 50/90; junior data analyst: 50/90; business intelligence analyst graduate: 14/14; insight analyst graduate: 8/8",
+    "checked_at": "2026-10-12T08:28:16+00:00"
    },
    {
     "name": "Reed",
@@ -61,10 +61,10 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 885,
+    "jobs_found": 261,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-12T06:33:35+00:00"
+    "checked_at": "2026-10-12T08:28:30+00:00"
    },
    {
     "name": "Employer board discovery",
@@ -72,10 +72,10 @@
     "ok": true,
     "calls": 12,
     "failures": 0,
-    "jobs_found": 2,
+    "jobs_found": 0,
     "errors": [],
-    "note": "2 new employer boards found; 751 employers queued",
-    "checked_at": "2026-10-12T06:33:51+00:00"
+    "note": "0 new employer boards found; 749 employers queued",
+    "checked_at": "2026-10-12T08:28:45+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -83,10 +83,10 @@
     "ok": true,
     "calls": 48,
     "failures": 0,
-    "jobs_found": 2816,
+    "jobs_found": 2813,
     "errors": [],
     "note": "48 boards checked; 48 active boards in registry",
-    "checked_at": "2026-10-12T06:34:19+00:00"
+    "checked_at": "2026-10-12T08:29:01+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -97,7 +97,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-12T06:34:36+00:00"
+    "checked_at": "2026-10-12T08:29:20+00:00"
    }
   ],
   "manual_sources": [
@@ -152,11 +152,11 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 645,
-  "companies": 324,
+  "total_roles": 668,
+  "companies": 331,
   "boards_active": 48
  },
- "last_successful_search": "2026-10-12T06:35:17+00:00",
+ "last_successful_search": "2026-10-12T08:30:00+00:00",
  "history": [
   {
    "at": "2026-10-11T00:37:21+00:00",
@@ -276,6 +276,12 @@
    "at": "2026-10-12T06:35:17+00:00",
    "new": 39,
    "raw": 3945,
+   "ok": true
+  },
+  {
+   "at": "2026-10-12T08:30:00+00:00",
+   "new": 23,
+   "raw": 3296,
    "ok": true
   }
  ]
