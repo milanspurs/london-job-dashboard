@@ -1,31 +1,29 @@
 {
  "last_run": {
-  "started": "2026-10-21T16:35:59+00:00",
-  "finished": "2026-10-21T16:37:53+00:00",
-  "duration_s": 114.0,
+  "started": "2026-10-21T18:38:42+00:00",
+  "finished": "2026-10-21T18:40:33+00:00",
+  "duration_s": 111.0,
   "bootstrap": false,
-  "raw_jobs": 6444,
-  "new_roles": 1,
-  "new_companies_queued": 1,
-  "new_employer_boards": 3,
+  "raw_jobs": 6473,
+  "new_roles": 0,
+  "new_companies_queued": 0,
+  "new_employer_boards": 0,
   "rejected": {
-   "location not London": 3666,
-   "not clearly entry-level": 1669,
-   "title matches excluded pattern": 603,
-   "manager-level title": 81,
-   "requires 3+ years": 74,
-   "text matches excluded pattern": 36,
-   "training provider": 17,
-   "requires 25+ years": 10,
-   "requires 5+ years": 9,
-   "missing title/company": 2,
-   "insight/spring week": 1,
-   "requires 4+ years": 1
+   "location not London": 5459,
+   "title matches excluded pattern": 555,
+   "not clearly entry-level": 184,
+   "manager-level title": 102,
+   "requires 4+ years": 10,
+   "requires 5+ years": 10,
+   "text matches excluded pattern": 7,
+   "missing title/company": 6,
+   "requires 3+ years": 6,
+   "training provider": 3,
+   "requires 7+ years": 3,
+   "requires 6+ years": 2
   },
   "events": {
-   "new": 1,
-   "status_changed": 5,
-   "deadline_found": 1
+   "status_changed": 7
   },
   "alerts": {
    "configured": false,
@@ -34,7 +32,7 @@
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-21T16:37:53+00:00"
+   "at": "2026-10-21T18:40:33+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
@@ -42,8 +40,8 @@
    "api.adzuna.com": 6,
    "www.reed.co.uk": 56,
    "boards-api.greenhouse.io": 66,
-   "api.lever.co": 24,
-   "api.ashbyhq.com": 42
+   "api.lever.co": 27,
+   "api.ashbyhq.com": 38
   },
   "sources": [
    {
@@ -52,10 +50,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 78,
+    "jobs_found": 50,
     "errors": [],
-    "note": "798 calls this month; per query (returned/total): junior analyst fund: 5/5; fund accounting graduate: 11/11; graduate analyst bank: 23/23; graduate sustainability consultant: 39/39; esg analyst graduate: 0/0; junior esg analyst: 0/0",
-    "checked_at": "2026-10-21T16:35:59+00:00"
+    "note": "804 calls this month; per query (returned/total): environmental consultant graduate: 44/44; climate risk analyst: 0/0; sustainability analyst junior: 2/2; carbon analyst graduate: 0/0; energy analyst graduate: 2/2; junior energy analyst: 2/2",
+    "checked_at": "2026-10-21T18:38:42+00:00"
    },
    {
     "name": "Reed",
@@ -63,10 +61,10 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 399,
+    "jobs_found": 402,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-21T16:36:12+00:00"
+    "checked_at": "2026-10-21T18:38:55+00:00"
    },
    {
     "name": "Employer board discovery",
@@ -74,10 +72,10 @@
     "ok": true,
     "calls": 12,
     "failures": 0,
-    "jobs_found": 3,
+    "jobs_found": 0,
     "errors": [],
-    "note": "3 new employer boards found; 216 employers queued",
-    "checked_at": "2026-10-21T16:36:28+00:00"
+    "note": "0 new employer boards found; 204 employers queued",
+    "checked_at": "2026-10-21T18:39:10+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -85,10 +83,10 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 5967,
+    "jobs_found": 6021,
     "errors": [],
     "note": "60 boards checked; 189 active boards in registry",
-    "checked_at": "2026-10-21T16:36:50+00:00"
+    "checked_at": "2026-10-21T18:39:23+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -99,7 +97,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-21T16:37:12+00:00"
+    "checked_at": "2026-10-21T18:39:44+00:00"
    }
   ],
   "manual_sources": [
@@ -158,14 +156,8 @@
   "companies": 637,
   "boards_active": 189
  },
- "last_successful_search": "2026-10-21T16:37:53+00:00",
+ "last_successful_search": "2026-10-21T18:40:33+00:00",
  "history": [
-  {
-   "at": "2026-10-11T18:26:19+00:00",
-   "new": 32,
-   "raw": 2606,
-   "ok": true
-  },
   {
    "at": "2026-10-11T20:23:17+00:00",
    "new": 5,
@@ -878,6 +870,12 @@
    "at": "2026-10-21T16:37:53+00:00",
    "new": 1,
    "raw": 6444,
+   "ok": true
+  },
+  {
+   "at": "2026-10-21T18:40:33+00:00",
+   "new": 0,
+   "raw": 6473,
    "ok": true
   }
  ]
