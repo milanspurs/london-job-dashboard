@@ -1,8 +1,8 @@
 {
  "meta": {
   "schema": 1,
-  "count": 1792,
-  "saved_at": "2026-10-25T12:38:22+00:00"
+  "count": 1791,
+  "saved_at": "2026-10-25T14:31:55+00:00"
  },
  "roles": [
   {
@@ -2130,12 +2130,12 @@
      "source_id": "5424509008",
      "url": "https://job-boards.greenhouse.io/clearviewhealthcarepartners/jobs/5424509008",
      "first_seen": "2026-10-12T10:27:26+00:00",
-     "last_seen": "2026-10-25T04:33:40+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T04:33:40+00:00",
-   "last_seen": "2026-10-25T04:33:40+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -2449,12 +2449,12 @@
      "source_id": "57404173",
      "url": "https://www.reed.co.uk/jobs/fp-a-strategy-analyst/57404173",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -2638,16 +2638,16 @@
    "category_label": "Risk, Insurance & Actuarial",
    "tier": 1,
    "type": "Entry-Level",
-   "location": "London, UK",
+   "location": "London",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Not stated",
    "start_date": null,
    "opening_date": null,
    "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
+   "deadline": "2026-11-10",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
    "rolling": false,
    "cycle": "Rolling / immediate",
    "fit": 3,
@@ -2676,13 +2676,13 @@
    },
    "experience_years": null,
    "salary": "£65,000 – £75,000",
-   "employment_type": "full_time",
-   "apply_url": "https://www.adzuna.co.uk/jobs/details/5930716074?utm_medium=api&utm_source=09779821",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/strategy-business-analyst-insurance/57404143",
    "official": false,
    "official_source": "",
    "recommended_cv": "Risk Management CV",
    "posted": "2026-09-30T04:39:08Z",
-   "excerpt": "A unique opportunity for a driven individual to join a leading global (re)insurance organisation in London. Our client is seeking someone with experience of working in a strategic, analytical, or project management role within the Insurance / Reinsurance sector. You will support the design, coordination and implementation of operational priorities that shape the strategic direction of the Portfolio Management function, working closely with senior leadership and cross-functional teams to drive a…",
+   "excerpt": "A unique opportunity for a driven individual to join a leading global (re)insurance organisation in London. Our client is seeking someone with experience of working in a strategic, analytical, or project management role within the Insurance / Reinsurance sector. You will support the design, coordination and implementation of operational priorities that shape the strategic direction of the Portfolio Management function, working closely with senio...",
    "full_text": false,
    "sources": [
     {
@@ -2697,7 +2697,7 @@
      "source_id": "57404143",
      "url": "https://www.reed.co.uk/jobs/strategy-business-analyst-insurance/57404143",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -2708,17 +2708,11 @@
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
-    {
-     "at": "2026-10-14T10:36:31+00:00",
-     "field": "deadline_confidence",
-     "from": "Unconfirmed",
-     "to": "Indicative"
-    },
     {
      "at": "2026-10-14T22:33:20+00:00",
      "field": "deadline",
@@ -2892,6 +2886,12 @@
      "field": "deadline_confidence",
      "from": "Indicative",
      "to": "Unconfirmed"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline_confidence",
+     "from": "Unconfirmed",
+     "to": "Indicative"
     }
    ],
    "verify_failures": 0,
@@ -3190,7 +3190,7 @@
      "source_id": "57453159",
      "url": "https://www.reed.co.uk/jobs/operations-strategy-analyst/57453159",
      "first_seen": "2026-10-13T16:27:41+00:00",
-     "last_seen": "2026-10-25T00:40:48+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -3201,8 +3201,8 @@
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -3378,7 +3378,7 @@
    "last_verified": "2026-10-13T14:28:41+00:00",
    "last_seen": "2026-10-13T14:28:41+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 11 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-23T14:42:24+00:00",
@@ -3765,12 +3765,12 @@
      "source_id": "5931462345",
      "url": "https://www.adzuna.co.uk/jobs/details/5931462345?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-17T02:32:36+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -4593,12 +4593,12 @@
      "source_id": "57384921",
      "url": "https://www.reed.co.uk/jobs/junior-intermediate-mechanical-design-engineer/57384921",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -4680,12 +4680,12 @@
      "source_id": "57445649",
      "url": "https://www.reed.co.uk/jobs/graduate-associate-value-creations-interpath-advisory/57445649",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -5028,12 +5028,12 @@
      "source_id": "57465040",
      "url": "https://www.reed.co.uk/jobs/acoustic-consultant/57465040",
      "first_seen": "2026-10-16T20:32:45+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -5181,12 +5181,12 @@
      "source_id": "57382584",
      "url": "https://www.reed.co.uk/jobs/junior-m365-consultant-uk-remote-c40k/57382584",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -5260,12 +5260,12 @@
      "source_id": "57417387",
      "url": "https://www.reed.co.uk/jobs/strategy-and-insights-analyst/57417387",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -5411,12 +5411,12 @@
      "source_id": "57350392",
      "url": "https://www.reed.co.uk/jobs/commercial-operations-analyst-mat-leave-cover/57350392",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -5497,12 +5497,12 @@
      "source_id": "57459297",
      "url": "https://www.reed.co.uk/jobs/data-analyst/57459297",
      "first_seen": "2026-10-15T06:43:02+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -5750,12 +5750,12 @@
      "source_id": "57383242",
      "url": "https://www.reed.co.uk/jobs/pricing-analyst/57383242",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -5822,12 +5822,12 @@
      "source_id": "57365411",
      "url": "https://www.reed.co.uk/jobs/trading-analyst/57365411",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -5894,12 +5894,12 @@
      "source_id": "57443043",
      "url": "https://www.reed.co.uk/jobs/customer-analyst/57443043",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -5972,12 +5972,12 @@
      "source_id": "57438461",
      "url": "https://www.reed.co.uk/jobs/finance-analyst/57438461",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -6232,12 +6232,12 @@
      "source_id": "57459542",
      "url": "https://www.reed.co.uk/jobs/marketing-analyst/57459542",
      "first_seen": "2026-10-15T06:43:02+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -6316,12 +6316,12 @@
      "source_id": "57371254",
      "url": "https://www.reed.co.uk/jobs/business-analyst/57371254",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -6400,35 +6400,23 @@
      "source_id": "57415887",
      "url": "https://www.reed.co.uk/jobs/data-analyst/57415887",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "reed",
      "source_id": "57440184",
      "url": "https://www.reed.co.uk/jobs/data-analyst/57440184",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
     {
-     "at": "2026-10-19T10:37:37+00:00",
-     "field": "deadline",
-     "from": "2026-10-30",
-     "to": "2026-11-13"
-    },
-    {
-     "at": "2026-10-19T10:37:37+00:00",
-     "field": "deadline",
-     "from": "2026-11-13",
-     "to": "2026-10-30"
-    },
-    {
      "at": "2026-10-20T00:45:58+00:00",
      "field": "deadline",
      "from": "2026-10-30",
@@ -6592,6 +6580,18 @@
     },
     {
      "at": "2026-10-25T00:40:47+00:00",
+     "field": "deadline",
+     "from": "2026-11-13",
+     "to": "2026-10-30"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline",
+     "from": "2026-10-30",
+     "to": "2026-11-13"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
      "field": "deadline",
      "from": "2026-11-13",
      "to": "2026-10-30"
@@ -6660,12 +6660,12 @@
      "source_id": "57405027",
      "url": "https://www.reed.co.uk/jobs/commercial-analyst/57405027",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -6913,12 +6913,12 @@
      "source_id": "57393222",
      "url": "https://www.reed.co.uk/jobs/digital-analyst/57393222",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -6985,12 +6985,12 @@
      "source_id": "57321445",
      "url": "https://www.reed.co.uk/jobs/pricing-analyst/57321445",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -7064,12 +7064,12 @@
      "source_id": "57400964",
      "url": "https://www.reed.co.uk/jobs/actuarial-pricing-analyst/57400964",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -7229,19 +7229,19 @@
      "source_id": "57397286",
      "url": "https://www.reed.co.uk/jobs/fp-a-analyst/57397286",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "reed",
      "source_id": "57485818",
      "url": "https://www.reed.co.uk/jobs/fp-a-analyst/57485818",
      "first_seen": "2026-10-23T04:35:22+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -7319,6 +7319,18 @@
     },
     {
      "at": "2026-10-25T00:40:47+00:00",
+     "field": "deadline",
+     "from": "2026-12-03",
+     "to": "2026-10-26"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline",
+     "from": "2026-10-26",
+     "to": "2026-12-03"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
      "field": "deadline",
      "from": "2026-12-03",
      "to": "2026-10-26"
@@ -7466,12 +7478,12 @@
      "source_id": "57442828",
      "url": "https://www.reed.co.uk/jobs/it-business-analyst/57442828",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -7538,12 +7550,12 @@
      "source_id": "57442707",
      "url": "https://www.reed.co.uk/jobs/retail-data-analyst/57442707",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -7610,12 +7622,12 @@
      "source_id": "57402875",
      "url": "https://www.reed.co.uk/jobs/business-data-analyst/57402875",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -7687,7 +7699,7 @@
      "source_id": "57406485",
      "url": "https://www.reed.co.uk/jobs/crm-analyst/57406485",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "reed",
@@ -7701,52 +7713,16 @@
      "source_id": "57434232",
      "url": "https://www.reed.co.uk/jobs/crm-analyst/57434232",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
     {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "location_class",
-     "from": "Commuter belt",
-     "to": "London"
-    },
-    {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "deadline",
-     "from": "2026-11-18",
-     "to": "2026-11-11"
-    },
-    {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "fit",
-     "from": 2,
-     "to": 3
-    },
-    {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "location_class",
-     "from": "London",
-     "to": "Commuter belt"
-    },
-    {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "deadline",
-     "from": "2026-11-11",
-     "to": "2026-11-18"
-    },
-    {
-     "at": "2026-10-23T10:35:05+00:00",
-     "field": "fit",
-     "from": 3,
-     "to": 2
-    },
-    {
      "at": "2026-10-24T00:50:02+00:00",
      "field": "location_class",
      "from": "Commuter belt",
@@ -7886,6 +7862,42 @@
     },
     {
      "at": "2026-10-25T00:40:47+00:00",
+     "field": "fit",
+     "from": 3,
+     "to": 2
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "location_class",
+     "from": "Commuter belt",
+     "to": "London"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline",
+     "from": "2026-11-18",
+     "to": "2026-11-11"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "fit",
+     "from": 2,
+     "to": 3
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "location_class",
+     "from": "London",
+     "to": "Commuter belt"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline",
+     "from": "2026-11-11",
+     "to": "2026-11-18"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
      "field": "fit",
      "from": 3,
      "to": 2
@@ -7960,12 +7972,12 @@
      "source_id": "57470585",
      "url": "https://www.reed.co.uk/jobs/business-analyst/57470585",
      "first_seen": "2026-10-19T10:37:37+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -8141,12 +8153,12 @@
      "source_id": "57429203",
      "url": "https://www.reed.co.uk/jobs/business-analyst/57429203",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -8213,12 +8225,12 @@
      "source_id": "57423291",
      "url": "https://www.reed.co.uk/jobs/strategic-finance-analyst/57423291",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -8958,12 +8970,12 @@
      "source_id": "57435760",
      "url": "https://www.reed.co.uk/jobs/risk-control-analyst/57435760",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9030,12 +9042,12 @@
      "source_id": "57392052",
      "url": "https://www.reed.co.uk/jobs/investment-data-analyst-ibor-data-transformation/57392052",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -9109,12 +9121,12 @@
      "source_id": "57446417",
      "url": "https://www.reed.co.uk/jobs/business-analyst-charles-river-carnegie-consulting/57446417",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9464,12 +9476,12 @@
      "source_id": "57445962",
      "url": "https://www.reed.co.uk/jobs/ai-business-analyst-professional-services/57445962",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9559,12 +9571,12 @@
      "source_id": "57445278",
      "url": "https://www.reed.co.uk/jobs/graduate-associate-tax-interpath-advisory/57445278",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9658,12 +9670,12 @@
      "source_id": "57445481",
      "url": "https://www.reed.co.uk/jobs/graduate-associate-contentious-insolvency-interpath-advisory/57445481",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9759,12 +9771,12 @@
      "source_id": "57446705",
      "url": "https://www.reed.co.uk/jobs/graduate-associate-asset-tracing-complex-investigations-interpath-advisory/57446705",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -9952,12 +9964,12 @@
      "source_id": "57177634",
      "url": "https://www.reed.co.uk/jobs/analyst-associate-private-credit-french-speaker-efinancialcareers/57177634",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -10140,12 +10152,12 @@
      "source_id": "57446484",
      "url": "https://www.reed.co.uk/jobs/2027-macquarie-capital-summer-internship-programme-macquarie-group/57446484",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -10222,7 +10234,7 @@
      "source_id": "57385156",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-barrister/57385156",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-23T22:34:44+00:00"
+     "last_seen": "2026-10-25T14:31:50+00:00"
     },
     {
      "source": "reed",
@@ -10233,8 +10245,8 @@
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-23T22:34:44+00:00",
-   "last_seen": "2026-10-23T22:34:44+00:00",
+   "last_verified": "2026-10-25T14:31:50+00:00",
+   "last_seen": "2026-10-25T14:31:50+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -10311,7 +10323,7 @@
      "source_id": "57385121",
      "url": "https://www.reed.co.uk/jobs/public-international-barrister/57385121",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-24T00:50:42+00:00"
+     "last_seen": "2026-10-25T14:31:51+00:00"
     },
     {
      "source": "reed",
@@ -10322,8 +10334,8 @@
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-24T00:50:42+00:00",
-   "last_seen": "2026-10-24T00:50:42+00:00",
+   "last_verified": "2026-10-25T14:31:51+00:00",
+   "last_seen": "2026-10-25T14:31:51+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -10400,7 +10412,7 @@
      "source_id": "57385115",
      "url": "https://www.reed.co.uk/jobs/international-trade-litigation-lawyer/57385115",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-24T00:50:43+00:00"
+     "last_seen": "2026-10-25T14:31:52+00:00"
     },
     {
      "source": "reed",
@@ -10411,8 +10423,8 @@
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-24T00:50:43+00:00",
-   "last_seen": "2026-10-24T00:50:43+00:00",
+   "last_verified": "2026-10-25T14:31:52+00:00",
+   "last_seen": "2026-10-25T14:31:52+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11196,12 +11208,12 @@
      "source_id": "57446209",
      "url": "https://www.reed.co.uk/jobs/ai-product-analyst/57446209",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11287,12 +11299,12 @@
      "source_id": "57446219",
      "url": "https://www.reed.co.uk/jobs/2027-technology-graduate-programme-macquarie-group/57446219",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11378,12 +11390,12 @@
      "source_id": "57445804",
      "url": "https://www.reed.co.uk/jobs/international-credit-officer-credit-analyst-cameron-kennedy/57445804",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11470,12 +11482,12 @@
      "source_id": "57445879",
      "url": "https://www.reed.co.uk/jobs/2027-commodities-and-global-markets-graduate-programme-macquarie-group/57445879",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11566,12 +11578,12 @@
      "source_id": "57445450",
      "url": "https://www.reed.co.uk/jobs/services-summer-analyst-uk-london-2027-citi/57445450",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11657,12 +11669,12 @@
      "source_id": "57445332",
      "url": "https://www.reed.co.uk/jobs/2027-central-executive-group-graduate-programme-internal-audit-macquarie-group/57445332",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11747,12 +11759,12 @@
      "source_id": "57445831",
      "url": "https://www.reed.co.uk/jobs/exclusive-s-p-global-ratings-early-careers-networking-event/57445831",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -11962,12 +11974,12 @@
      "source_id": "57469753",
      "url": "https://www.reed.co.uk/jobs/ratings-forward-s-p-global-early-careers-virtual-event-emea/57469753",
      "first_seen": "2026-10-18T12:36:01+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12053,35 +12065,23 @@
      "source_id": "57389796",
      "url": "https://www.reed.co.uk/jobs/uk-fund-hiring-entry-level-quant-analysts-systematic-equity-team/57389796",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "reed",
      "source_id": "57446247",
      "url": "https://www.reed.co.uk/jobs/uk-fund-hiring-entry-level-quant-analysts-systematic-equity-team/57446247",
      "first_seen": "2026-10-12T06:34:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
     {
-     "at": "2026-10-23T06:42:30+00:00",
-     "field": "deadline",
-     "from": "2026-11-05",
-     "to": "2026-11-23"
-    },
-    {
-     "at": "2026-10-23T06:42:30+00:00",
-     "field": "deadline",
-     "from": "2026-11-23",
-     "to": "2026-11-05"
-    },
-    {
      "at": "2026-10-23T10:35:05+00:00",
      "field": "deadline",
      "from": "2026-11-05",
@@ -12245,6 +12245,18 @@
     },
     {
      "at": "2026-10-25T08:33:32+00:00",
+     "field": "deadline",
+     "from": "2026-12-04",
+     "to": "2026-11-05"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline",
+     "from": "2026-11-05",
+     "to": "2026-12-04"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
      "field": "deadline",
      "from": "2026-12-04",
      "to": "2026-11-05"
@@ -12422,12 +12434,12 @@
      "source_id": "57446128",
      "url": "https://www.reed.co.uk/jobs/s-p-global-ratings-analytical-internship-program-london/57446128",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12508,12 +12520,12 @@
      "source_id": "57405913",
      "url": "https://www.reed.co.uk/jobs/junior-data-analyst/57405913",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -12750,12 +12762,12 @@
      "source_id": "57407617",
      "url": "https://www.reed.co.uk/jobs/data-management-analyst/57407617",
      "first_seen": "2026-10-11T00:37:21+00:00",
-     "last_seen": "2026-10-25T00:40:48+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T00:40:48+00:00",
-   "last_seen": "2026-10-25T00:40:48+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -13025,12 +13037,12 @@
      "source_id": "57445633",
      "url": "https://www.reed.co.uk/jobs/client-citi-research-summer-analyst-london-united-kingdom-2027-citi/57445633",
      "first_seen": "2026-10-12T04:26:35+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:37:21+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -14332,12 +14344,12 @@
      "source_id": "5919404968",
      "url": "https://www.adzuna.co.uk/jobs/details/5919404968?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-11T00:40:33+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T00:40:33+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -20591,14 +20603,14 @@
      "source_id": "a2214edc-39e3-4c70-8a09-875bb991062f",
      "url": "https://jobs.ashbyhq.com/lendable/a2214edc-39e3-4c70-8a09-875bb991062f",
      "first_seen": "2026-10-11T02:22:46+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "ashby:lendable",
      "source_id": "eabb1e2a-86c3-48e6-836c-af967e0e71d2",
      "url": "https://jobs.ashbyhq.com/lendable/eabb1e2a-86c3-48e6-836c-af967e0e71d2",
      "first_seen": "2026-10-11T02:22:46+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -20609,24 +20621,12 @@
     }
    ],
    "first_discovered": "2026-10-11T02:22:46+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
     {
-     "at": "2026-10-21T02:34:29+00:00",
-     "field": "fit",
-     "from": 3,
-     "to": 4
-    },
-    {
-     "at": "2026-10-21T02:34:29+00:00",
-     "field": "fit",
-     "from": 4,
-     "to": 3
-    },
-    {
      "at": "2026-10-21T08:40:16+00:00",
      "field": "fit",
      "from": 3,
@@ -20790,6 +20790,18 @@
     },
     {
      "at": "2026-10-25T06:39:05+00:00",
+     "field": "fit",
+     "from": 4,
+     "to": 3
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "fit",
+     "from": 3,
+     "to": 4
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
      "field": "fit",
      "from": 4,
      "to": 3
@@ -20862,12 +20874,12 @@
      "source_id": "e001dc0b-6e0f-46a7-95ba-38a3733db2f4",
      "url": "https://jobs.ashbyhq.com/lendable/e001dc0b-6e0f-46a7-95ba-38a3733db2f4",
      "first_seen": "2026-10-11T02:22:46+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T02:22:46+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -20929,12 +20941,12 @@
      "source_id": "a0ed2d2c-1c24-4d53-8ab4-af7e7ac06e20",
      "url": "https://jobs.ashbyhq.com/lendable/a0ed2d2c-1c24-4d53-8ab4-af7e7ac06e20",
      "first_seen": "2026-10-11T02:22:46+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T02:22:46+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -21024,7 +21036,7 @@
     }
    ],
    "verify_failures": 0,
-   "absent_count": 13,
+   "absent_count": 14,
    "closed_evidence": "Removed from the employer's own job board (confirmed on 2 checks)"
   },
   {
@@ -21107,7 +21119,7 @@
     }
    ],
    "verify_failures": 0,
-   "absent_count": 12,
+   "absent_count": 13,
    "closed_evidence": "Removed from the employer's own job board (confirmed on 2 checks)"
   },
   {
@@ -21193,7 +21205,7 @@
     }
    ],
    "verify_failures": 0,
-   "absent_count": 75,
+   "absent_count": 76,
    "closed_evidence": "Removed from the employer's own job board (confirmed on 2 checks)"
   },
   {
@@ -21559,7 +21571,7 @@
    "last_verified": "2026-10-12T14:30:11+00:00",
    "last_seen": "2026-10-12T14:30:11+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 13 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-22T14:40:32+00:00",
@@ -22173,9 +22185,16 @@
    "first_discovered": "2026-10-11T02:47:42+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -22238,12 +22257,12 @@
      "source_id": "5919857062",
      "url": "https://www.adzuna.co.uk/jobs/details/5919857062?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-11T02:47:42+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T02:47:42+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -22853,12 +22872,12 @@
      "source_id": "5931462292",
      "url": "https://www.adzuna.co.uk/jobs/details/5931462292?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-17T02:32:36+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T02:47:42+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -25014,7 +25033,7 @@
    "last_verified": "2026-10-12T14:30:11+00:00",
    "last_seen": "2026-10-12T14:30:11+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 13 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-22T14:40:32+00:00",
@@ -25095,7 +25114,7 @@
    "last_verified": "2026-10-12T14:30:11+00:00",
    "last_seen": "2026-10-12T14:30:11+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 13 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-22T14:40:32+00:00",
@@ -30753,12 +30772,12 @@
      "source_id": "57415959",
      "url": "https://www.reed.co.uk/jobs/hr-assistant/57415959",
      "first_seen": "2026-10-11T08:24:22+00:00",
-     "last_seen": "2026-10-24T18:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T06:28:40+00:00",
-   "last_verified": "2026-10-24T18:34:07+00:00",
-   "last_seen": "2026-10-24T18:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -32130,9 +32149,16 @@
    "first_discovered": "2026-10-11T08:24:22+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -32985,9 +33011,16 @@
    "first_discovered": "2026-10-11T08:24:22+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -33745,19 +33778,19 @@
      "source_id": "5930698844",
      "url": "https://www.adzuna.co.uk/jobs/details/5930698844?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-16T14:38:31+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5933920319",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5933920319?se=VlPnaxzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=FFDB340DDBF0F7DF6BD223CA2BD9FF9F17BE1287",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5933920319?se=XDOKoYDQ8RGhvrnjDyQmmw&utm_medium=api&utm_source=09779821&v=FFDB340DDBF0F7DF6BD223CA2BD9FF9F17BE1287",
      "first_seen": "2026-10-19T04:37:19+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T08:24:22+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -34144,9 +34177,16 @@
    "first_discovered": "2026-10-11T08:24:22+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -34423,12 +34463,12 @@
      "source_id": "57346771",
      "url": "https://www.reed.co.uk/jobs/learning-support-assistant/57346771",
      "first_seen": "2026-10-11T08:24:22+00:00",
-     "last_seen": "2026-10-24T18:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T08:24:22+00:00",
-   "last_verified": "2026-10-24T18:34:07+00:00",
-   "last_seen": "2026-10-24T18:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -36313,7 +36353,7 @@
    "last_verified": "2026-10-13T14:28:41+00:00",
    "last_seen": "2026-10-13T14:28:41+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 11 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-23T14:42:24+00:00",
@@ -36460,7 +36500,7 @@
    "last_verified": "2026-10-13T14:28:41+00:00",
    "last_seen": "2026-10-13T14:28:41+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 11 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-23T14:42:24+00:00",
@@ -36691,12 +36731,12 @@
      "source_id": "5419190008",
      "url": "https://job-boards.greenhouse.io/jensenhughes/jobs/5419190008",
      "first_seen": "2026-10-16T04:34:39+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-11T11:13:15+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -36786,12 +36826,12 @@
      "source_id": "5430985008",
      "url": "https://job-boards.greenhouse.io/jensenhughes/jobs/5430985008",
      "first_seen": "2026-10-16T04:34:39+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-11T11:13:15+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -37228,7 +37268,7 @@
    "last_verified": "2026-10-13T14:28:41+00:00",
    "last_seen": "2026-10-13T14:28:41+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 11 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-23T14:42:24+00:00",
@@ -37306,12 +37346,12 @@
      "source_id": "5935181543",
      "url": "https://www.adzuna.co.uk/jobs/details/5935181543?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-20T06:41:39+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T11:13:15+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -37832,7 +37872,7 @@
    "last_verified": "2026-10-13T14:28:41+00:00",
    "last_seen": "2026-10-13T14:28:41+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 11 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-23T14:42:24+00:00",
@@ -43406,12 +43446,12 @@
      "source_id": "5430533008",
      "url": "https://job-boards.greenhouse.io/clearviewhealthcarepartners/jobs/5430533008",
      "first_seen": "2026-10-12T10:27:26+00:00",
-     "last_seen": "2026-10-25T04:33:40+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T18:25:38+00:00",
-   "last_verified": "2026-10-25T04:33:40+00:00",
-   "last_seen": "2026-10-25T04:33:40+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -43652,12 +43692,12 @@
      "source_id": "8214206",
      "url": "https://job-boards.greenhouse.io/bgbxconsulting/jobs/8214206",
      "first_seen": "2026-10-17T00:44:36+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-11T18:25:38+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -45373,12 +45413,12 @@
      "source_id": "8236291",
      "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8236291",
      "first_seen": "2026-10-11T18:25:38+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-11T18:25:38+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -52046,12 +52086,12 @@
      "source_id": "8226386",
      "url": "https://www.alphasights.com/careers/open-roles?gh_jid=8226386",
      "first_seen": "2026-10-17T08:33:09+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-12T06:34:35+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -52136,12 +52176,12 @@
      "source_id": "8226407",
      "url": "https://www.alphasights.com/careers/open-roles?gh_jid=8226407",
      "first_seen": "2026-10-17T08:33:09+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-12T06:34:35+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -53661,12 +53701,12 @@
      "source_id": "5938288692",
      "url": "https://www.adzuna.co.uk/jobs/details/5938288692?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-22T20:34:27+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T08:29:19+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -53747,12 +53787,12 @@
      "source_id": "5938289629",
      "url": "https://www.adzuna.co.uk/jobs/details/5938289629?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-22T20:34:27+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T08:29:19+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -53895,19 +53935,19 @@
      "source_id": "5920567368",
      "url": "https://www.adzuna.co.uk/jobs/details/5920567368?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-12T08:29:19+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5919648980",
      "url": "https://www.adzuna.co.uk/jobs/details/5919648980?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-12T08:29:19+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T08:29:19+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -53960,7 +54000,7 @@
    "experience_years": null,
    "salary": "£55,000",
    "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5920375156?se=GqO9IC3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=D8039F8C50A192D973401F3CE930A9C958AD6035",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5920375156?se=fraCpIDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=D8039F8C50A192D973401F3CE930A9C958AD6035",
    "official": false,
    "official_source": "",
    "recommended_cv": "Operations & Project Management CV",
@@ -53971,9 +54011,9 @@
     {
      "source": "adzuna",
      "source_id": "5920375156",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5920375156?se=GqO9IC3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=D8039F8C50A192D973401F3CE930A9C958AD6035",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5920375156?se=fraCpIDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=D8039F8C50A192D973401F3CE930A9C958AD6035",
      "first_seen": "2026-10-12T08:29:19+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -53984,8 +54024,8 @@
     }
    ],
    "first_discovered": "2026-10-12T08:29:19+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -54067,12 +54107,12 @@
      "source_id": "5937796483",
      "url": "https://www.adzuna.co.uk/jobs/details/5937796483?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-22T22:33:13+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T08:29:19+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -56787,7 +56827,7 @@
    "last_verified": "2026-10-12T14:30:11+00:00",
    "last_seen": "2026-10-12T14:30:11+00:00",
    "status": "Watch",
-   "status_reason": "Not seen in searches for 12 days — may have closed; check the link",
+   "status_reason": "Not seen in searches for 13 days — may have closed; check the link",
    "history": [
     {
      "at": "2026-10-22T14:40:32+00:00",
@@ -57012,9 +57052,16 @@
    "first_discovered": "2026-10-12T18:28:18+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -57404,16 +57451,16 @@
    "category_label": "Transport, Infrastructure & Planning",
    "tier": 3,
    "type": "Entry-Level",
-   "location": "London, UK",
+   "location": "London",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Hybrid",
    "start_date": null,
    "opening_date": null,
    "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
+   "deadline": "2026-11-20",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
    "rolling": false,
    "cycle": "Rolling / immediate",
    "fit": 2,
@@ -57441,13 +57488,13 @@
    },
    "experience_years": null,
    "salary": "",
-   "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5924279102?se=3I4ounDQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=E410652456F857D877C92DD8FDBF07839A951CE8",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/space-planning-analyst/57440673",
    "official": false,
    "official_source": "",
    "recommended_cv": "Transport & Infrastructure CV",
    "posted": "2026-10-12T15:39:12Z",
-   "excerpt": "Space Planning Analyst Location: Hybrid - London (3 days on-site) Duration: Initial 6-9 month contract We're working with a leading retail organisation undergoing a major space planning transformation programme, implementing a new enterprise planning platform and evolving existing store space management processes. To support this initiative, they are looking for experienced Space Planning professionals to provide operational continuity across the business. These roles will help maintain critica…",
+   "excerpt": "Space Planning Analyst Location: Hybrid - London (3 days on-site) Duration: Initial 6-9 month contract We're working with a leading retail organisation undergoing a major space planning transformation programme, implementing a new enterprise planning platform and evolving existing store space management processes. To support this initiative, they are looking for experienced Space Planning professionals to provide operational continuity across th...",
    "full_text": false,
    "sources": [
     {
@@ -57462,21 +57509,15 @@
      "source_id": "57440673",
      "url": "https://www.reed.co.uk/jobs/space-planning-analyst/57440673",
      "first_seen": "2026-10-12T20:25:56+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T18:28:18+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
-    {
-     "at": "2026-10-14T10:36:31+00:00",
-     "field": "deadline_confidence",
-     "from": "Unconfirmed",
-     "to": "Indicative"
-    },
     {
      "at": "2026-10-14T22:33:20+00:00",
      "field": "deadline",
@@ -57650,6 +57691,12 @@
      "field": "deadline_confidence",
      "from": "Indicative",
      "to": "Unconfirmed"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline_confidence",
+     "from": "Unconfirmed",
+     "to": "Indicative"
     }
    ],
    "verify_failures": 0,
@@ -57721,12 +57768,12 @@
      "source_id": "57481118",
      "url": "https://www.reed.co.uk/jobs/kyc-analyst/57481118",
      "first_seen": "2026-10-21T14:38:20+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T20:25:56+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -57800,12 +57847,12 @@
      "source_id": "57451232",
      "url": "https://www.reed.co.uk/jobs/marketing-analyst/57451232",
      "first_seen": "2026-10-12T20:25:56+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-12T20:25:56+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -58874,9 +58921,16 @@
    "first_discovered": "2026-10-13T10:27:33+00:00",
    "last_verified": "2026-10-15T12:44:22+00:00",
    "last_seen": "2026-10-15T12:44:22+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -59388,12 +59442,12 @@
      "source_id": "8276219",
      "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8276219",
      "first_seen": "2026-10-13T12:33:18+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-13T12:33:18+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -59837,12 +59891,12 @@
      "source_id": "57454949",
      "url": "https://www.reed.co.uk/jobs/bi-analyst/57454949",
      "first_seen": "2026-10-13T16:27:41+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-13T16:27:41+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -59916,12 +59970,12 @@
      "source_id": "57459650",
      "url": "https://www.reed.co.uk/jobs/marketing-customer-analyst/57459650",
      "first_seen": "2026-10-15T06:43:02+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-13T16:27:41+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -60006,12 +60060,12 @@
      "source_id": "5938288961",
      "url": "https://www.adzuna.co.uk/jobs/details/5938288961?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-22T20:34:27+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-13T18:31:51+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -61563,12 +61617,12 @@
      "source_id": "5925551503",
      "url": "https://www.adzuna.co.uk/jobs/details/5925551503?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-13T20:36:42+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-13T20:36:42+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -64194,12 +64248,12 @@
      "source_id": "7865377003",
      "url": "https://www.teneo.com/careers/open-positions/7865377003?gh_jid=7865377003",
      "first_seen": "2026-10-14T08:37:46+00:00",
-     "last_seen": "2026-10-25T04:33:40+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T08:37:46+00:00",
-   "last_verified": "2026-10-25T04:33:40+00:00",
-   "last_seen": "2026-10-25T04:33:40+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -64654,12 +64708,12 @@
      "source_id": "5939045691",
      "url": "https://www.adzuna.co.uk/jobs/details/5939045691?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T10:36:31+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -64941,7 +64995,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5927095648?se=GqO9IC3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=0684218EF46225BEEAC9DCC82525731534B4C3FA",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5927095648?se=fraCpIDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=0684218EF46225BEEAC9DCC82525731534B4C3FA",
    "official": false,
    "official_source": "",
    "recommended_cv": "Graduate Programmes CV",
@@ -64952,21 +65006,21 @@
     {
      "source": "adzuna",
      "source_id": "5927095648",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5927095648?se=GqO9IC3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=0684218EF46225BEEAC9DCC82525731534B4C3FA",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5927095648?se=fraCpIDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=0684218EF46225BEEAC9DCC82525731534B4C3FA",
      "first_seen": "2026-10-14T10:36:31+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5940270519",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940270519?se=GqO9IC3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=BB36AD54BC179FEEB589717BC6EF55730FDF22FE",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940270519?se=fraCpIDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=BB36AD54BC179FEEB589717BC6EF55730FDF22FE",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T10:36:31+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -65032,12 +65086,12 @@
      "source_id": "5926512095",
      "url": "https://www.adzuna.co.uk/jobs/details/5926512095?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-14T10:36:31+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T10:36:31+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -65104,12 +65158,12 @@
      "source_id": "57455777",
      "url": "https://www.reed.co.uk/jobs/marketing-and-customer-analyst/57455777",
      "first_seen": "2026-10-14T10:36:31+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T10:36:31+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -65318,12 +65372,12 @@
      "source_id": "5927582097",
      "url": "https://www.adzuna.co.uk/jobs/details/5927582097?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-14T14:36:46+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T14:36:46+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -66554,12 +66608,12 @@
      "source_id": "57459775",
      "url": "https://www.reed.co.uk/jobs/graduate-it-service-analyst/57459775",
      "first_seen": "2026-10-14T20:33:15+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-14T20:33:15+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -68263,12 +68317,12 @@
      "source_id": "57459198",
      "url": "https://www.reed.co.uk/jobs/careers-work-experience-wex-coordinator-2-posts-ftc/57459198",
      "first_seen": "2026-10-15T00:43:36+00:00",
-     "last_seen": "2026-10-25T10:32:12+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T00:43:36+00:00",
-   "last_verified": "2026-10-25T10:32:12+00:00",
-   "last_seen": "2026-10-25T10:32:12+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -69931,12 +69985,12 @@
      "source_id": "57461159",
      "url": "https://www.reed.co.uk/jobs/transaction-cost-analyst/57461159",
      "first_seen": "2026-10-15T10:36:45+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T10:36:45+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -70233,9 +70287,16 @@
    "first_discovered": "2026-10-15T12:44:21+00:00",
    "last_verified": "2026-10-15T12:44:21+00:00",
    "last_seen": "2026-10-15T12:44:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": [],
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ],
    "verify_failures": 0,
    "absent_count": 0
   },
@@ -70310,9 +70371,16 @@
    "first_discovered": "2026-10-15T12:44:21+00:00",
    "last_verified": "2026-10-15T12:44:21+00:00",
    "last_seen": "2026-10-15T12:44:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": []
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ]
   },
   {
    "id": "bc4bdad771d5",
@@ -70379,9 +70447,16 @@
    "first_discovered": "2026-10-15T12:44:21+00:00",
    "last_verified": "2026-10-15T12:44:21+00:00",
    "last_seen": "2026-10-15T12:44:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": []
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ]
   },
   {
    "id": "63f633d7116b",
@@ -70449,9 +70524,16 @@
    "first_discovered": "2026-10-15T12:44:21+00:00",
    "last_verified": "2026-10-15T12:44:21+00:00",
    "last_seen": "2026-10-15T12:44:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": []
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ]
   },
   {
    "id": "02941a37276f",
@@ -70661,9 +70743,16 @@
    "first_discovered": "2026-10-15T12:44:21+00:00",
    "last_verified": "2026-10-15T12:44:21+00:00",
    "last_seen": "2026-10-15T12:44:21+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": []
+   "status": "Watch",
+   "status_reason": "Not seen in searches for 10 days — may have closed; check the link",
+   "history": [
+    {
+     "at": "2026-10-25T14:31:55+00:00",
+     "field": "status",
+     "from": "Open",
+     "to": "Watch"
+    }
+   ]
   },
   {
    "id": "a7dbada54829",
@@ -72116,12 +72205,12 @@
      "source_id": "4710845101",
      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4710845101",
      "first_seen": "2026-10-15T18:40:19+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T18:40:19+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -72193,12 +72282,12 @@
      "source_id": "4914883101",
      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4914883101",
      "first_seen": "2026-10-15T18:40:19+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T18:40:19+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -72268,12 +72357,12 @@
      "source_id": "4907416101",
      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4907416101",
      "first_seen": "2026-10-15T18:40:19+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T18:40:19+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -72338,12 +72427,12 @@
      "source_id": "4987654101",
      "url": "https://job-boards.eu.greenhouse.io/imc/jobs/4987654101",
      "first_seen": "2026-10-15T18:40:19+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T18:40:19+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -72687,12 +72776,12 @@
      "source_id": "5928817202",
      "url": "https://www.adzuna.co.uk/jobs/details/5928817202?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-15T22:33:49+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T22:33:49+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -72904,12 +72993,12 @@
      "source_id": "5928723208",
      "url": "https://www.adzuna.co.uk/jobs/details/5928723208?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-15T22:33:49+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T22:33:49+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -73196,19 +73285,19 @@
      "source_id": "8208465",
      "url": "https://careers.withwaymo.com/jobs?gh_jid=8208465",
      "first_seen": "2026-10-20T08:38:15+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "greenhouse:waymo",
      "source_id": "8265868",
      "url": "https://careers.withwaymo.com/jobs?gh_jid=8265868",
      "first_seen": "2026-10-20T08:38:15+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-15T22:33:49+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -75346,12 +75435,12 @@
      "source_id": "57463959",
      "url": "https://www.reed.co.uk/jobs/markets-quantitative-analysis-off-cycle-placement--london-uk-2027-citi/57463959",
      "first_seen": "2026-10-16T00:43:56+00:00",
-     "last_seen": "2026-10-24T18:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-16T00:43:56+00:00",
-   "last_verified": "2026-10-24T18:34:07+00:00",
-   "last_seen": "2026-10-24T18:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -75587,12 +75676,12 @@
      "source_id": "5417816008",
      "url": "https://job-boards.greenhouse.io/jensenhughes/jobs/5417816008",
      "first_seen": "2026-10-16T04:34:39+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-16T04:34:39+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -75691,7 +75780,7 @@
     }
    ],
    "verify_failures": 0,
-   "absent_count": 20,
+   "absent_count": 21,
    "closed_evidence": "Removed from the employer's own job board (confirmed on 2 checks)"
   },
   {
@@ -78569,12 +78658,12 @@
      "source_id": "5940072696",
      "url": "https://www.adzuna.co.uk/jobs/details/5940072696?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-25T02:34:07+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-16T14:38:31+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -78711,12 +78800,12 @@
      "source_id": "5930240199",
      "url": "https://www.adzuna.co.uk/jobs/details/5930240199?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-16T14:38:31+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-16T14:38:31+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -80983,7 +81072,7 @@
      "source_id": "57467939",
      "url": "https://www.reed.co.uk/jobs/junior-solar-sales-design-trainee/57467939",
      "first_seen": "2026-10-16T20:32:45+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -81001,8 +81090,8 @@
     }
    ],
    "first_discovered": "2026-10-16T20:32:45+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -81075,12 +81164,12 @@
      "source_id": "57467750",
      "url": "https://www.reed.co.uk/jobs/investment-analyst/57467750",
      "first_seen": "2026-10-16T20:32:45+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-16T20:32:45+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -82111,12 +82200,12 @@
      "source_id": "8214140",
      "url": "https://job-boards.greenhouse.io/bgbxconsulting/jobs/8214140",
      "first_seen": "2026-10-17T00:44:36+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     }
    ],
    "first_discovered": "2026-10-17T00:44:36+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -83066,7 +83155,7 @@
      "source_id": "8076572",
      "url": "https://www.alphasights.com/careers/open-roles?gh_jid=8076572",
      "first_seen": "2026-10-17T08:33:09+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:13+00:00"
     },
     {
      "source": "adzuna",
@@ -83077,8 +83166,8 @@
     }
    ],
    "first_discovered": "2026-10-17T08:33:09+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:13+00:00",
+   "last_seen": "2026-10-25T14:31:13+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -84668,12 +84757,12 @@
      "source_id": "57469237",
      "url": "https://www.reed.co.uk/jobs/markets-sales-and-trading-full-time-analyst-london-united-kingdom-2027-citi/57469237",
      "first_seen": "2026-10-17T16:31:14+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-17T16:31:14+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -86024,12 +86113,12 @@
      "source_id": "5932468825",
      "url": "https://www.adzuna.co.uk/jobs/details/5932468825?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-18T00:44:40+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-18T00:44:40+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -87719,12 +87808,12 @@
      "source_id": "b3086370-8942-4f8c-9919-a6f3a5a9e850",
      "url": "https://jobs.lever.co/farfetch/b3086370-8942-4f8c-9919-a6f3a5a9e850",
      "first_seen": "2026-10-21T20:35:18+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-18T02:32:42+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -91301,12 +91390,12 @@
      "source_id": "5933105234",
      "url": "https://www.adzuna.co.uk/jobs/details/5933105234?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-18T14:30:56+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-18T14:30:56+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -91661,12 +91750,12 @@
      "source_id": "5931885572",
      "url": "https://www.adzuna.co.uk/jobs/details/5931885572?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-18T16:31:53+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-18T16:31:53+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -91733,12 +91822,12 @@
      "source_id": "5933092044",
      "url": "https://www.adzuna.co.uk/jobs/details/5933092044?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-18T16:31:53+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-18T16:31:53+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -103233,12 +103322,12 @@
      "source_id": "57470655",
      "url": "https://www.reed.co.uk/jobs/investment-analyst/57470655",
      "first_seen": "2026-10-19T10:37:37+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-19T10:37:37+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -105393,12 +105482,12 @@
      "source_id": "57472425",
      "url": "https://www.reed.co.uk/jobs/aml-analyst-mthree/57472425",
      "first_seen": "2026-10-20T00:45:58+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T00:45:58+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -106762,12 +106851,12 @@
      "source_id": "5934655996",
      "url": "https://www.adzuna.co.uk/jobs/details/5934655996?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-20T04:34:18+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T04:34:18+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -107044,12 +107133,12 @@
      "source_id": "5004123101",
      "url": "https://job-boards.eu.greenhouse.io/ebury/jobs/5004123101",
      "first_seen": "2026-10-20T04:34:18+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T04:34:18+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -107134,7 +107223,7 @@
     }
    ],
    "verify_failures": 0,
-   "absent_count": 12,
+   "absent_count": 13,
    "closed_evidence": "Removed from the employer's own job board (confirmed on 2 checks)"
   },
   {
@@ -107424,12 +107513,12 @@
      "source_id": "8205680",
      "url": "https://careers.withwaymo.com/jobs?gh_jid=8205680",
      "first_seen": "2026-10-20T08:38:15+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T08:38:15+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -109880,7 +109969,7 @@
    "experience_years": null,
    "salary": "£85,000",
    "employment_type": "full_time",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5935432618?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=966C4FD592BA4F0324E972C803AAD957E26F859D",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5935432618?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=966C4FD592BA4F0324E972C803AAD957E26F859D",
    "official": false,
    "official_source": "",
    "recommended_cv": "Data Analytics CV",
@@ -109891,21 +109980,21 @@
     {
      "source": "adzuna",
      "source_id": "5935513534",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5935513534?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=FBAF7D19C1A2FDE144FD3AC113E1AB765E94F09D",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5935513534?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=FBAF7D19C1A2FDE144FD3AC113E1AB765E94F09D",
      "first_seen": "2026-10-20T20:35:46+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5935432618",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5935432618?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=966C4FD592BA4F0324E972C803AAD957E26F859D",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5935432618?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=966C4FD592BA4F0324E972C803AAD957E26F859D",
      "first_seen": "2026-10-20T20:35:46+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T20:35:46+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -109972,12 +110061,12 @@
      "source_id": "5931881099",
      "url": "https://www.adzuna.co.uk/jobs/details/5931881099?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-20T20:35:46+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T20:35:46+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -110044,12 +110133,12 @@
      "source_id": "57478247",
      "url": "https://www.reed.co.uk/jobs/analyst-marketing-science/57478247",
      "first_seen": "2026-10-20T20:35:47+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-20T20:35:47+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -110830,12 +110919,12 @@
      "source_id": "5935858165",
      "url": "https://www.adzuna.co.uk/jobs/details/5935858165?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T02:34:28+00:00",
-     "last_seen": "2026-10-25T10:32:12+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T02:34:28+00:00",
-   "last_verified": "2026-10-25T10:32:12+00:00",
-   "last_seen": "2026-10-25T10:32:12+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -110973,12 +111062,12 @@
      "source_id": "5936076911",
      "url": "https://www.adzuna.co.uk/jobs/details/5936076911?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T06:43:19+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T06:43:19+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -111711,19 +111800,19 @@
      "source_id": "5936465956",
      "url": "https://www.adzuna.co.uk/jobs/details/5936465956?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T08:40:15+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5936497427",
      "url": "https://www.adzuna.co.uk/jobs/details/5936497427?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-22T22:33:12+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T08:40:15+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -111776,7 +111865,7 @@
    "experience_years": null,
    "salary": "£26,000",
    "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/details/5935865643?utm_medium=api&utm_source=09779821",
+   "apply_url": "https://www.adzuna.co.uk/jobs/details/5941088005?utm_medium=api&utm_source=09779821",
    "official": false,
    "official_source": "",
    "recommended_cv": "Strategy & Consulting CV",
@@ -111790,11 +111879,18 @@
      "url": "https://www.adzuna.co.uk/jobs/details/5935865643?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T08:40:15+00:00",
      "last_seen": "2026-10-25T02:34:07+00:00"
+    },
+    {
+     "source": "adzuna",
+     "source_id": "5941088005",
+     "url": "https://www.adzuna.co.uk/jobs/details/5941088005?utm_medium=api&utm_source=09779821",
+     "first_seen": "2026-10-25T14:31:12+00:00",
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T08:40:15+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -111859,12 +111955,12 @@
      "source_id": "5936463302",
      "url": "https://www.adzuna.co.uk/jobs/details/5936463302?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T08:40:15+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T08:40:15+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -111933,12 +112029,12 @@
      "source_id": "7986192003",
      "url": "https://job-boards.greenhouse.io/celonis/jobs/7986192003?gh_jid=7986192003",
      "first_seen": "2026-10-21T08:40:15+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T08:40:15+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -112007,12 +112103,12 @@
      "source_id": "8002255003",
      "url": "https://job-boards.greenhouse.io/celonis/jobs/8002255003?gh_jid=8002255003",
      "first_seen": "2026-10-21T08:40:15+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T08:40:15+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -112078,12 +112174,12 @@
      "source_id": "5936491071",
      "url": "https://www.adzuna.co.uk/jobs/details/5936491071?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-21T10:37:31+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T10:37:31+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -112858,12 +112954,12 @@
      "source_id": "57480630",
      "url": "https://www.reed.co.uk/jobs/functions-internal-audit-summer-analyst-london-2027-citi/57480630",
      "first_seen": "2026-10-21T12:43:39+00:00",
-     "last_seen": "2026-10-25T12:37:35+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T12:43:39+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -113097,16 +113193,16 @@
    "category_label": "Strategy & Management Consulting",
    "tier": 1,
    "type": "Entry-Level",
-   "location": "London, UK",
+   "location": "London",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Hybrid",
    "start_date": null,
    "opening_date": null,
    "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
+   "deadline": "2026-12-02",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
    "rolling": false,
    "cycle": "Rolling / immediate",
    "fit": 3,
@@ -113135,13 +113231,13 @@
    },
    "experience_years": null,
    "salary": "£40,000 – £80,000",
-   "employment_type": "full_time",
-   "apply_url": "https://www.adzuna.co.uk/jobs/details/5936780704?utm_medium=api&utm_source=09779821",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/credit-strategy-analyst/57479038",
    "official": false,
    "official_source": "",
    "recommended_cv": "Strategy & Consulting CV",
    "posted": "2026-10-21",
-   "excerpt": "CREDIT STRATEGY ANALYST London (Hybrid, 3 days in office) | £40,000 - £80,000 Are you looking to join a high-growth fintech where you can shape lending decisions at scale? This is an opportunity to work in a profitable, data-driven business that is expanding across multiple international markets, offering strong progression opportunities for analysts with credit strategy experience. The Company They are an established international business with a strong analytical culture and a focus on data-l…",
+   "excerpt": "CREDIT STRATEGY ANALYST London (Hybrid, 3 days in office) | 40,000 - 80,000 Are you looking to join a high-growth fintech where you can shape lending decisions at scale? This is an opportunity to work in a profitable, data-driven business that is expanding across multiple international markets, offering strong progression opportunities for analysts with credit strategy experience. The Company They are an established international business with a...",
    "full_text": false,
    "sources": [
     {
@@ -113149,7 +113245,7 @@
      "source_id": "57479038",
      "url": "https://www.reed.co.uk/jobs/credit-strategy-analyst/57479038",
      "first_seen": "2026-10-21T14:38:20+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -113160,8 +113256,8 @@
     }
    ],
    "first_discovered": "2026-10-21T14:38:20+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -113230,6 +113326,12 @@
      "field": "deadline_confidence",
      "from": "Indicative",
      "to": "Unconfirmed"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline_confidence",
+     "from": "Unconfirmed",
+     "to": "Indicative"
     }
    ],
    "verify_failures": 0,
@@ -113368,12 +113470,12 @@
      "source_id": "57480225",
      "url": "https://www.reed.co.uk/jobs/business-analyst/57480225",
      "first_seen": "2026-10-21T14:38:20+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T14:38:20+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -113437,12 +113539,12 @@
      "source_id": "6130301004",
      "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6130301004",
      "first_seen": "2026-10-21T14:38:20+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T14:38:20+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -114137,22 +114239,22 @@
    "category_label": "Commercial, Market Research & Insights",
    "tier": 2,
    "type": "Entry-Level",
-   "location": "London, UK",
+   "location": "London",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Hybrid",
    "start_date": null,
    "opening_date": null,
    "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
+   "deadline": "2026-12-02",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
    "rolling": false,
    "cycle": "Rolling / immediate",
    "fit": 3,
    "why": [
     "Commercial, Market Research & Insights (tier 2 interest)",
-    "Draws on: commercial, financial"
+    "Draws on: commercial"
    ],
    "missing": [
     "Seniority not stated in the advert snippet — check it's entry-level",
@@ -114175,13 +114277,13 @@
    },
    "experience_years": null,
    "salary": "£465",
-   "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5937054246?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=00AA8B9349D7739F085A59531E723F516B674654",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/cyber-analyst-commercial/57482300",
    "official": false,
    "official_source": "",
    "recommended_cv": "Market Research & Commercial CV",
    "posted": "2026-10-21",
-   "excerpt": "Cyber Analyst: Commercial / Security Consulting Practitioner Location: London / Hybrid (3 days/week in office; open to London, Birmingham, Sheffield) Contract Duration: 6 Months Working Hours: 40 hours/week Daily Rate: £349/day (PAYE) | £465/day (Umbrella) About the Role An experienced Security Consulting Practitioner / Cyber Analyst is required to join a specialist Security team on a high-profile staff augmentation initiative for a leading global financial services organisation. In this role, …",
+   "excerpt": "Cyber Analyst: Commercial / Security Consulting Practitioner Location: London / Hybrid (3 days/week in office; open to London, Birmingham, Sheffield) Contract Duration: 6 Months Working Hours: 40 hours/week Daily Rate: 349/day (PAYE) | 465/day (Umbrella) About the Role An experienced Security Consulting Practitioner / Cyber Analyst is required to join a specialist Security team on a high-profile staff augmentation initiative for a leading global...",
    "full_text": false,
    "sources": [
     {
@@ -114189,19 +114291,19 @@
      "source_id": "57482300",
      "url": "https://www.reed.co.uk/jobs/cyber-analyst-commercial/57482300",
      "first_seen": "2026-10-21T20:35:18+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5937054246",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5937054246?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=00AA8B9349D7739F085A59531E723F516B674654",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5937054246?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=00AA8B9349D7739F085A59531E723F516B674654",
      "first_seen": "2026-10-22T22:33:12+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-21T20:35:18+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -114252,6 +114354,12 @@
      "field": "deadline_confidence",
      "from": "Indicative",
      "to": "Unconfirmed"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline_confidence",
+     "from": "Unconfirmed",
+     "to": "Indicative"
     }
    ],
    "verify_failures": 0,
@@ -115778,12 +115886,12 @@
      "source_id": "8035094003",
      "url": "https://job-boards.greenhouse.io/carta/jobs/8035094003",
      "first_seen": "2026-10-22T04:35:43+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T04:35:43+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -115847,12 +115955,12 @@
      "source_id": "7798948003",
      "url": "https://job-boards.greenhouse.io/carta/jobs/7798948003",
      "first_seen": "2026-10-22T04:35:43+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T04:35:43+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -117565,16 +117673,16 @@
    "category_label": "Other Relevant (incl. science-led paths)",
    "tier": 3,
    "type": "Entry-Level",
-   "location": "London, UK",
+   "location": "London",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Hybrid",
    "start_date": null,
    "opening_date": null,
    "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
+   "deadline": "2026-12-03",
+   "deadline_confidence": "Indicative",
+   "deadline_evidence": "Aggregator advert expiry date (not an employer-stated deadline)",
    "rolling": false,
    "cycle": "Rolling / immediate",
    "fit": 2,
@@ -117602,13 +117710,13 @@
    },
    "experience_years": null,
    "salary": "£230 – £300",
-   "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5937979307?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=0C87A9072D1E95BF2A36D66276191622641F8F5F",
+   "employment_type": "",
+   "apply_url": "https://www.reed.co.uk/jobs/security-technical-analyst/57483984",
    "official": false,
    "official_source": "",
    "recommended_cv": "Graduate Programmes CV",
    "posted": "2026-10-22",
-   "excerpt": "Job Title: Security Technical Analyst / Security Consulting Practitioner Location: London, Birmingham, or Sheffield (Hybrid: 3 days per week in-office) Contract Duration: 6 months About the Role We are seeking an experienced Security Consulting Practitioner to guide clients on their business protection journey by shaping security strategies, designing robust solutions, and strengthening cyber resilience. This is a dynamic role that blends strategic advisory with hands-on operational cyber suppo…",
+   "excerpt": "Job Title: Security Technical Analyst / Security Consulting Practitioner Location: London, Birmingham, or Sheffield (Hybrid: 3 days per week in-office) Contract Duration: 6 months About the Role We are seeking an experienced Security Consulting Practitioner to guide clients on their business protection journey by shaping security strategies, designing robust solutions, and strengthening cyber resilience. This is a dynamic role that blends strate...",
    "full_text": false,
    "sources": [
     {
@@ -117616,19 +117724,19 @@
      "source_id": "57483984",
      "url": "https://www.reed.co.uk/jobs/security-technical-analyst/57483984",
      "first_seen": "2026-10-22T14:39:44+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5937979307",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5937979307?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=0C87A9072D1E95BF2A36D66276191622641F8F5F",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5937979307?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=0C87A9072D1E95BF2A36D66276191622641F8F5F",
      "first_seen": "2026-10-22T22:33:12+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T14:39:44+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -117679,6 +117787,12 @@
      "field": "deadline_confidence",
      "from": "Indicative",
      "to": "Unconfirmed"
+    },
+    {
+     "at": "2026-10-25T14:31:12+00:00",
+     "field": "deadline_confidence",
+     "from": "Unconfirmed",
+     "to": "Indicative"
     }
    ],
    "verify_failures": 0,
@@ -119039,7 +119153,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "permanent",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940696359?se=yPLDoE7Q8RGu0tBiNE0Svg&utm_medium=api&utm_source=09779821&v=3C9D361897E17722DC9F1E02AE8124F0FA2F9929",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940696359?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=3C9D361897E17722DC9F1E02AE8124F0FA2F9929",
    "official": false,
    "official_source": "",
    "recommended_cv": "Graduate Programmes CV",
@@ -119057,14 +119171,14 @@
     {
      "source": "adzuna",
      "source_id": "5940696359",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940696359?se=yPLDoE7Q8RGu0tBiNE0Svg&utm_medium=api&utm_source=09779821&v=3C9D361897E17722DC9F1E02AE8124F0FA2F9929",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940696359?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=3C9D361897E17722DC9F1E02AE8124F0FA2F9929",
      "first_seen": "2026-10-25T00:40:47+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T22:33:12+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -119137,12 +119251,12 @@
      "source_id": "5941249007",
      "url": "https://www.adzuna.co.uk/jobs/details/5941249007?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-25T12:37:35+00:00",
-     "last_seen": "2026-10-25T12:37:35+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T22:33:12+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -119195,7 +119309,7 @@
    "experience_years": null,
    "salary": "£59,800 – £78,000",
    "employment_type": "contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5938103137?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=EFA570F2D0EC5AD69602A040877366A29641929B",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5938103137?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=EFA570F2D0EC5AD69602A040877366A29641929B",
    "official": false,
    "official_source": "",
    "recommended_cv": "Graduate Programmes CV",
@@ -119206,14 +119320,14 @@
     {
      "source": "adzuna",
      "source_id": "5938103137",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5938103137?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=EFA570F2D0EC5AD69602A040877366A29641929B",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5938103137?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=EFA570F2D0EC5AD69602A040877366A29641929B",
      "first_seen": "2026-10-22T22:33:12+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-22T22:33:12+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -122034,19 +122148,19 @@
      "source_id": "5938546921",
      "url": "https://www.adzuna.co.uk/jobs/details/5938546921?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T02:35:03+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
      "source_id": "5939013896",
      "url": "https://www.adzuna.co.uk/jobs/details/5939013896?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T02:35:03+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -123106,12 +123220,12 @@
      "source_id": "57485376",
      "url": "https://www.reed.co.uk/jobs/finance-analyst/57485376",
      "first_seen": "2026-10-23T04:35:22+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T04:35:22+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126028,7 +126142,7 @@
    "category_label": "Finance, Investment & Asset Management",
    "tier": 1,
    "type": "Entry-Level",
-   "location": "London, England, United Kingdom Barcelona, London, Paris",
+   "location": "Barcelona, Barcelona, Spain Barcelona, London, Paris",
    "location_class": "London",
    "location_confidence": "High",
    "work_arrangement": "Not stated",
@@ -126068,7 +126182,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "",
-   "apply_url": "https://www.thunes.com/jobs/8006715003?gh_jid=8006715003",
+   "apply_url": "https://www.thunes.com/jobs/8002157003?gh_jid=8002157003",
    "official": true,
    "official_source": "greenhouse",
    "recommended_cv": "Finance & Investment CV",
@@ -126081,26 +126195,26 @@
      "source_id": "8006715003",
      "url": "https://www.thunes.com/jobs/8006715003?gh_jid=8006715003",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "greenhouse:thunes",
      "source_id": "8006706003",
      "url": "https://www.thunes.com/jobs/8006706003?gh_jid=8006706003",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "greenhouse:thunes",
      "source_id": "8002157003",
      "url": "https://www.thunes.com/jobs/8002157003?gh_jid=8002157003",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126164,12 +126278,12 @@
      "source_id": "8258275",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8258275?gh_jid=8258275",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126233,12 +126347,12 @@
      "source_id": "8300370",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8300370?gh_jid=8300370",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126301,12 +126415,12 @@
      "source_id": "8300260",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8300260?gh_jid=8300260",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126367,12 +126481,12 @@
      "source_id": "8232626",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8232626?gh_jid=8232626",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126433,7 +126547,7 @@
      "source_id": "8312491",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8312491?gh_jid=8312491",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     },
     {
      "source": "adzuna",
@@ -126444,8 +126558,8 @@
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126507,12 +126621,12 @@
      "source_id": "8312441",
      "url": "https://www.dmgmedia.co.uk/careers/jobs/id/8312441?gh_jid=8312441",
      "first_seen": "2026-10-23T08:38:33+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T08:38:33+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126722,12 +126836,12 @@
      "source_id": "5939044203",
      "url": "https://www.adzuna.co.uk/jobs/details/5939044203?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T10:35:05+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -126779,7 +126893,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time permanent",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5939043303?se=yPLDoE7Q8RGu0tBiNE0Svg&utm_medium=api&utm_source=09779821&v=AE5C22CE8A1B1E3E689BD7DE628E54A63A7D6BFE",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5939043303?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=AE5C22CE8A1B1E3E689BD7DE628E54A63A7D6BFE",
    "official": false,
    "official_source": "",
    "recommended_cv": "Finance & Investment CV",
@@ -126790,14 +126904,14 @@
     {
      "source": "adzuna",
      "source_id": "5939043303",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5939043303?se=yPLDoE7Q8RGu0tBiNE0Svg&utm_medium=api&utm_source=09779821&v=AE5C22CE8A1B1E3E689BD7DE628E54A63A7D6BFE",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5939043303?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=AE5C22CE8A1B1E3E689BD7DE628E54A63A7D6BFE",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T10:35:05+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -127005,12 +127119,12 @@
      "source_id": "5939037261",
      "url": "https://www.adzuna.co.uk/jobs/details/5939037261?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T10:35:05+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -127076,12 +127190,12 @@
      "source_id": "5939036769",
      "url": "https://www.adzuna.co.uk/jobs/details/5939036769?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T10:35:05+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T10:35:05+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -129901,12 +130015,12 @@
      "source_id": "5939040502",
      "url": "https://www.adzuna.co.uk/jobs/details/5939040502?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-23T12:41:08+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T12:41:08+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -130153,12 +130267,12 @@
      "source_id": "5940261283",
      "url": "https://www.adzuna.co.uk/jobs/details/5940261283?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T12:41:09+00:00",
-   "last_verified": "2026-10-25T12:37:36+00:00",
-   "last_seen": "2026-10-25T12:37:36+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -131016,12 +131130,12 @@
      "source_id": "53e879fd-10b0-42cf-9647-d623427c9b7a",
      "url": "https://jobs.ashbyhq.com/pleo/53e879fd-10b0-42cf-9647-d623427c9b7a",
      "first_seen": "2026-10-23T14:41:39+00:00",
-     "last_seen": "2026-10-25T06:39:05+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-23T14:41:39+00:00",
-   "last_verified": "2026-10-25T06:39:05+00:00",
-   "last_seen": "2026-10-25T06:39:05+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -132849,12 +132963,12 @@
      "source_id": "57488907",
      "url": "https://www.reed.co.uk/jobs/front-office-insights-and-reporting-analyst/57488907",
      "first_seen": "2026-10-24T00:50:02+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T00:50:02+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -133770,12 +133884,12 @@
      "source_id": "5940072764",
      "url": "https://www.adzuna.co.uk/jobs/details/5940072764?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-24T06:38:17+00:00",
-     "last_seen": "2026-10-25T10:32:12+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T06:38:17+00:00",
-   "last_verified": "2026-10-25T10:32:12+00:00",
-   "last_seen": "2026-10-25T10:32:12+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -134041,7 +134155,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940275218?se=3I4ounDQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=CEA37758B13408888389E393EDF0F16728441CF3",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940275218?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=CEA37758B13408888389E393EDF0F16728441CF3",
    "official": false,
    "official_source": "",
    "recommended_cv": "Strategy & Consulting CV",
@@ -134052,14 +134166,14 @@
     {
      "source": "adzuna",
      "source_id": "5940275218",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940275218?se=3I4ounDQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=CEA37758B13408888389E393EDF0F16728441CF3",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940275218?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=CEA37758B13408888389E393EDF0F16728441CF3",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T12:37:35+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -134338,12 +134452,12 @@
      "source_id": "5940258900",
      "url": "https://www.adzuna.co.uk/jobs/details/5940258900?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -134509,12 +134623,12 @@
      "source_id": "4741972005",
      "url": "https://job-boards.greenhouse.io/prophet/jobs/4741972005",
      "first_seen": "2026-10-24T14:31:33+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [
@@ -134643,7 +134757,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940230719?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=1598707F3305B92B4E4C346770C551F3C475B18B",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940230719?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=1598707F3305B92B4E4C346770C551F3C475B18B",
    "official": false,
    "official_source": "",
    "recommended_cv": "Finance & Investment CV",
@@ -134654,14 +134768,14 @@
     {
      "source": "adzuna",
      "source_id": "5940230719",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940230719?se=EARlahzQ8RGrV9qPojDs1w&utm_medium=api&utm_source=09779821&v=1598707F3305B92B4E4C346770C551F3C475B18B",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940230719?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=1598707F3305B92B4E4C346770C551F3C475B18B",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T02:34:07+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T02:34:07+00:00",
-   "last_seen": "2026-10-25T02:34:07+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -134784,7 +134898,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940224488?se=cO4BJy3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=4DE006BB82610567096CD2EC282571E05E01D3A5",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5940224488?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=4DE006BB82610567096CD2EC282571E05E01D3A5",
    "official": false,
    "official_source": "",
    "recommended_cv": "Finance & Investment CV",
@@ -134795,14 +134909,14 @@
     {
      "source": "adzuna",
      "source_id": "5940224488",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940224488?se=cO4BJy3Q8RGoIpz2QCrKzw&utm_medium=api&utm_source=09779821&v=4DE006BB82610567096CD2EC282571E05E01D3A5",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5940224488?se=3E-bnoDQ8RGTHb151-iThA&utm_medium=api&utm_source=09779821&v=4DE006BB82610567096CD2EC282571E05E01D3A5",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -135864,12 +135978,12 @@
      "source_id": "5940251061",
      "url": "https://www.adzuna.co.uk/jobs/details/5940251061?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -135935,12 +136049,12 @@
      "source_id": "5940224504",
      "url": "https://www.adzuna.co.uk/jobs/details/5940224504?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-24T10:32:26+00:00",
-     "last_seen": "2026-10-25T04:33:39+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T10:32:26+00:00",
-   "last_verified": "2026-10-25T04:33:39+00:00",
-   "last_seen": "2026-10-25T04:33:39+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -136763,12 +136877,12 @@
      "source_id": "4297897005",
      "url": "https://job-boards.greenhouse.io/prophet/jobs/4297897005",
      "first_seen": "2026-10-24T14:31:33+00:00",
-     "last_seen": "2026-10-25T06:39:04+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T14:31:33+00:00",
-   "last_verified": "2026-10-25T06:39:04+00:00",
-   "last_seen": "2026-10-25T06:39:04+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -136906,12 +137020,12 @@
      "source_id": "57490726",
      "url": "https://www.reed.co.uk/jobs/commercial-analyst-foodbuy-group/57490726",
      "first_seen": "2026-10-24T18:34:07+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T18:34:07+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -136978,12 +137092,12 @@
      "source_id": "57490660",
      "url": "https://www.reed.co.uk/jobs/corporate-finance-analyst/57490660",
      "first_seen": "2026-10-24T18:34:07+00:00",
-     "last_seen": "2026-10-25T00:40:47+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-24T18:34:07+00:00",
-   "last_verified": "2026-10-25T00:40:47+00:00",
-   "last_seen": "2026-10-25T00:40:47+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -138054,12 +138168,12 @@
      "source_id": "5940224845",
      "url": "https://www.adzuna.co.uk/jobs/details/5940224845?utm_medium=api&utm_source=09779821",
      "first_seen": "2026-10-25T08:33:32+00:00",
-     "last_seen": "2026-10-25T08:33:32+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-25T08:33:32+00:00",
-   "last_verified": "2026-10-25T08:33:32+00:00",
-   "last_seen": "2026-10-25T08:33:32+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -138538,7 +138652,7 @@
    "experience_years": null,
    "salary": "",
    "employment_type": "full_time contract",
-   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5941248602?se=1hWauHDQ8RGoCKNhQJNyfw&utm_medium=api&utm_source=09779821&v=B2A65831ACA63BE2B8ECA4C50018958958B2AA75",
+   "apply_url": "https://www.adzuna.co.uk/jobs/land/ad/5941248602?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=B2A65831ACA63BE2B8ECA4C50018958958B2AA75",
    "official": false,
    "official_source": "",
    "recommended_cv": "Risk Management CV",
@@ -138549,14 +138663,14 @@
     {
      "source": "adzuna",
      "source_id": "5941248602",
-     "url": "https://www.adzuna.co.uk/jobs/land/ad/5941248602?se=1hWauHDQ8RGoCKNhQJNyfw&utm_medium=api&utm_source=09779821&v=B2A65831ACA63BE2B8ECA4C50018958958B2AA75",
+     "url": "https://www.adzuna.co.uk/jobs/land/ad/5941248602?se=8Evkn4DQ8RG17O__M5KguQ&utm_medium=api&utm_source=09779821&v=B2A65831ACA63BE2B8ECA4C50018958958B2AA75",
      "first_seen": "2026-10-25T12:37:35+00:00",
-     "last_seen": "2026-10-25T12:37:35+00:00"
+     "last_seen": "2026-10-25T14:31:12+00:00"
     }
    ],
    "first_discovered": "2026-10-25T12:37:35+00:00",
-   "last_verified": "2026-10-25T12:37:35+00:00",
-   "last_seen": "2026-10-25T12:37:35+00:00",
+   "last_verified": "2026-10-25T14:31:12+00:00",
+   "last_seen": "2026-10-25T14:31:12+00:00",
    "status": "Open",
    "status_reason": "Listed on a live source",
    "history": [],
@@ -138987,71 +139101,6 @@
    "history": [],
    "verify_failures": 0,
    "absent_count": 0
-  },
-  {
-   "id": "e6cc525e8308",
-   "company": "Octopus Money",
-   "title": "Associate Financial Planner",
-   "category": "finance",
-   "category_label": "Finance, Investment & Asset Management",
-   "tier": 1,
-   "type": "Entry-Level",
-   "location": "Holborn, London UK Octopus Money HQ",
-   "location_class": "London",
-   "location_confidence": "High",
-   "work_arrangement": "Not stated",
-   "start_date": null,
-   "opening_date": null,
-   "opening_confidence": "Unconfirmed",
-   "deadline": null,
-   "deadline_confidence": "Unconfirmed",
-   "deadline_evidence": "",
-   "rolling": false,
-   "cycle": "Rolling / immediate",
-   "fit": 4,
-   "why": [
-    "Finance, Investment & Asset Management (tier 1 interest)",
-    "Draws on: data, energy, financial, insurance, stakeholder"
-   ],
-   "missing": [],
-   "eligibility": {
-    "verdict": "Likely eligible",
-    "graduation_years": [],
-    "masters_eligible": "Not stated",
-    "final_year_eligible": "Not stated",
-    "return_to_study_required": "Not stated",
-    "degree_class": "Not stated",
-    "degree_subjects": "Not stated",
-    "technical_requirements": [],
-    "technical_strong": [],
-    "right_to_work": [],
-    "issues": []
-   },
-   "experience_years": null,
-   "salary": "",
-   "employment_type": "",
-   "apply_url": "https://job-boards.greenhouse.io/octopusmoney/jobs/6141110004",
-   "official": true,
-   "official_source": "greenhouse",
-   "recommended_cv": "Finance & Investment CV",
-   "posted": "2026-08-11",
-   "excerpt": "We're looking for an Associate Financial Planner to join our Financial Planning and Coaching team. The Financial Planning and Coaching team plays a key role in delivering Octopus Money's mission. We work together to transform the lives of the clients we speak to by helping them plan for their financial future. We care about doing meaningful work, moving quickly and learning as we go.\n As an Associate Financial Planner you'll help clients see their whole financial picture clearly, understand thei",
-   "full_text": true,
-   "sources": [
-    {
-     "source": "greenhouse:octopusmoney",
-     "source_id": "6141110004",
-     "url": "https://job-boards.greenhouse.io/octopusmoney/jobs/6141110004",
-     "first_seen": "2026-10-25T12:37:37+00:00",
-     "last_seen": "2026-10-25T12:37:37+00:00"
-    }
-   ],
-   "first_discovered": "2026-10-25T12:37:37+00:00",
-   "last_verified": "2026-10-25T12:37:37+00:00",
-   "last_seen": "2026-10-25T12:37:37+00:00",
-   "status": "Open",
-   "status_reason": "Listed on a live source",
-   "history": []
   }
  ]
 }
