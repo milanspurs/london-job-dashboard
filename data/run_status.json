@@ -1,47 +1,48 @@
 {
  "last_run": {
-  "started": "2026-10-26T00:54:23+00:00",
-  "finished": "2026-10-26T00:56:22+00:00",
-  "duration_s": 119.5,
+  "started": "2026-10-26T02:36:26+00:00",
+  "finished": "2026-10-26T02:46:16+00:00",
+  "duration_s": 590.4,
   "bootstrap": false,
-  "raw_jobs": 4714,
-  "new_roles": 0,
-  "new_companies_queued": 2,
+  "raw_jobs": 6631,
+  "new_roles": 5,
+  "new_companies_queued": 4,
   "new_employer_boards": 0,
   "rejected": {
-   "location not London": 2904,
-   "title matches excluded pattern": 749,
-   "not clearly entry-level": 608,
-   "manager-level title": 185,
-   "text matches excluded pattern": 11,
-   "requires 3+ years": 11,
-   "requires 25+ years": 10,
-   "requires 4+ years": 10,
-   "training provider": 8,
-   "missing title/company": 4,
-   "requires 10+ years": 3,
-   "requires 5+ years": 2
+   "location not London": 3503,
+   "not clearly entry-level": 1812,
+   "title matches excluded pattern": 721,
+   "manager-level title": 136,
+   "requires 3+ years": 72,
+   "text matches excluded pattern": 32,
+   "requires 4+ years": 12,
+   "requires 5+ years": 10,
+   "training provider": 2,
+   "requires 10+ years": 2,
+   "insight/spring week": 1,
+   "requires 8+ years": 1
   },
   "events": {
-   "status_changed": 32
+   "fit_changed": 1,
+   "new": 5
   },
   "alerts": {
    "configured": false,
-   "candidates": 2,
+   "candidates": 3,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-26T00:56:22+00:00"
+   "at": "2026-10-26T02:46:16+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
   "http_calls": {
    "api.adzuna.com": 6,
-   "www.reed.co.uk": 56,
-   "boards-api.greenhouse.io": 41,
-   "api.lever.co": 13,
-   "api.ashbyhq.com": 20
+   "www.reed.co.uk": 80,
+   "boards-api.greenhouse.io": 43,
+   "api.lever.co": 11,
+   "api.ashbyhq.com": 26
   },
   "sources": [
    {
@@ -50,10 +51,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 54,
+    "jobs_found": 170,
     "errors": [],
-    "note": "1110 calls this month; per query (returned/total): environmental consultant graduate: 50/67; climate risk analyst: 0/0; sustainability analyst junior: 0/0; carbon analyst graduate: 0/0; energy analyst graduate: 2/2; junior energy analyst: 2/2",
-    "checked_at": "2026-10-26T00:54:23+00:00"
+    "note": "1116 calls this month; per query (returned/total): commodities analyst graduate: 2/2; price reporter graduate: 12/12; renewable energy graduate: 50/93; energy trading graduate: 6/6; utilities graduate scheme: 50/335; research executive: 50/122",
+    "checked_at": "2026-10-26T02:36:26+00:00"
    },
    {
     "name": "Reed",
@@ -61,21 +62,21 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 499,
+    "jobs_found": 202,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-26T00:54:36+00:00"
+    "checked_at": "2026-10-26T02:36:40+00:00"
    },
    {
     "name": "Employer board discovery",
     "kind": "probe",
     "ok": true,
-    "calls": 2,
+    "calls": 4,
     "failures": 0,
     "jobs_found": 0,
     "errors": [],
     "note": "0 new employer boards found; 0 employers queued",
-    "checked_at": "2026-10-26T00:55:00+00:00"
+    "checked_at": "2026-10-26T02:36:55+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -83,21 +84,27 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 4161,
+    "jobs_found": 6259,
     "errors": [],
     "note": "60 boards checked; 245 active boards in registry",
-    "checked_at": "2026-10-26T00:55:02+00:00"
+    "checked_at": "2026-10-26T02:37:06+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
     "kind": "aggregator",
     "ok": true,
     "calls": 40,
-    "failures": 0,
+    "failures": 12,
     "jobs_found": 0,
-    "errors": [],
+    "errors": [
+     "job 57461159: unreachable",
+     "job 57457576: unreachable",
+     "job 57459439: unreachable",
+     "job 57439142: unreachable",
+     "job 57355423: unreachable"
+    ],
     "note": "",
-    "checked_at": "2026-10-26T00:55:35+00:00"
+    "checked_at": "2026-10-26T02:37:29+00:00"
    }
   ],
   "manual_sources": [
@@ -152,18 +159,12 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 1801,
-  "companies": 748,
+  "total_roles": 1806,
+  "companies": 750,
   "boards_active": 245
  },
- "last_successful_search": "2026-10-26T00:56:22+00:00",
+ "last_successful_search": "2026-10-26T02:46:16+00:00",
  "history": [
-  {
-   "at": "2026-10-16T02:35:07+00:00",
-   "new": 2,
-   "raw": 5042,
-   "ok": true
-  },
   {
    "at": "2026-10-16T04:35:21+00:00",
    "new": 1,
@@ -876,6 +877,12 @@
    "at": "2026-10-26T00:56:22+00:00",
    "new": 0,
    "raw": 4714,
+   "ok": true
+  },
+  {
+   "at": "2026-10-26T02:46:16+00:00",
+   "new": 5,
+   "raw": 6631,
    "ok": true
   }
  ]
