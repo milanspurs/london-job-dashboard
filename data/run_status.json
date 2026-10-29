@@ -1,49 +1,48 @@
 {
  "last_run": {
-  "started": "2026-10-29T06:54:36+00:00",
-  "finished": "2026-10-29T07:03:31+00:00",
-  "duration_s": 534.1,
+  "started": "2026-10-29T08:54:32+00:00",
+  "finished": "2026-10-29T08:56:21+00:00",
+  "duration_s": 108.7,
   "bootstrap": false,
-  "raw_jobs": 4446,
-  "new_roles": 7,
-  "new_companies_queued": 7,
-  "new_employer_boards": 0,
+  "raw_jobs": 3051,
+  "new_roles": 11,
+  "new_companies_queued": 11,
+  "new_employer_boards": 1,
   "rejected": {
-   "location not London": 2610,
-   "title matches excluded pattern": 720,
-   "not clearly entry-level": 631,
-   "manager-level title": 184,
-   "text matches excluded pattern": 16,
-   "requires 25+ years": 10,
-   "requires 3+ years": 9,
-   "requires 4+ years": 9,
-   "requires 10+ years": 3,
-   "insight/spring week": 2,
-   "training provider": 2,
-   "requires 5+ years": 2
+   "location not London": 1908,
+   "title matches excluded pattern": 516,
+   "not clearly entry-level": 265,
+   "manager-level title": 105,
+   "requires 4+ years": 11,
+   "training provider": 8,
+   "requires 3+ years": 5,
+   "requires 5+ years": 5,
+   "requires 6+ years": 3,
+   "text matches excluded pattern": 3,
+   "requires 10+ years": 2,
+   "insight/spring week": 1
   },
   "events": {
-   "new": 7,
-   "status_changed": 2,
-   "deadline_earlier": 1
+   "new": 11,
+   "status_changed": 6
   },
   "alerts": {
    "configured": false,
-   "candidates": 7,
+   "candidates": 6,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-29T07:03:31+00:00"
+   "at": "2026-10-29T08:56:21+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
   "http_calls": {
    "api.adzuna.com": 6,
-   "www.reed.co.uk": 68,
-   "boards-api.greenhouse.io": 54,
-   "api.lever.co": 21,
-   "api.ashbyhq.com": 30
+   "www.reed.co.uk": 56,
+   "boards-api.greenhouse.io": 60,
+   "api.lever.co": 23,
+   "api.ashbyhq.com": 37
   },
   "sources": [
    {
@@ -52,36 +51,32 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 187,
+    "jobs_found": 227,
     "errors": [],
-    "note": "1338 calls this month; per query (returned/total): economics internship 2027: 5/5; summer internship 2027: 50/101; summer analyst 2027: 14/14; summer intern: 50/337; internship 2027: 50/835; off-cycle internship: 18/18",
-    "checked_at": "2026-10-29T06:54:37+00:00"
+    "note": "1344 calls this month; per query (returned/total): summer associate: 22/22; placement 2027: 23/23; graduate consultant: 50/3234; junior consultant: 50/3234; strategy analyst: 32/32; graduate management consultant: 50/388",
+    "checked_at": "2026-10-29T08:54:32+00:00"
    },
    {
     "name": "Reed",
     "kind": "aggregator",
     "ok": true,
     "calls": 16,
-    "failures": 3,
-    "jobs_found": 222,
-    "errors": [
-     "'carbon analyst graduate': ReadTimeout: HTTPSConnectionPool(host='www.reed.co.uk', port=443): Read timed out. (read timeout=20)",
-     "'energy analyst graduate': HTTP 502",
-     "'renewable energy graduate': HTTP 502"
-    ],
+    "failures": 0,
+    "jobs_found": 463,
+    "errors": [],
     "note": "",
-    "checked_at": "2026-10-29T06:54:50+00:00"
+    "checked_at": "2026-10-29T08:54:46+00:00"
    },
    {
     "name": "Employer board discovery",
     "kind": "probe",
     "ok": true,
-    "calls": 7,
+    "calls": 11,
     "failures": 0,
-    "jobs_found": 0,
+    "jobs_found": 1,
     "errors": [],
-    "note": "0 new employer boards found; 0 employers queued",
-    "checked_at": "2026-10-29T06:59:02+00:00"
+    "note": "1 new employer boards found; 0 employers queued",
+    "checked_at": "2026-10-29T08:55:01+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -89,10 +84,10 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 4037,
+    "jobs_found": 2361,
     "errors": [],
-    "note": "60 boards checked; 262 active boards in registry",
-    "checked_at": "2026-10-29T06:59:32+00:00"
+    "note": "60 boards checked; 263 active boards in registry",
+    "checked_at": "2026-10-29T08:55:15+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -103,7 +98,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-29T06:59:51+00:00"
+    "checked_at": "2026-10-29T08:55:35+00:00"
    }
   ],
   "manual_sources": [
@@ -158,18 +153,12 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 1958,
-  "companies": 818,
-  "boards_active": 262
+  "total_roles": 1969,
+  "companies": 819,
+  "boards_active": 263
  },
- "last_successful_search": "2026-10-29T07:03:31+00:00",
+ "last_successful_search": "2026-10-29T08:56:21+00:00",
  "history": [
-  {
-   "at": "2026-10-19T06:48:26+00:00",
-   "new": 1,
-   "raw": 4164,
-   "ok": true
-  },
   {
    "at": "2026-10-19T08:44:23+00:00",
    "new": 3,
@@ -882,6 +871,12 @@
    "at": "2026-10-29T07:03:31+00:00",
    "new": 7,
    "raw": 4446,
+   "ok": true
+  },
+  {
+   "at": "2026-10-29T08:56:21+00:00",
+   "new": 11,
+   "raw": 3051,
    "ok": true
   }
  ]
