@@ -1,48 +1,49 @@
 {
  "last_run": {
-  "started": "2026-10-29T22:43:18+00:00",
-  "finished": "2026-10-29T22:44:55+00:00",
-  "duration_s": 97.0,
+  "started": "2026-10-30T00:55:32+00:00",
+  "finished": "2026-10-30T01:02:33+00:00",
+  "duration_s": 420.6,
   "bootstrap": false,
-  "raw_jobs": 4321,
-  "new_roles": 0,
+  "raw_jobs": 4469,
+  "new_roles": 2,
   "new_companies_queued": 0,
   "new_employer_boards": 0,
   "rejected": {
-   "location not London": 2920,
-   "title matches excluded pattern": 703,
-   "not clearly entry-level": 219,
-   "manager-level title": 207,
-   "requires 3+ years": 14,
-   "text matches excluded pattern": 12,
-   "training provider": 11,
-   "requires 5+ years": 7,
-   "requires 7+ years": 7,
-   "requires 4+ years": 6,
-   "requires 10+ years": 2,
-   "requires 6+ years": 2
+   "location not London": 2700,
+   "title matches excluded pattern": 696,
+   "not clearly entry-level": 614,
+   "manager-level title": 190,
+   "text matches excluded pattern": 13,
+   "requires 25+ years": 10,
+   "requires 3+ years": 9,
+   "requires 4+ years": 9,
+   "requires 5+ years": 4,
+   "requires 10+ years": 3,
+   "training provider": 2,
+   "requires 6+ years": 1
   },
   "events": {
-   "status_changed": 5,
-   "closed": 1
+   "new": 2,
+   "status_changed": 8,
+   "closed": 2
   },
   "alerts": {
    "configured": false,
-   "candidates": 2,
+   "candidates": 5,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-10-29T22:44:55+00:00"
+   "at": "2026-10-30T01:02:33+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
   "http_calls": {
    "api.adzuna.com": 6,
-   "www.reed.co.uk": 56,
-   "api.ashbyhq.com": 16,
-   "boards-api.greenhouse.io": 40,
-   "api.lever.co": 4
+   "www.reed.co.uk": 66,
+   "api.ashbyhq.com": 18,
+   "boards-api.greenhouse.io": 34,
+   "api.lever.co": 8
   },
   "sources": [
    {
@@ -51,21 +52,26 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 253,
+    "jobs_found": 154,
     "errors": [],
-    "note": "1386 calls this month; per query (returned/total): graduate management consultant: 50/385; consulting analyst: 50/61; business advisory graduate: 50/83; graduate data analyst: 50/53; junior data analyst: 50/53; business intelligence analyst graduate: 3/3",
-    "checked_at": "2026-10-29T22:43:18+00:00"
+    "note": "1392 calls this month; per query (returned/total): insight analyst graduate: 5/5; reporting analyst junior: 15/15; data analyst entry level: 50/50; graduate risk analyst: 18/18; junior risk analyst: 18/18; actuarial graduate: 48/48",
+    "checked_at": "2026-10-30T00:55:32+00:00"
    },
    {
     "name": "Reed",
     "kind": "aggregator",
     "ok": true,
     "calls": 16,
-    "failures": 0,
-    "jobs_found": 315,
-    "errors": [],
+    "failures": 4,
+    "jobs_found": 193,
+    "errors": [
+     "'graduate analyst bank': ReadTimeout: HTTPSConnectionPool(host='www.reed.co.uk', port=443): Read timed out. (read timeout=20)",
+     "'graduate sustainability consultant': ReadTimeout: HTTPSConnectionPool(host='www.reed.co.uk', port=443): Read timed out. (read timeout=20)",
+     "'esg analyst graduate': HTTP 502",
+     "'environmental consultant graduate': HTTP 502"
+    ],
     "note": "",
-    "checked_at": "2026-10-29T22:43:31+00:00"
+    "checked_at": "2026-10-30T00:55:46+00:00"
    },
    {
     "name": "Employer board discovery",
@@ -76,7 +82,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "0 new employer boards found; 0 employers queued",
-    "checked_at": "2026-10-29T22:43:47+00:00"
+    "checked_at": "2026-10-30T01:01:18+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -84,10 +90,10 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 3753,
+    "jobs_found": 4122,
     "errors": [],
     "note": "60 boards checked; 268 active boards in registry",
-    "checked_at": "2026-10-29T22:43:47+00:00"
+    "checked_at": "2026-10-30T01:01:18+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -98,7 +104,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-10-29T22:44:10+00:00"
+    "checked_at": "2026-10-30T01:01:41+00:00"
    }
   ],
   "manual_sources": [
@@ -153,18 +159,12 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 2006,
-  "companies": 837,
+  "total_roles": 2008,
+  "companies": 838,
   "boards_active": 268
  },
- "last_successful_search": "2026-10-29T22:44:55+00:00",
+ "last_successful_search": "2026-10-30T01:02:33+00:00",
  "history": [
-  {
-   "at": "2026-10-19T22:34:52+00:00",
-   "new": 0,
-   "raw": 3277,
-   "ok": true
-  },
   {
    "at": "2026-10-20T00:46:46+00:00",
    "new": 11,
@@ -877,6 +877,12 @@
    "at": "2026-10-29T22:44:55+00:00",
    "new": 0,
    "raw": 4321,
+   "ok": true
+  },
+  {
+   "at": "2026-10-30T01:02:33+00:00",
+   "new": 2,
+   "raw": 4469,
    "ok": true
   }
  ]
