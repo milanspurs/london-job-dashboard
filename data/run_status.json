@@ -1,29 +1,30 @@
 {
  "last_run": {
-  "started": "2026-11-04T13:01:48+00:00",
-  "finished": "2026-11-04T13:03:35+00:00",
-  "duration_s": 107.8,
+  "started": "2026-11-04T14:57:02+00:00",
+  "finished": "2026-11-04T14:58:36+00:00",
+  "duration_s": 94.4,
   "bootstrap": false,
-  "raw_jobs": 7685,
-  "new_roles": 0,
-  "new_companies_queued": 1,
+  "raw_jobs": 3083,
+  "new_roles": 2,
+  "new_companies_queued": 0,
   "new_employer_boards": 0,
   "rejected": {
-   "location not London": 6374,
-   "title matches excluded pattern": 629,
-   "not clearly entry-level": 296,
-   "manager-level title": 108,
-   "text matches excluded pattern": 11,
-   "requires 4+ years": 11,
-   "training provider": 9,
-   "requires 3+ years": 5,
-   "requires 5+ years": 5,
-   "requires 10+ years": 2,
-   "requires 20+ years": 1,
-   "requires 8+ years": 1
+   "location not London": 2224,
+   "title matches excluded pattern": 452,
+   "not clearly entry-level": 145,
+   "manager-level title": 92,
+   "requires 3+ years": 14,
+   "training provider": 11,
+   "requires 4+ years": 7,
+   "requires 5+ years": 6,
+   "text matches excluded pattern": 5,
+   "requires 7+ years": 5,
+   "requires 10+ years": 3,
+   "requires 6+ years": 1
   },
   "events": {
-   "closed": 2,
+   "new": 2,
+   "closed": 3,
    "status_changed": 6
   },
   "alerts": {
@@ -33,7 +34,7 @@
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-11-04T13:03:35+00:00"
+   "at": "2026-11-04T14:58:36+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
@@ -41,8 +42,8 @@
    "api.adzuna.com": 6,
    "www.reed.co.uk": 56,
    "boards-api.greenhouse.io": 39,
-   "api.lever.co": 9,
-   "api.ashbyhq.com": 19
+   "api.ashbyhq.com": 17,
+   "api.lever.co": 4
   },
   "sources": [
    {
@@ -51,10 +52,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 26,
+    "jobs_found": 21,
     "errors": [],
-    "note": "252 calls this month; per query (returned/total): commercial summer internship: 0/0; commercial internship 2027: 7/7; operations summer internship: 2/2; operations internship 2027: 7/7; research summer internship: 4/4; research internship 2027: 6/6",
-    "checked_at": "2026-11-04T13:01:48+00:00"
+    "note": "258 calls this month; per query (returned/total): infrastructure summer internship: 0/0; infrastructure internship 2027: 5/5; technology summer internship: 4/4; technology internship 2027: 9/9; actuarial summer internship: 0/0; actuarial internship 2027: 3/3",
+    "checked_at": "2026-11-04T14:57:02+00:00"
    },
    {
     "name": "Reed",
@@ -62,21 +63,21 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 567,
+    "jobs_found": 340,
     "errors": [],
     "note": "",
-    "checked_at": "2026-11-04T13:02:01+00:00"
+    "checked_at": "2026-11-04T14:57:15+00:00"
    },
    {
     "name": "Employer board discovery",
     "kind": "probe",
     "ok": true,
-    "calls": 1,
+    "calls": 0,
     "failures": 0,
     "jobs_found": 0,
     "errors": [],
     "note": "0 new employer boards found; 0 employers queued",
-    "checked_at": "2026-11-04T13:02:19+00:00"
+    "checked_at": "2026-11-04T14:57:30+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -84,10 +85,10 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 7092,
+    "jobs_found": 2722,
     "errors": [],
     "note": "60 boards checked; 298 active boards in registry",
-    "checked_at": "2026-11-04T13:02:22+00:00"
+    "checked_at": "2026-11-04T14:57:30+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -98,7 +99,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-11-04T13:02:51+00:00"
+    "checked_at": "2026-11-04T14:57:52+00:00"
    }
   ],
   "manual_sources": [
@@ -153,18 +154,12 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 2345,
+  "total_roles": 2347,
   "companies": 963,
   "boards_active": 298
  },
- "last_successful_search": "2026-11-04T13:03:35+00:00",
+ "last_successful_search": "2026-11-04T14:58:36+00:00",
  "history": [
-  {
-   "at": "2026-10-25T10:33:02+00:00",
-   "new": 0,
-   "raw": 8700,
-   "ok": true
-  },
   {
    "at": "2026-10-25T12:38:22+00:00",
    "new": 9,
@@ -877,6 +872,12 @@
    "at": "2026-11-04T13:03:35+00:00",
    "new": 0,
    "raw": 7685,
+   "ok": true
+  },
+  {
+   "at": "2026-11-04T14:58:36+00:00",
+   "new": 2,
+   "raw": 3083,
    "ok": true
   }
  ]
