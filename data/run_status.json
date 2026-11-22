@@ -1,49 +1,49 @@
 {
  "last_run": {
-  "started": "2026-11-21T20:28:31+00:00",
-  "finished": "2026-11-21T20:30:16+00:00",
-  "duration_s": 105.5,
+  "started": "2026-11-22T02:07:16+00:00",
+  "finished": "2026-11-22T02:08:55+00:00",
+  "duration_s": 99.0,
   "bootstrap": false,
-  "raw_jobs": 4209,
-  "new_roles": 5,
-  "new_companies_queued": 1,
-  "new_employer_boards": 0,
+  "raw_jobs": 3798,
+  "new_roles": 6,
+  "new_companies_queued": 2,
+  "new_employer_boards": 1,
   "rejected": {
-   "location not London": 3531,
-   "title matches excluded pattern": 391,
-   "not clearly entry-level": 124,
-   "manager-level title": 87,
-   "text matches excluded pattern": 8,
-   "requires 3+ years": 6,
-   "requires 5+ years": 4,
-   "requires 4+ years": 4,
-   "requires 10+ years": 1,
-   "requires 6+ years": 1,
-   "requires 7+ years": 1,
-   "requires 8+ years": 1
+   "location not London": 2563,
+   "title matches excluded pattern": 606,
+   "not clearly entry-level": 236,
+   "manager-level title": 91,
+   "requires 4+ years": 16,
+   "text matches excluded pattern": 15,
+   "training provider": 13,
+   "requires 5+ years": 11,
+   "requires 3+ years": 7,
+   "requires 7+ years": 5,
+   "requires 10+ years": 2,
+   "requires 6+ years": 1
   },
   "events": {
-   "new": 5,
-   "status_changed": 9,
-   "closed": 3
+   "new": 6,
+   "status_changed": 16,
+   "closed": 2
   },
   "alerts": {
    "configured": false,
-   "candidates": 1,
+   "candidates": 3,
    "drafted": 0,
    "errors": [
     "Gmail not configured — alerts selected but no drafts created"
    ],
-   "at": "2026-11-21T20:30:16+00:00"
+   "at": "2026-11-22T02:08:55+00:00"
   },
   "tracker": "not configured",
   "ai_calls": 0,
   "http_calls": {
    "api.adzuna.com": 6,
    "www.reed.co.uk": 56,
-   "boards-api.greenhouse.io": 67,
-   "api.lever.co": 20,
-   "api.ashbyhq.com": 37
+   "boards-api.greenhouse.io": 49,
+   "api.lever.co": 9,
+   "api.ashbyhq.com": 22
   },
   "sources": [
    {
@@ -52,10 +52,10 @@
     "ok": true,
     "calls": 6,
     "failures": 0,
-    "jobs_found": 22,
+    "jobs_found": 25,
     "errors": [],
-    "note": "864 calls this month; per query (returned/total): commercial summer internship: 3/3; commercial internship 2027: 3/3; operations summer internship: 1/1; operations internship 2027: 6/6; research summer internship: 1/1; research internship 2027: 8/8",
-    "checked_at": "2026-11-21T20:28:31+00:00"
+    "note": "870 calls this month; per query (returned/total): infrastructure summer internship: 1/1; infrastructure internship 2027: 1/1; technology summer internship: 6/6; technology internship 2027: 15/15; actuarial summer internship: 1/1; actuarial internship 2027: 1/1",
+    "checked_at": "2026-11-22T02:07:16+00:00"
    },
    {
     "name": "Reed",
@@ -63,21 +63,21 @@
     "ok": true,
     "calls": 16,
     "failures": 0,
-    "jobs_found": 11,
+    "jobs_found": 836,
     "errors": [],
     "note": "",
-    "checked_at": "2026-11-21T20:28:44+00:00"
+    "checked_at": "2026-11-22T02:07:29+00:00"
    },
    {
     "name": "Employer board discovery",
     "kind": "probe",
     "ok": true,
-    "calls": 12,
+    "calls": 4,
     "failures": 0,
-    "jobs_found": 0,
+    "jobs_found": 1,
     "errors": [],
-    "note": "0 new employer boards found; 2 employers queued",
-    "checked_at": "2026-11-21T20:28:59+00:00"
+    "note": "1 new employer boards found; 0 employers queued",
+    "checked_at": "2026-11-22T02:07:44+00:00"
    },
    {
     "name": "Employer ATS boards (Greenhouse/Lever/Ashby/SmartRecruiters)",
@@ -85,10 +85,10 @@
     "ok": true,
     "calls": 60,
     "failures": 0,
-    "jobs_found": 4176,
+    "jobs_found": 2937,
     "errors": [],
-    "note": "60 boards checked; 382 active boards in registry",
-    "checked_at": "2026-11-21T20:29:11+00:00"
+    "note": "60 boards checked; 383 active boards in registry",
+    "checked_at": "2026-11-22T02:07:47+00:00"
    },
    {
     "name": "Reed full-advert fetch & re-verification",
@@ -99,7 +99,7 @@
     "jobs_found": 0,
     "errors": [],
     "note": "",
-    "checked_at": "2026-11-21T20:29:31+00:00"
+    "checked_at": "2026-11-22T02:08:06+00:00"
    }
   ],
   "manual_sources": [
@@ -154,18 +154,12 @@
     "why": "Official programme site; annual cycle."
    }
   ],
-  "total_roles": 3079,
-  "companies": 1236,
-  "boards_active": 382
+  "total_roles": 3085,
+  "companies": 1238,
+  "boards_active": 383
  },
- "last_successful_search": "2026-11-21T20:30:16+00:00",
+ "last_successful_search": "2026-11-22T02:08:55+00:00",
  "history": [
-  {
-   "at": "2026-11-03T01:00:40+00:00",
-   "new": 0,
-   "raw": 4831,
-   "ok": true
-  },
   {
    "at": "2026-11-03T02:54:37+00:00",
    "new": 4,
@@ -878,6 +872,12 @@
    "at": "2026-11-21T20:30:16+00:00",
    "new": 5,
    "raw": 4209,
+   "ok": true
+  },
+  {
+   "at": "2026-11-22T02:08:55+00:00",
+   "new": 6,
+   "raw": 3798,
    "ok": true
   }
  ]
